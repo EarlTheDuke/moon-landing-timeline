@@ -447,5 +447,231 @@
     "url": "https://global.toyota/en/",
     "notes": "Partner with JAXA on crewed pressurized lunar rover (Lunar Cruiser nickname).",
     "id": "toyota"
+  },
+  {
+    "id": "voyager-technologies",
+    "name": "Voyager Technologies",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "CLPS",
+      "Moon Base"
+    ],
+    "url": "https://www.voyagertechnologies.com/",
+    "notes": "Acquired Astrobotic in July 2026; lunar business operates as Voyager Lunar Systems (Griffin, Peregrine)."
+  },
+  {
+    "id": "asi",
+    "name": "ASI",
+    "type": "agency",
+    "country": "IT",
+    "programs": [
+      "Moon Base",
+      "Artemis"
+    ],
+    "url": "https://www.asi.it/",
+    "notes": "Italian Space Agency; leads the Multi-Purpose Habitation surface module with Thales Alenia Space Italy."
+  },
+  {
+    "id": "altec",
+    "name": "Altec",
+    "type": "company",
+    "country": "IT",
+    "programs": [
+      "Moon Base"
+    ],
+    "url": "https://www.altecspace.it/",
+    "notes": "Thales Alenia Space / ASI joint venture supporting MPH design and future lunar operations."
+  },
+  {
+    "id": "darpa",
+    "name": "DARPA",
+    "type": "agency",
+    "country": "US",
+    "programs": [
+      "LASSO",
+      "LunA-10"
+    ],
+    "url": "https://www.darpa.mil/",
+    "notes": "US defence research agency funding lunar architecture studies (LunA-10) and the LASSO water-ice orbiter."
+  },
+  {
+    "id": "benchmark-space-systems",
+    "name": "Benchmark Space Systems",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "LASSO"
+    ],
+    "url": "https://www.benchmarkspacesystems.com/",
+    "notes": "In-space propulsion company; DARPA LASSO Phase 1 performer with the Sapphire orbiter concept."
+  },
+  {
+    "id": "quantum-space",
+    "name": "Quantum Space",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "LASSO"
+    ],
+    "url": "https://www.quantumspace.com/",
+    "notes": "Cislunar platform developer; DARPA LASSO Phase 1 performer offering its Ranger spacecraft."
+  },
+  {
+    "id": "revolution-space",
+    "name": "Revolution Space",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "LASSO"
+    ],
+    "url": "https://www.revolutionspace.com/",
+    "notes": "DARPA LASSO Phase 1 performer; concept not publicly described."
+  },
+  {
+    "id": "jpl",
+    "name": "JPL",
+    "type": "other",
+    "country": "US",
+    "programs": [
+      "CLPS",
+      "Moon Base"
+    ],
+    "url": "https://www.jpl.nasa.gov/",
+    "notes": "NASA centre managed by Caltech; builds CADRE and the MoonFall hopper drones, manages the MoonFall mission."
+  },
+  {
+    "id": "maxar",
+    "name": "Maxar",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Gateway",
+      "Ignition"
+    ],
+    "url": "https://www.maxar.com/",
+    "notes": "Built the Gateway Power and Propulsion Element now being repurposed for the SR-1 Freedom NEP demo."
+  },
+  {
+    "id": "ula",
+    "name": "ULA",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Artemis"
+    ],
+    "url": "https://www.ulalaunch.com/",
+    "notes": "Supplies the Centaur V upper stage selected in March 2026 to replace ICPS on standardized SLS."
+  },
+  {
+    "id": "us-state-department",
+    "name": "US State Department",
+    "type": "agency",
+    "country": "US",
+    "programs": [
+      "Artemis"
+    ],
+    "url": "https://www.state.gov/",
+    "notes": "Co-leads Artemis Accords outreach and implementation with NASA."
+  },
+  {
+    "id": "arianegroup",
+    "name": "ArianeGroup",
+    "type": "company",
+    "country": "FR",
+    "programs": [
+      "Argonaut"
+    ],
+    "url": "https://www.ariane.group/",
+    "notes": "Ariane 6 prime; four-booster Ariane 64 is the launcher for ESA Argonaut cargo landers."
+  },
+  {
+    "id": "ohb-system",
+    "name": "OHB System",
+    "type": "company",
+    "country": "DE",
+    "programs": [
+      "Argonaut"
+    ],
+    "url": "https://www.ohb-system.de/",
+    "notes": "Argonaut Lunar Descent Element GNC, telecommunications, power, solar arrays and batteries."
+  },
+  {
+    "id": "nammo",
+    "name": "Nammo",
+    "type": "company",
+    "country": "GB",
+    "programs": [
+      "Argonaut"
+    ],
+    "url": "https://www.nammo.com/",
+    "notes": "Designs and supplies the main engine for ESA's first Argonaut Lunar Descent Element (UK site)."
+  },
+  {
+    "id": "iki",
+    "name": "IKI",
+    "type": "other",
+    "country": "RU",
+    "programs": [
+      "Luna"
+    ],
+    "url": "https://iki.cosmos.ru/",
+    "notes": "Space Research Institute of the Russian Academy of Sciences; science lead for the Luna missions."
+  },
+  {
+    "id": "rosatom",
+    "name": "Rosatom",
+    "type": "other",
+    "country": "RU",
+    "programs": [
+      "ILRS"
+    ],
+    "url": "https://www.rosatom.ru/en/",
+    "notes": "Russian state nuclear corporation; participant in the planned ILRS lunar power plant with the Kurchatov Institute."
+  },
+  {
+    "id": "canadensys",
+    "name": "Canadensys Aerospace",
+    "type": "company",
+    "country": "CA",
+    "programs": [
+      "Moon Base"
+    ],
+    "url": "https://www.canadensys.com/",
+    "notes": "Canadian lunar payload and rover developer; one of three CSA Lunar Utility Vehicle concept teams."
+  },
+  {
+    "id": "mission-control",
+    "name": "Mission Control",
+    "type": "company",
+    "country": "CA",
+    "programs": [
+      "Moon Base"
+    ],
+    "url": "https://www.missioncontrolspace.com/",
+    "notes": "Canadian lunar autonomy and operations company; CSA Lunar Utility Vehicle concept team."
+  },
+  {
+    "id": "narit",
+    "name": "NARIT",
+    "type": "agency",
+    "country": "TH",
+    "programs": [
+      "CLEP",
+      "ILRS"
+    ],
+    "url": "https://www.narit.or.th/en/",
+    "notes": "National Astronomical Research Institute of Thailand; built the CE-7 MATCH cosmic-ray payload for Chang'e-7."
+  },
+  {
+    "id": "iloa",
+    "name": "ILOA",
+    "type": "other",
+    "country": "US",
+    "programs": [
+      "CLEP"
+    ],
+    "url": "https://iloa.org/",
+    "notes": "International Lunar Observatory Association; ILO-C camera payload flying on Chang'e-7."
   }
 ]
