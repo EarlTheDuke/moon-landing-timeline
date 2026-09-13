@@ -144,10 +144,12 @@
   {
     "id": "esa-argonaut",
     "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Argonaut_Europe_s_lunar_lander_programme",
-    "title": "ESA Argonaut",
+    "title": "Argonaut: Europe's lunar lander programme",
     "publisher": "ESA",
     "topics": [
-      "Argonaut"
+      "Argonaut",
+      "ESA",
+      "lander"
     ],
     "accessed": "2026-09-13"
   },
@@ -286,16 +288,6 @@
     "topics": [
       "Moonlight",
       "LunaNet"
-    ],
-    "accessed": "2026-09-13"
-  },
-  {
-    "id": "esa-argonaut-page",
-    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Argonaut_Europe_s_lunar_lander_programme",
-    "title": "Argonaut: Europe's lunar lander programme",
-    "publisher": "ESA",
-    "topics": [
-      "Argonaut"
     ],
     "accessed": "2026-09-13"
   },
@@ -1636,6 +1628,608 @@
       "ILRS",
       "partners",
       "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "us-space-eo-wnn",
+    "url": "https://www.world-nuclear-news.org/articles/nasa-doe-join-together-for-lunar-reactor-by-2030",
+    "title": "NASA, DOE aim for nuclear reactor on moon by 2030",
+    "publisher": "World Nuclear News",
+    "topics": [
+      "policy",
+      "Fission Surface Power",
+      "executive order",
+      "US"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nstm3-space-nuclear",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/NSTM-3-2026_04_14-corrected.pdf",
+    "title": "National Space Technology Memorandum-3 (space nuclear power and propulsion), April 14, 2026",
+    "publisher": "The White House",
+    "topics": [
+      "policy",
+      "Fission Surface Power",
+      "nuclear",
+      "US"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-doe-reactor-2030",
+    "url": "https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/",
+    "title": "NASA, Department of Energy to Develop Lunar Surface Reactor by 2030",
+    "publisher": "NASA",
+    "topics": [
+      "Fission Surface Power",
+      "NASA",
+      "DOE",
+      "LR-1"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "doe-nasa-reactor-2030",
+    "url": "https://www.energy.gov/articles/us-department-energy-and-nasa-develop-lunar-surface-reactor-2030",
+    "title": "U.S. Department of Energy and NASA to Develop Lunar Surface Reactor by 2030",
+    "publisher": "U.S. Department of Energy",
+    "topics": [
+      "Fission Surface Power",
+      "DOE",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-doe-signed-mou",
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/01/signed-nasa-doe-mou.pdf",
+    "title": "Signed NASA–DOE Memorandum of Understanding concerning Fission Surface Power",
+    "publisher": "NASA",
+    "topics": [
+      "Fission Surface Power",
+      "MOU",
+      "primary"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-nasa-doe-reactor",
+    "url": "https://spacenews.com/nasa-and-doe-to-collaborate-on-lunar-nuclear-reactor-development/",
+    "title": "NASA and DOE to collaborate on lunar nuclear reactor development",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Fission Surface Power",
+      "AFPP",
+      "procurement"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nse-sparc-lr1",
+    "url": "https://newspaceeconomy.ca/2026/09/01/what-does-nasas-sparc-lunar-reactor-procurement-reveal-about-lunar-reactor-1/",
+    "title": "What Does NASA's SPARC Lunar Reactor Procurement Reveal About Lunar Reactor-1?",
+    "publisher": "New Space Economy",
+    "topics": [
+      "Fission Surface Power",
+      "LR-1",
+      "SPARC",
+      "SR-1"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sam-sparc-drfp",
+    "url": "https://sam.gov/workspace/contract/opp/b5f42b2301774f8daf48794491a54c8c/view",
+    "title": "SPARC Draft Request for Proposals 80GRC026R0009 (Amendment 1, responses due Sept 28, 2026)",
+    "publisher": "SAM.gov",
+    "topics": [
+      "SPARC",
+      "procurement",
+      "LR-1",
+      "primary"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sam-sparc-presolicitation",
+    "url": "https://sam.gov/workspace/contract/opp/804e067d8cc4413eab43cdfd2bf08caa/view",
+    "title": "Space Power and Reactor Capabilities (SPARC) presolicitation and LR-1 Phase 1 task order intent",
+    "publisher": "SAM.gov",
+    "topics": [
+      "SPARC",
+      "procurement",
+      "LR-1",
+      "primary"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sam-nextstep3-appendix-b",
+    "url": "https://sam.gov/workspace/contract/opp/4c48e9f1405941bf96f73c65afe03779/view",
+    "title": "NextSTEP-3 Appendix B: Moon Base Demonstrations (solicitation 80MSFC26R0003)",
+    "publisher": "SAM.gov",
+    "topics": [
+      "Moon Base",
+      "NextSTEP-3",
+      "surface power",
+      "procurement"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "fedops-appendix-b-log",
+    "url": "https://fedops.com/opportunities/86c251098a714ec6a3d0584138eb920b",
+    "title": "NextSTEP-3 Appendix B: Moon Base Demonstrations update log (Directed-Topic Call 1, white papers due Aug 24, 2026)",
+    "publisher": "FedOps (SAM.gov mirror)",
+    "topics": [
+      "Moon Base",
+      "NextSTEP-3",
+      "surface power"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "im-sixth-clps-award",
+    "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-secures-sixth-nasa-clps-award-establish-high/",
+    "title": "Intuitive Machines Secures Sixth NASA CLPS Award to Establish High-Volume Lunar Utility Pipeline",
+    "publisher": "Intuitive Machines",
+    "topics": [
+      "CLPS",
+      "CS-8",
+      "Intuitive Machines",
+      "Nova-C"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-clps2-procurement",
+    "url": "https://www.nasa.gov/johnson/jsc-procurement/clps2/",
+    "title": "Commercial Lunar Payload Services (CLPS2) acquisition page and schedule",
+    "publisher": "NASA Johnson Space Center",
+    "topics": [
+      "CLPS",
+      "CLPS 2.0",
+      "procurement",
+      "primary"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "fedops-clps2-log",
+    "url": "https://fedops.com/opportunities/dbd0f1a410d84c0cb34bbf6b9433e919",
+    "title": "CLPS 2.0 solicitation 80JSC026R0015 amendment log",
+    "publisher": "FedOps (SAM.gov mirror)",
+    "topics": [
+      "CLPS",
+      "CLPS 2.0",
+      "procurement"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "usaspending-cx2b",
+    "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC026F7015_8000_80JSC020D0010_8000",
+    "title": "CLPS task order CX-2B to Blue Origin, LLC (obligations record)",
+    "publisher": "USAspending.gov",
+    "topics": [
+      "CX-2",
+      "LTV",
+      "Blue Origin",
+      "contract"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "geekwire-ltv-delivery",
+    "url": "https://www.geekwire.com/2026/nasa-taps-blue-origin-to-deliver-lunar-rovers-for-moon-base-initiative/",
+    "title": "NASA taps Blue Origin to deliver rovers for Moon Base initiative",
+    "publisher": "GeekWire",
+    "topics": [
+      "LTV",
+      "Moon Base",
+      "Blue Origin",
+      "Astrolab",
+      "Lunar Outpost"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ars-sortie-suit",
+    "url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+    "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+    "publisher": "Ars Technica",
+    "topics": [
+      "AxEMU",
+      "Sortie Suit",
+      "Artemis IV",
+      "Axiom Space"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ars-rocket-report-909",
+    "url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
+    "title": "Rocket Report: Engines installed for Artemis III; Super Heavy static fire ahead of Flight 14",
+    "publisher": "Ars Technica",
+    "topics": [
+      "Starship",
+      "Artemis III",
+      "New Glenn"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nse-starship-flight-14",
+    "url": "https://newspaceeconomy.ca/2026/09/13/starship-flight-14-moves-toward-a-september-18-launch-window/",
+    "title": "Starship Flight 14 Moves Toward a September 18 Launch Window",
+    "publisher": "New Space Economy",
+    "topics": [
+      "Starship",
+      "Flight 14",
+      "FAA"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sfn-artemis3-confidence",
+    "url": "https://spaceflightnow.com/2026/08/14/nasa-administrator-extremely-confident-in-artemis-3-launch-in-2027/",
+    "title": "NASA Administrator 'extremely confident' in Artemis 3 mission in 2027",
+    "publisher": "Spaceflight Now",
+    "topics": [
+      "Artemis III",
+      "schedule",
+      "HLS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "floridatoday-artemis3-june",
+    "url": "https://www.floridatoday.com/story/tech/science/space/2026/08/21/nasa-administrator-jared-isaacman-tells-cape-canaveral-crowd-artemis-iii-may-launch-in-june-2027/91403338007/",
+    "title": "Isaacman says Artemis III could launch from Kennedy Space Center in June 2027",
+    "publisher": "Florida Today",
+    "topics": [
+      "Artemis III",
+      "schedule"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "blueorigin-lc36b",
+    "url": "https://www.blueorigin.com/news/returning-launch-complex-36-to-two-pads",
+    "title": "Returning Launch Complex 36 to Two Pads: Blue Origin Begins Construction of LC-36B",
+    "publisher": "Blue Origin",
+    "topics": [
+      "New Glenn",
+      "LC-36",
+      "infrastructure"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nsf-blue-origin-dual-pad",
+    "url": "https://www.nasaspaceflight.com/2026/08/blue-origin-launch-pad-cape-canaveral/",
+    "title": "Blue Origin overviews plan for dual pad ops at Cape Canaveral",
+    "publisher": "NASASpaceflight",
+    "topics": [
+      "New Glenn",
+      "LC-36",
+      "infrastructure"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "keeptrack-new-glenn-recovery",
+    "url": "https://keeptrack.space/deep-dive/new-glenn-lc36-recovery",
+    "title": "New Glenn 2026 Arc, LC-36 Explosion and Recovery (independent assessment)",
+    "publisher": "KeepTrack",
+    "topics": [
+      "New Glenn",
+      "return to flight",
+      "analysis"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-blue-moon-recovery",
+    "url": "https://spacenews.com/blue-origin-continues-work-on-lunar-landers-during-recovery-from-new-glenn-explosion/",
+    "title": "Blue Origin continues work on lunar landers during recovery from New Glenn explosion",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Blue Moon",
+      "MK1",
+      "MK2",
+      "New Glenn"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "voyager-lunar-missions",
+    "url": "https://voyagertechnologies.com/insights/meet-voyagers-lunar-missions/",
+    "title": "Meet Voyager's Lunar Missions (Griffin-1 manifest and acceptance-test status)",
+    "publisher": "Voyager Technologies",
+    "topics": [
+      "Griffin",
+      "CLPS",
+      "Astrolab",
+      "CubeRover"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "pasadenanow-griffin-jpl",
+    "url": "https://pasadenanow.com/main/a-lander-bound-for-the-moon-gets-shaken-blasted-and-frozen-at-jpl",
+    "title": "A Lander Bound for the Moon Gets Shaken, Blasted, and Frozen at JPL",
+    "publisher": "Pasadena Now",
+    "topics": [
+      "Griffin",
+      "environmental testing",
+      "Nobile"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "csa-canadarm3-repurpose-release",
+    "url": "https://www.canada.ca/en/space-agency/news/2026/08/canada-intends-to-repurpose-canadarm3-investments-to-support-the-next-phase-of-lunar-exploration.html",
+    "title": "Canada intends to repurpose Canadarm3 investments to support the next phase of lunar exploration",
+    "publisher": "Canadian Space Agency",
+    "topics": [
+      "Canadarm3",
+      "CSA",
+      "Moon Base",
+      "primary"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "csa-canadarm3-datasheet",
+    "url": "https://www.asc-csa.gc.ca/eng/canadarm3/data-sheet.asp",
+    "title": "Canadarm3's data sheet (delivery no earlier than 2029)",
+    "publisher": "Canadian Space Agency",
+    "topics": [
+      "Canadarm3",
+      "CSA",
+      "Gateway"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-347-council-outcomes",
+    "url": "https://www.esa.int/Newsroom/Press_Releases/Key_outcomes_of_the_347th_ESA_Council_meeting",
+    "title": "Key outcomes of the 347th ESA Council meeting",
+    "publisher": "ESA",
+    "topics": [
+      "ESA",
+      "ministerial",
+      "Gateway",
+      "primary"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ageei-esa-ministerial-rome",
+    "url": "https://ageei.eu/spazio-aschbacher-esa-a-dicembre-in-italia-un-consiglio-intermedio-a-livello-ministeriale-video/",
+    "title": "Aschbacher: interim Council at ministerial level in Italy in December (ESRIN Frascati, Urso presidency)",
+    "publisher": "AGEEI",
+    "topics": [
+      "ESA",
+      "ministerial",
+      "Italy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "neuenschwander-roadmap-post",
+    "url": "https://www.linkedin.com/posts/daniel-neuenschwander-77873012a_a-fast-evolving-international-environment-activity-7473307673069879296-eX3i",
+    "title": "Daniel Neuenschwander (ESA Director of Human and Robotic Exploration) on the adjusted European lunar roadmap",
+    "publisher": "LinkedIn",
+    "topics": [
+      "ESA",
+      "I-Hab",
+      "Lunar View",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-small-lunar-missions",
+    "url": "https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/ESA_Prepares_to_explore_the_Moon_with_small_missions",
+    "title": "ESA Prepares to explore the Moon with small missions",
+    "publisher": "ESA",
+    "topics": [
+      "ESA",
+      "Terrae Novae",
+      "small missions",
+      "MAGPIE"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esf-mani-greenlight",
+    "url": "https://europeanspaceflight.com/denmarks-first-mission-to-the-moon-gets-esa-greenlight/",
+    "title": "Denmark's First Mission to the Moon Gets ESA Greenlight",
+    "publisher": "European Spaceflight",
+    "topics": [
+      "Máni",
+      "ESA",
+      "Denmark",
+      "small missions"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ku-mani-mission",
+    "url": "https://news.ku.dk/all_news/2025/12/danish-led-space-mission-to-map-the-lunar-surface/",
+    "title": "Danish-led space mission to map the lunar surface",
+    "publisher": "University of Copenhagen",
+    "topics": [
+      "Máni",
+      "Denmark",
+      "mapping",
+      "primary"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "scienceinpoland-mani",
+    "url": "https://scienceinpoland.pl/en/news/news%2C110957%2Cpolish-researchers-join-international-project-map-lunar-surface.html",
+    "title": "Polish researchers join international project to map lunar surface (Máni Phase A/B1)",
+    "publisher": "Science in Poland",
+    "topics": [
+      "Máni",
+      "Poland",
+      "Scanway",
+      "Phase A/B1"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "tass-ilrs-russian-segment",
+    "url": "https://tass.com/science/2110105",
+    "title": "Russian lunar station segment creation under project with China greenlighted",
+    "publisher": "TASS",
+    "topics": [
+      "ILRS",
+      "Roscosmos",
+      "RAS",
+      "segment"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nei-roscosmos-nuclear-plan",
+    "url": "https://www.neimagazine.com/news/roscosmos-nuclear-spacecraft-plan/",
+    "title": "Roscosmos nuclear spacecraft plan (four-phase lunar reactor roadmap)",
+    "publisher": "Nuclear Engineering International",
+    "topics": [
+      "ILRS",
+      "reactor",
+      "Roscosmos",
+      "Rosatom"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "china-in-space-change7-2027",
+    "url": "https://www.china-in-space.com/p/change-7-moon-launch-moved-to-early",
+    "title": "Chang'e 7 Moon Launch Moved to Early 2027",
+    "publisher": "China in Space",
+    "topics": [
+      "Chang'e-7",
+      "schedule",
+      "Long March 5"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "indiatoday-ch4-rocket-change",
+    "url": "https://www.indiatoday.in/science/chandrayaan-4-mission/story/chandrayaan-4-rocket-change-semi-cryogenic-engine-lvm3-launch-2027-lunar-sample-return-moon-mission-2894808-2026-04-11",
+    "title": "Chandrayaan-4: Why India's next Moon mission is changing rockets mid-way",
+    "publisher": "India Today",
+    "topics": [
+      "Chandrayaan-4",
+      "LVM3",
+      "SE2000",
+      "schedule"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "hindu-ch4-2028-chairman",
+    "url": "https://www.thehindu.com/news/national/tamil-nadu/chandrayaan-4-to-take-off-in-2028-says-isro-chairman-v-narayanan/article70338342.ece",
+    "title": "Chandrayaan-4 to take off in 2028, says ISRO Chairman V. Narayanan",
+    "publisher": "The Hindu",
+    "topics": [
+      "Chandrayaan-4",
+      "Chandrayaan-5",
+      "LUPEX",
+      "ISRO"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ispace-q1-fy2027-deck",
+    "url": "https://www.ispace-inc.com/wp-content/uploads/2026/08/Presentation-Material-for-Q1-of-Fiscal-Year-Ending-March-2027.pdf",
+    "title": "Presentation Material for Q1 of Fiscal Year Ending March 2027",
+    "publisher": "ispace",
+    "topics": [
+      "ispace",
+      "Mobile Cargo System",
+      "Starship",
+      "ULTRA"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-djibouti-accords",
+    "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-djibouti-artemis-accords-signing-ceremony/",
+    "title": "NASA Invites Media to Djibouti Artemis Accords Signing Ceremony (72nd signatory)",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis Accords",
+      "Djibouti",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "firefly-alpha-pug",
+    "url": "https://fireflyspace.com/wp-content/uploads/2025/07/Alpha-PUG-5.2.pdf",
+    "title": "Firefly Alpha Payload User's Guide 5.2 (generic ICD provisions; no MoonFall-specific interface document)",
+    "publisher": "Firefly Aerospace",
+    "topics": [
+      "MoonFall",
+      "interfaces",
+      "ICD"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "tminuszero-im3-listing",
+    "url": "https://www.tminuszero.app/launches/falcon-9-block-5-nova-c-im-3-60f41e0d-9c73-4a53-9724-ba496fd2d596",
+    "title": "Nova-C IM-3 launch listing (tracker placeholder — not adopted)",
+    "publisher": "T-Minus Zero",
+    "topics": [
+      "IM-3",
+      "tracker",
+      "placeholder"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nextspaceflight-bg2-listing",
+    "url": "https://www.nextspaceflight.com/launches/details/7148/",
+    "title": "Blue Ghost Mission 2 launch listing (tracker; NET December 2026 — not adopted)",
+    "publisher": "Next Spaceflight",
+    "topics": [
+      "Blue Ghost",
+      "tracker",
+      "placeholder"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "rocketradar-bg2-listing",
+    "url": "https://www.rocketradar.space/launches/detail/387aadc6-68ca-4090-9be7-d57603ad7c79",
+    "title": "Blue Ghost Lunar Lander Mission 2 listing (tracker placeholder — not adopted)",
+    "publisher": "RocketRadar",
+    "topics": [
+      "Blue Ghost",
+      "tracker",
+      "placeholder"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nextspaceflight-mk1-listing",
+    "url": "https://www.nextspaceflight.com/launches/details/7189/",
+    "title": "Blue Moon Pathfinder Mission 1 listing (tracker; NET Q1 2027)",
+    "publisher": "Next Spaceflight",
+    "topics": [
+      "Blue Moon",
+      "MK1",
+      "tracker"
     ],
     "accessed": "2026-09-13"
   }

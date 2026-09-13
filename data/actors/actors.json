@@ -673,5 +673,38 @@
     ],
     "url": "https://iloa.org/",
     "notes": "International Lunar Observatory Association; ILO-C camera payload flying on Chang'e-7."
+  },
+  {
+    "id": "us-department-of-energy",
+    "name": "US Department of Energy",
+    "type": "agency",
+    "country": "US",
+    "programs": [
+      "Fission Surface Power"
+    ],
+    "url": "https://www.energy.gov/",
+    "notes": "NASA's partner for lunar fission surface power: nuclear safety authorisation, fuel and national-laboratory support."
+  },
+  {
+    "id": "white-house",
+    "name": "White House",
+    "type": "other",
+    "country": "US",
+    "programs": [
+      "National Space Policy"
+    ],
+    "url": "https://www.whitehouse.gov/",
+    "notes": "Executive Office of the President; source of the December 2025 space executive order and the April 2026 space nuclear memorandum."
+  },
+  {
+    "id": "space-inventor",
+    "name": "Space Inventor",
+    "type": "company",
+    "country": "DK",
+    "programs": [
+      "ESA Exploration"
+    ],
+    "url": "https://space-inventor.com/",
+    "notes": "Danish smallsat manufacturer in Aalborg; prime industrial partner building ESA's Máni lunar polar mapper."
   }
 ]

@@ -4769,5 +4769,588 @@
     ],
     "confidence": "rumored",
     "notes": "Single trade-press source for the LUV concept work; CSA has published no flight year, contract value or down-select schedule. Entered as conceptual/rumored deliberately."
+  },
+  {
+    "id": "us-space-policy-eo-2025",
+    "title": "Executive order sets Moon-by-2028 and lunar-reactor-by-2030 priorities",
+    "date_start": "2025-12-18",
+    "date_end": null,
+    "date_precision": "day",
+    "status": "completed",
+    "category": "policy",
+    "actors": [
+      "White House",
+      "NASA",
+      "US Department of Energy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "National Space Policy",
+    "summary": "An executive order signed on December 18, 2025 set the United States space priorities that now drive the lunar program: returning Americans to the Moon by 2028 through Artemis and establishing an enduring presence, building a permanent base, and deploying nuclear reactors on the Moon and in orbit including a lunar surface reactor by 2030. NASA and the Department of Energy cite the order as the basis for their January 2026 fission surface power agreement, and NASA's Moon Base solicitations cite the December 2025 national space policy as the reason the agency reframed its NextSTEP-3 exploration studies around a phased south-pole base.",
+    "sources": [
+      {
+        "url": "https://www.world-nuclear-news.org/articles/nasa-doe-join-together-for-lunar-reactor-by-2030",
+        "title": "NASA, DOE aim for nuclear reactor on moon by 2030",
+        "publisher": "World Nuclear News",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://sam.gov/workspace/contract/opp/4c48e9f1405941bf96f73c65afe03779/view",
+        "title": "NextSTEP-3 Appendix B: Moon Base Demonstrations (solicitation 80MSFC26R0003)",
+        "publisher": "SAM.gov",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/",
+        "title": "NASA, Department of Energy to Develop Lunar Surface Reactor by 2030",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "confirmed",
+    "notes": "Dated to the signature date reported by World Nuclear News; the order text itself was not retrieved, and NASA procurement documents refer to it generically as a national space policy signed in December 2025. Entered because three separate 2026 program threads — Moon Base phasing, the Appendix B demonstrations announcement and the lunar reactor procurement — all trace their authority to it."
+  },
+  {
+    "id": "nasa-doe-fsp-mou-2026",
+    "title": "NASA–DOE memorandum of understanding on fission surface power",
+    "date_start": "2026-01-13",
+    "date_end": null,
+    "date_precision": "day",
+    "status": "completed",
+    "category": "policy",
+    "actors": [
+      "NASA",
+      "US Department of Energy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Fission Surface Power",
+    "summary": "NASA and the Department of Energy announced on January 13, 2026 that they had signed a memorandum of understanding covering research and development of a fission surface power system for the Moon and later Mars missions, with the stated goal of developing, fuelling, authorising and readying a lunar surface reactor for launch by 2030. Under the division of responsibilities NASA manages and funds the program and supplies DOE with the data and analysis needed for nuclear safety compliance; Energy Secretary Chris Wright signed for DOE. NASA published the signed MOU on February 2, 2026.",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/",
+        "title": "NASA, Department of Energy to Develop Lunar Surface Reactor by 2030",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.energy.gov/articles/us-department-energy-and-nasa-develop-lunar-surface-reactor-2030",
+        "title": "U.S. Department of Energy and NASA to Develop Lunar Surface Reactor by 2030",
+        "publisher": "U.S. Department of Energy",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/wp-content/uploads/2026/01/signed-nasa-doe-mou.pdf",
+        "title": "Signed NASA–DOE Memorandum of Understanding concerning Fission Surface Power",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacenews.com/nasa-and-doe-to-collaborate-on-lunar-nuclear-reactor-development/",
+        "title": "NASA and DOE to collaborate on lunar nuclear reactor development",
+        "publisher": "SpaceNews",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.world-nuclear-news.org/articles/nasa-doe-join-together-for-lunar-reactor-by-2030",
+        "title": "NASA, DOE aim for nuclear reactor on moon by 2030",
+        "publisher": "World Nuclear News",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "confirmed",
+    "notes": "The MOU was signed while the procurement approach was still moving. As of late January 2026 NASA had not issued the final Announcement for Partnership Proposals for Fission Surface Power, and a July 31, 2025 NASA memo had required at least 100 kW ready for launch by the end of 2029. The August 2026 SPARC draft request for proposals replaced that public-private path with a multiple-award IDIQ contract and a 20-kWe first reactor (see nasa-sparc-lr1-drfp-2026)."
+  },
+  {
+    "id": "nasa-sparc-lr1-drfp-2026",
+    "title": "NASA SPARC draft RFP with Lunar Reactor-1 Phase 1 task orders",
+    "date_start": "2026-08-30",
+    "date_end": null,
+    "date_precision": "day",
+    "status": "in_progress",
+    "category": "policy",
+    "actors": [
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Fission Surface Power",
+    "summary": "NASA Glenn Research Center posted the draft request for proposals for Space Power and Reactor Capabilities (SPARC, solicitation 80GRC026R0009) on August 30, 2026 — a proposed multiple-award indefinite-delivery/indefinite-quantity contract for space and lunar nuclear systems — and amended it on September 1 to add industry day information, with responses due September 28, 2026. NASA says it intends to award one or more Lunar Reactor-1 (LR-1) Phase 1 task orders at the same time as the umbrella contract, covering development from the current state to preliminary design review plus possible non-nuclear subsystem demonstrations, to two or more contractors — while reserving the right to make zero SPARC awards and zero LR-1 awards. NASA is seeking prime integrators of space-nuclear systems.",
+    "sources": [
+      {
+        "url": "https://sam.gov/workspace/contract/opp/b5f42b2301774f8daf48794491a54c8c/view",
+        "title": "SPARC Draft Request for Proposals 80GRC026R0009 (Amendment 1, responses due Sept 28, 2026)",
+        "publisher": "SAM.gov",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://sam.gov/workspace/contract/opp/804e067d8cc4413eab43cdfd2bf08caa/view",
+        "title": "Space Power and Reactor Capabilities (SPARC) presolicitation and LR-1 Phase 1 task order intent",
+        "publisher": "SAM.gov",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://newspaceeconomy.ca/2026/09/01/what-does-nasas-sparc-lunar-reactor-procurement-reveal-about-lunar-reactor-1/",
+        "title": "What Does NASA's SPARC Lunar Reactor Procurement Reveal About Lunar Reactor-1?",
+        "publisher": "New Space Economy",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Draft, not an award: SPARC has produced no contractor pool and no LR-1 Phase 1 order has been placed. Phase 1 alone can run up to 18 months after award, which is the main reason to treat the 2030 lunar landing target as a policy and acquisition objective rather than a validated flight schedule."
+  },
+  {
+    "id": "lunar-reactor-1-2030",
+    "title": "Lunar Reactor-1 — first U.S. fission reactor on the Moon",
+    "date_start": "2030",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "infrastructure",
+    "actors": [
+      "NASA",
+      "US Department of Energy"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Fission Surface Power",
+    "summary": "Lunar Reactor-1 (LR-1) is NASA's planned first fission reactor on the lunar surface, identified in NASA's lunar surface technology portfolio as intended to land in 2030. The August 2026 procurement documents specify a 20-kWe HALEU-fuelled system using closed Brayton power conversion, designed for five years of continuous full-power operation without maintenance after deployment, autonomous operation through long lunar darkness, a flight system under 15 tonnes including lander adapters and harnesses, and a stowed envelope about 4.5 m in diameter inside a 7.8 m fairing. The White House space nuclear memorandum of April 14, 2026 directs NASA to field a mid-power reactor with a lunar fission surface power variant ready for launch by 2030 — at least 20 kWe for at least five years on the surface — with at least one selected design extensible to 100 kWe and a downselect to no more than two designs within a year.",
+    "sources": [
+      {
+        "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/NSTM-3-2026_04_14-corrected.pdf",
+        "title": "National Space Technology Memorandum-3 (space nuclear power and propulsion), April 14, 2026",
+        "publisher": "The White House",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://newspaceeconomy.ca/2026/09/01/what-does-nasas-sparc-lunar-reactor-procurement-reveal-about-lunar-reactor-1/",
+        "title": "What Does NASA's SPARC Lunar Reactor Procurement Reveal About Lunar Reactor-1?",
+        "publisher": "New Space Economy",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://sam.gov/workspace/contract/opp/804e067d8cc4413eab43cdfd2bf08caa/view",
+        "title": "Space Power and Reactor Capabilities (SPARC) presolicitation and LR-1 Phase 1 task order intent",
+        "publisher": "SAM.gov",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/",
+        "title": "NASA, Department of Energy to Develop Lunar Surface Reactor by 2030",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Nothing has been built, qualified or launched, and no delivery lander has been assigned. Public power levels have moved: earlier NASA pages describe 10-kW and 40-kW-class fission surface power concepts and a July 2025 NASA memo required at least 100 kW by the end of 2029, while the August 2026 LR-1 documents specify 20 kWe with extensibility to 100 kWe as a separate design requirement. NASA identifies SR-1 Freedom as LR-1's deep-space precursor (see sr1-freedom-ppe-repurpose-2026)."
+  },
+  {
+    "id": "moon-base-demos-baa-2026",
+    "title": "NextSTEP-3 Appendix B reissued as Moon Base Demonstrations (surface power call)",
+    "date_start": "2026-07-16",
+    "date_end": null,
+    "date_precision": "day",
+    "status": "in_progress",
+    "category": "policy",
+    "actors": [
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Moon Base",
+    "summary": "NASA reissued NextSTEP-3 Appendix B — previously \"Moon to Mars Architectural Studies\" — as \"Appendix B: Moon Base Demonstrations\" (solicitation 80MSFC26R0003) on July 16, 2026, refocusing it on phased implementation of the south-pole Moon Base and on industry-led demonstrations at technology readiness level 6 and above. The announcement uses a dual-path structure of Directed-Topic Calls, released periodically by NASA, and Open-Topic Calls to come later; Directed-Topic Call 1 covers Initial Surface Power, and NASA extended its white-paper deadline from August 17 to August 24, 2026 after heavy industry engagement forced it to publish question-and-answer responses in batches.",
+    "sources": [
+      {
+        "url": "https://sam.gov/workspace/contract/opp/4c48e9f1405941bf96f73c65afe03779/view",
+        "title": "NextSTEP-3 Appendix B: Moon Base Demonstrations (solicitation 80MSFC26R0003)",
+        "publisher": "SAM.gov",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://fedops.com/opportunities/86c251098a714ec6a3d0584138eb920b",
+        "title": "NextSTEP-3 Appendix B: Moon Base Demonstrations update log (Directed-Topic Call 1, white papers due Aug 24, 2026)",
+        "publisher": "FedOps (SAM.gov mirror)",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-awards-more-moon-base-science-previews-new-opportunities/",
+        "title": "NASA Awards More Moon Base Science, Previews New Opportunities",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "This is the first of the follow-on Moon Base solicitations previewed on June 30, 2026 to actually appear; the power-and-avionics delivery, additional science manifest, south pole optical imager and communications/navigation relay constellation had not been released as of September 13, 2026. No awards had been announced. NASA cites the December 2025 national space policy as the reason for the reframing."
+  },
+  {
+    "id": "im-cs8-nova-c-2028",
+    "title": "Intuitive Machines CS-8 delivery — production-line-qualified Nova-C",
+    "date_start": "2028",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "uncrewed_lander",
+    "actors": [
+      "Intuitive Machines",
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "CLPS",
+    "summary": "Intuitive Machines' sixth CLPS task order, announced June 30, 2026, is a firm-fixed-price contract valued up to $148.3M to deliver a production-line-qualified Nova-C lander to the Moon no later than 2028 under the CS-8 Moon Base payload delivery award. The structure is unusual: a $68.6M base contract for mission execution using a lander with proven lunar flight heritage plus a $79.7M performance incentive for demonstrating product-line qualification — that is, for proving repeatable, rapid-turnaround lander manufacturing rather than a bespoke vehicle. Like the other CS-8 deliveries it carries NASA's SCALPSS plume-surface cameras, a Laser Retroreflector Array and the LETS radiation monitor.",
+    "sources": [
+      {
+        "url": "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-secures-sixth-nasa-clps-award-establish-high/",
+        "title": "Intuitive Machines Secures Sixth NASA CLPS Award to Establish High-Volume Lunar Utility Pipeline",
+        "publisher": "Intuitive Machines",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-awards-more-moon-base-science-previews-new-opportunities/",
+        "title": "NASA Awards More Moon Base Science, Previews New Opportunities",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacepolicyonline.com/news/nasa-awards-more-clps-contracts-may-send-mars-rover-engineering-model-to-the-moon/",
+        "title": "NASA Awards More CLPS Contracts, May Send Mars Rover Engineering Model to the Moon",
+        "publisher": "SpacePolicyOnline.com",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "No landing site was announced, and the timing language differs: NASA says \"late 2028\" while the company says \"no later than 2028\". English-language CLPS trackers call this mission IM-6 and German-language ones IM-5, so the dataset titles it by task order. Counting from the company's own releases, CT-4 (Nova-D) is its fifth CLPS award and this is the sixth."
+  },
+  {
+    "id": "firefly-cs8-blue-ghost-2028",
+    "title": "Firefly CS-8 Blue Ghost delivery — Moon Base science manifest",
+    "date_start": "2028",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "uncrewed_lander",
+    "actors": [
+      "Firefly Aerospace",
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "CLPS",
+    "summary": "Firefly Aerospace's $144.2M CS-8 task order, awarded June 30, 2026, covers one Blue Ghost delivery to the lunar surface in late 2028 using an updated version of the already-flown Blue Ghost design, carrying the standard CS-8 trio of NASA payloads: SCALPSS stereo plume-surface cameras, a Laser Retroreflector Array and the Linear Energy Transfer Spectrometer radiation monitor. It is an additional Firefly lander mission beyond the Blue Ghost flights already on contract, and part of NASA's push to buy repeat deliveries from flight-proven designs rather than one-off vehicles.",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-awards-more-moon-base-science-previews-new-opportunities/",
+        "title": "NASA Awards More Moon Base Science, Previews New Opportunities",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacenews.com/nasa-awards-nearly-600-million-in-lunar-lander-missions/",
+        "title": "NASA awards nearly $600 million in lunar lander missions",
+        "publisher": "SpaceNews",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacepolicyonline.com/news/nasa-awards-more-clps-contracts-may-send-mars-rover-engineering-model-to-the-moon/",
+        "title": "NASA Awards More CLPS Contracts, May Send Mars Rover Engineering Model to the Moon",
+        "publisher": "SpacePolicyOnline.com",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Firefly has not published a mission number, landing site or payload manifest beyond the three NASA payloads common to all CS-8 deliveries, and public CLPS trackers disagree about the designation (English-language tables call it Blue Ghost Mission 5, German-language tables Blue Ghost Mission 4), so this entry is titled by task order. Distinct from blue-ghost-m3-2028 (CP-21, Gruithuisen Domes) and blue-ghost-m4-2029 (CS-6, Haworth crater rim)."
+  },
+  {
+    "id": "starship-flight-14-2026",
+    "title": "Starship Flight 14 — first orbital-insertion attempt",
+    "date_start": "2026-09-18",
+    "date_end": null,
+    "date_precision": "day",
+    "status": "planned",
+    "category": "demo",
+    "actors": [
+      "SpaceX"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Starship",
+    "summary": "Flight 14 is intended to be the first Starship mission to reach orbit after 13 test flights on suborbital trajectories, deploying a batch of next-generation Starlink V3 satellites too large for Falcon 9 before a deorbit burn and an Indian Ocean splashdown. SpaceX static-fired the Flight 14 upper stage in early August 2026 and the 33-engine Super Heavy booster at Starbase on August 28. The FAA's air-traffic planning system lists a primary window of 12:15–14:14 UTC on September 18, 2026 from Starbase, Texas, with the same hours held on September 19 as a backup.",
+    "sources": [
+      {
+        "url": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
+        "title": "Rocket Report: Engines installed for Artemis III; Super Heavy static fire ahead of Flight 14",
+        "publisher": "Ars Technica",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://newspaceeconomy.ca/2026/09/13/starship-flight-14-moves-toward-a-september-18-launch-window/",
+        "title": "Starship Flight 14 Moves Toward a September 18 Launch Window",
+        "publisher": "New Space Economy",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "The date is an FAA airspace planning window, not a SpaceX-confirmed launch time: SpaceX's public mission feed still ended with Flight 13 (July 24, 2026) at access time, and reporting notes the launch licence for an orbital profile had not been publicly confirmed. Status is planned rather than scheduled for that reason. Entered because Starship reaching orbit is the precondition for the ship-to-ship propellant transfer campaign that gates Artemis landings (see starship-orbital-refuel-demo)."
+  },
+  {
+    "id": "ispace-mission-5-2029",
+    "title": "ispace Mission 5 — U.S.-line ULTRA lander after CP-12",
+    "date_start": "2029",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "uncrewed_lander",
+    "actors": [
+      "ispace"
+    ],
+    "countries": [
+      "JP",
+      "US"
+    ],
+    "program": "ispace",
+    "summary": "After NASA and Draper ended CLPS task order CP-12 in July 2026, ispace's Mission 5 — the mission formerly numbered ispace-U.S. Mission 3, and the flight CP-12 would have used — is being pursued as a commercial ULTRA lander mission in 2029. ispace's Q1 FY2027 materials of August 7, 2026 state that \"CP-12 has ended\" and that the company \"continues M5 targeting lunar landing mission in 2029\" while actively pursuing new contracts, citing infrastructure and security demand across Japan, the United States and Europe.",
+    "sources": [
+      {
+        "url": "https://www.ispace-inc.com/2026/08/07/ispace-announces-q1-financial-results-for-the-fiscal-year-ending-march-2027/",
+        "title": "ispace Announces Q1 Financial Results for the Fiscal Year Ending March 2027",
+        "publisher": "ispace",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.ispace-inc.com/wp-content/uploads/2026/08/Presentation-Material-for-Q1-of-Fiscal-Year-Ending-March-2027.pdf",
+        "title": "Presentation Material for Q1 of Fiscal Year Ending March 2027",
+        "publisher": "ispace",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.ispace-inc.com/2026/03/27/ispace-announces-new-ultra-lunar-lander-integrating-japanese-and-u-s-lander-models/",
+        "title": "ispace Announces New \"ULTRA\" Lunar Lander Integrating Japanese and U.S. Lander Models",
+        "publisher": "ispace",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "This supersedes the 2030 date given for Mission 5 in the March 2026 restructure and is a target without an announced anchor customer, which is why it stays at year precision with planned confidence. The rest of the March 2026 numbering still holds: Mission 3 in 2028 and Mission 4 in 2029 with ESA's MAGPIE rover."
+  },
+  {
+    "id": "ispace-starship-mcs-2030",
+    "title": "ispace Mobile Cargo System — 500 kg allocation on a Starship lunar landing",
+    "date_start": "2030",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "other",
+    "actors": [
+      "ispace",
+      "SpaceX"
+    ],
+    "countries": [
+      "JP",
+      "US"
+    ],
+    "program": "ispace",
+    "summary": "In its Q1 FY2027 materials of August 7, 2026 ispace announced a new lunar transport service built on a secured 500 kg payload allocation aboard a SpaceX Starship targeting a lunar landing as early as 2030, sold through an in-house \"Mobile Cargo System\" that provides comprehensive services for payloads under 500 kg including integration and operational support. ispace frames the arrangement as an evolution into a \"Lunar Access Integrator\" offering end-to-end integration, transportation and operations from Earth to the lunar surface alongside its own ULTRA landers, and began global sales when the service was announced.",
+    "sources": [
+      {
+        "url": "https://www.ispace-inc.com/2026/08/07/ispace-announces-q1-financial-results-for-the-fiscal-year-ending-march-2027/",
+        "title": "ispace Announces Q1 Financial Results for the Fiscal Year Ending March 2027",
+        "publisher": "ispace",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.ispace-inc.com/wp-content/uploads/2026/08/Presentation-Material-for-Q1-of-Fiscal-Year-Ending-March-2027.pdf",
+        "title": "Presentation Material for Q1 of Fiscal Year Ending March 2027",
+        "publisher": "ispace",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "The 2030 Starship lunar landing date is ispace's characterisation in investor materials; SpaceX has not published a commercial Starship lunar cargo landing date, and Starship had not yet reached orbit at access time. Interface coordination with Starship and development of the Mobile Cargo System are both listed by ispace as work still to be done, so treat this as a commercial manifest position rather than a scheduled flight."
+  },
+  {
+    "id": "axemu-sortie-suit-2026",
+    "title": "NASA directs a simplified AxEMU \"Sortie Suit\" for the first landings",
+    "date_start": "2026-09",
+    "date_end": null,
+    "date_precision": "month",
+    "status": "in_progress",
+    "category": "demo",
+    "actors": [
+      "NASA",
+      "Axiom Space"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Artemis",
+    "summary": "NASA decided in early September 2026 to develop a simplified \"Sortie Suit\" variant of Axiom Space's AxEMU for the initial Artemis surface missions, announced at an internal meeting at the direction of Artemis program manager Jeremy Parsons. The stated goals are lower suit mass, reduced complexity and simpler interfaces between the suit and the landers, with the variant intended for the first landings flown on vehicles from both SpaceX and Blue Origin and capability added over time as surface experience accumulates. At the same week's Aerospace Safety Advisory Panel meeting, panel member Charlie Precourt said NASA leadership was meeting Axiom six days a week and that \"requirements are being adjusted to reflect near-term mission needs, including shortening the spacesuit certification duration requirements.\"",
+    "sources": [
+      {
+        "url": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+        "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+        "publisher": "Ars Technica",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacenews.com/axiom-space-plans-2027-flight-test-of-spacesuit/",
+        "title": "Axiom Space plans 2027 flight test of spacesuit",
+        "publisher": "SpaceNews",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://oig.nasa.gov/wp-content/uploads/2026/04/final-report-ig-26-006-nasas-acquisition-of-next-generation-spacesuit-services.pdf",
+        "title": "NASA OIG IG-26-006: NASA's Acquisition of Next-Generation Spacesuit Services",
+        "publisher": "NASA Office of Inspector General",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Reported through trade press sources plus on-record ASAP remarks rather than a NASA release, so confidence stays planned and status is in_progress (a development directive, not a delivered suit). Background on why: NASA's original AxEMU requirements — six spacewalks over a 6.5-day mission, 210 days of dormant standby and at least two hours of nominal operation in a permanently shadowed region — drove mass and complexity that NASA's own inspector general later called over-burdensome. This does not resolve where the 2027 in-space suit demonstration flies (see axemu-flight-demo-2027)."
+  },
+  {
+    "id": "esa-small-lunar-missions-2025",
+    "title": "ESA selects its first small lunar missions (Terrae Novae)",
+    "date_start": "2025-12",
+    "date_end": null,
+    "date_precision": "month",
+    "status": "in_progress",
+    "category": "policy",
+    "actors": [
+      "ESA"
+    ],
+    "countries": [
+      "EU"
+    ],
+    "program": "ESA Exploration",
+    "summary": "Under its Terrae Novae exploration programme ESA called for small, low-cost lunar missions capped at a development cost target of €50M and less than four and a half years from feasibility kick-off to launch, aiming to fly the first pilots between 2028 and 2030. Eight proposals were selected: seven received €150,000 each to mature their concepts — including SER3NE, LUREPOS, MOONRAKER, LUMI, LunPAN and the Danish-led Máni mapping satellite — while MAGPIE, the only proposal targeting a landing, was put on a direct implementation path toward a surface mission by the end of the decade. ESA member states approved the work plan for the prioritised missions on December 16, 2025, advancing seven concepts into the next phase after the nine-month studies completed.",
+    "sources": [
+      {
+        "url": "https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/ESA_Prepares_to_explore_the_Moon_with_small_missions",
+        "title": "ESA Prepares to explore the Moon with small missions",
+        "publisher": "ESA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://europeanspaceflight.com/denmarks-first-mission-to-the-moon-gets-esa-greenlight/",
+        "title": "Denmark's First Mission to the Moon Gets ESA Greenlight",
+        "publisher": "European Spaceflight",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://news.ku.dk/all_news/2025/12/danish-led-space-mission-to-map-the-lunar-surface/",
+        "title": "Danish-led space mission to map the lunar surface",
+        "publisher": "University of Copenhagen",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://scienceinpoland.pl/en/news/news%2C110957%2Cpolish-researchers-join-international-project-map-lunar-surface.html",
+        "title": "Polish researchers join international project to map lunar surface (Máni Phase A/B1)",
+        "publisher": "Science in Poland",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "confirmed",
+    "notes": "ESA had not published the full list of proposals advancing when the Danish and Polish partners announced Máni's selection, and the €50M figure is a target rather than a ceiling — ESA attributes MAGPIE's higher €65M value to the added complexity of landing rather than orbiting. This is the procurement layer behind both ispace-m4-magpie-2029 and esa-mani-lunar-mapper-2029, and it is how Europe is buying lunar missions while I-Hab, Lunar View and Lunar Link wait for the December 2026 ministerial."
+  },
+  {
+    "id": "esa-mani-lunar-mapper-2029",
+    "title": "Máni — Danish-led ESA lunar polar mapping satellite",
+    "date_start": "2029",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "orbiter",
+    "actors": [
+      "ESA",
+      "Space Inventor"
+    ],
+    "countries": [
+      "EU",
+      "DK",
+      "PL",
+      "NL",
+      "SI",
+      "FR"
+    ],
+    "program": "ESA Exploration",
+    "summary": "Máni, named for the Norse personification of the Moon, is a small ESA satellite led by the University of Copenhagen that will orbit over the lunar north and south poles and build high-resolution imagery and detailed 3D maps of the surface, so that future crews and rovers can land and traverse more safely. ESA member states approved the work plan including Máni on December 16, 2025 during the 342nd Council, advancing it to Phase A/B1 as one of seven concepts to progress, with launch planned for 2029. Space Inventor of Denmark is the prime industrial partner building the spacecraft, integrating instruments and components from Polish, Dutch and Slovenian suppliers, while a French team supplies data-processing software and helps select areas of interest; the full mission budget is around €50M.",
+    "sources": [
+      {
+        "url": "https://europeanspaceflight.com/denmarks-first-mission-to-the-moon-gets-esa-greenlight/",
+        "title": "Denmark's First Mission to the Moon Gets ESA Greenlight",
+        "publisher": "European Spaceflight",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://news.ku.dk/all_news/2025/12/danish-led-space-mission-to-map-the-lunar-surface/",
+        "title": "Danish-led space mission to map the lunar surface",
+        "publisher": "University of Copenhagen",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://scienceinpoland.pl/en/news/news%2C110957%2Cpolish-researchers-join-international-project-map-lunar-surface.html",
+        "title": "Polish researchers join international project to map lunar surface (Máni Phase A/B1)",
+        "publisher": "Science in Poland",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/ESA_Prepares_to_explore_the_Moon_with_small_missions",
+        "title": "ESA Prepares to explore the Moon with small missions",
+        "publisher": "ESA",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Denmark's first lunar mission and the first ESA mission led from Denmark. The 2029 date is a target for a mission still in Phase A/B1, with selection for full implementation pending, so year precision and planned confidence only. Danish reporting puts national funding at about DKK 130M (roughly €17M) and the Polish supplier Scanway's share at about €8.6M over four years. Academic partners include Aalborg, Aarhus and Southern Denmark universities, the Danish Meteorological Institute and the Polish Academy of Sciences."
+  },
+  {
+    "id": "ilrs-russia-segment-concept-2026",
+    "title": "Russian Academy of Sciences approves Russia's ILRS segment concept",
+    "date_start": "2026-04-01",
+    "date_end": null,
+    "date_precision": "day",
+    "status": "completed",
+    "category": "policy",
+    "actors": [
+      "Roscosmos",
+      "CNSA",
+      "NPO Lavochkin"
+    ],
+    "countries": [
+      "RU",
+      "CN"
+    ],
+    "program": "ILRS",
+    "summary": "Roscosmos head Dmitry Bakanov told Russia's Federation Council on April 1, 2026 that the Russian Academy of Sciences had approved the concept for creating Russia's national segment of the China-led International Lunar Research Station. Russia's headline contribution remains a lunar power plant, agreed with CNSA in a May 2025 memorandum and contracted to NPO Lavochkin in December 2025. Lavochkin's published station work spans a lunar relay satellite, a lunar research satellite, a telecommunications module, robotic mobile modules for assembly and repair, energy modules, stationary science and technology modules, and a mobile research laboratory with an ascent rocket.",
+    "sources": [
+      {
+        "url": "https://tass.com/science/2110105",
+        "title": "Russian lunar station segment creation under project with China greenlighted",
+        "publisher": "TASS",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.neimagazine.com/news/roscosmos-nuclear-spacecraft-plan/",
+        "title": "Roscosmos nuclear spacecraft plan (four-phase lunar reactor roadmap)",
+        "publisher": "Nuclear Engineering International",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.neimagazine.com/news/russia-resets-lunar-programme/",
+        "title": "Russia resets lunar programme (Korolev Readings; Lavochkin schedule)",
+        "publisher": "Nuclear Engineering International",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "confirmed",
+    "notes": "Concept approval, not a funded manifest: no dates, mission architecture or funding were disclosed, and independent analysis calls the Russian role one of the more uncertain parts of ILRS after the Luna-25 failure. It matters as evidence that Russia's ILRS participation is still formally alive despite repeated Luna slips, and it sits alongside the four-phase reactor roadmap Russian industry describes for 2033–2036 (see ilrs-nuclear-power-plant-2036)."
   }
 ]
