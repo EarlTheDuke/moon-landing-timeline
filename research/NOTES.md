@@ -14,7 +14,8 @@
 7. **ESA infrastructure track:** Lunar Pathfinder (NET 2027) → Moonlight IOC (2028) → FOC (2030) → Argonaut (~2030–31); MAGPIE rover 2029 via ispace (€65M Phase 2 contract signed).
 8. **The procurement layer now drives the timeline:** NASA's March 2026 "Ignition" event created a three-phase Moon Base program (~$30B+), a target of up to 30 robotic landings a year from 2027, and the CS-8 / CS-6 / CT-4 / CX-2 task orders plus a CLPS 2.0 follow-on. Several 2028–2036 dataset entries are downstream of these instruments.
 9. **Consolidation on all sides:** Voyager Technologies absorbed Astrobotic (now Voyager Lunar Systems); CMSA took the Chinese Lunar Exploration Program over from CNSA; ispace merged its US and Japanese lander lines into a single ULTRA design and renumbered its missions.
-10. **Surface hardware is internationalizing:** Italy's MPH habitat (2033), Canada's Canadarm3-derived Lunar Utility Vehicle, JAXA's pressurized rover, Chang'e-8's ten-partner payload manifest, and NASA's open invitation to all **71** Artemis Accords signatories to contribute Moon Base hardware.
+10. **Surface hardware is internationalizing:** Italy's MPH habitat (2033), Canada's Canadarm3-derived Lunar Utility Vehicle, JAXA's pressurized rover, Chang'e-8's ten-partner payload manifest, and NASA's open invitation to all **71** Artemis Accords signatories (Djibouti signing as the 72nd on 14 Sep 2026) to contribute Moon Base hardware.
+11. **Surface power is now its own procurement race:** a Dec 18, 2025 executive order, the Jan 13, 2026 NASA–DOE MOU, the Aug 30, 2026 SPARC draft RFP for **Lunar Reactor-1** (20 kWe, HALEU, land in 2030) and NASA's NextSTEP-3 Appendix B "Initial Surface Power" call sit on the US side; Roscosmos/CNSA's 2036 lunar power plant (Selena, from Kurchatov/Rosatom's Elena-AM) sits on the ILRS side. Both programs treat power, not landers, as the gate to permanence.
 
 ## Contradictions & uncertainties
 
@@ -376,3 +377,220 @@ dataset are downstream of it. This pass adds that layer and then uses it to shar
 13. **Second Astrobotic CS-8 mission**, **CX-2 LTV delivery task order outcome**, and the four previewed Moon Base solicitations (power/avionics demo, additional science manifest, south pole optical imager, comm/nav relay constellation) — **new open questions**.
 14. **Chang'e-8 reconfiguration specifics under CMSA** — **new open question**.
 15. **ispace Mission 5 year (2029 vs 2030)** and whether ispace-U.S. wins a CLPS 2.0 task order — **new open question**.
+
+## Changelog — 2026-09-13 (opens pass: surface power, CLPS windows, CS-8 completion, ESA small missions)
+
+**Counts:** events 105 → **119** (+14 net-new, 46 updated); actors 58 → **61**; bibliography 139 → **186** (+48 new entries, minus one merged duplicate).
+All `accessed` values are 2026-09-13, the real fetch date for this pass.
+
+### What actually moved
+
+Six of the thirteen priority opens moved on real evidence; the rest are re-verified and still open, with the specific
+reason recorded rather than papered over with a placeholder date.
+
+1. **CLPS day-or-better windows — partially moved, no fake days.** Griffin-1 stays at **2026-11** (Voyager's NET November;
+   the lander had completed four of five JPL acceptance tests with thermal vacuum remaining, then returns to Pittsburgh
+   before Cape Canaveral). IM-3 stays **2027-01 → 2027-03** (company guidance reaffirmed on the Aug 13, 2026 Q2 FY2026
+   call). Blue Ghost 2 stays **2027** (Firefly's own page). MK1 Endurance stays **Q1 2027**. Every candidate "day" found
+   this pass was a tracker placeholder and is now explicitly cited as *not adopted* in the relevant `notes`:
+   T-Minus Zero's Mar 30–31 2027 for IM-3, Next Spaceflight's Dec 2026 and RocketRadar's Dec 31 2026 for BG-2,
+   the Mar 31 2027 listing for Endurance, and end-of-November listings for Griffin-1.
+2. **Artemis IV HLS provider — still open, but better bounded.** NASA's own architecture release says "Lander readiness
+   will determine which provider," the HLS contracts still read SpaceX/Artemis IV (Appendix H Option B) and
+   Blue Origin/Artemis V, and the new Sortie Suit is being built for initial landings on *both* landers. No designation
+   event created.
+3. **VIPER CS-7 option — still unexercised** as of Sep 13, 2026, and now doubly tight: CS-7 does not cover launch, the
+   option decision follows the Endurance flight (Q1 2027), and the 100-day science window still requires a landing by
+   late 2027.
+4. **Chang'e-7 — moved in specificity, not in precision.** China in Space (Aug 31, 2026) reports the one-month slip was
+   abandoned and that Long March 5 readiness is being explored for the **February and March 2027** windows, with dates
+   unfinalised pending investigations; NARIT says the probe sits in storage at Wenchang and some instruments may be
+   removed. Entry stays `slipped` / 2027 at year precision. Countries extended to EG, BH, IT, RU, CH for the confirmed
+   international payload set.
+5. **ESA I-Hab / Lunar View — still no flight assignment**, but the decision now has a date, venue and framing: ESA's own
+   release says December 2026 in Italy, trade coverage gives **15 December** at ESRIN Frascati under the Italian
+   presidency, and ESA's exploration director has published the two-axis roadmap (European end-to-end robotics +
+   continued Artemis/Moon Base participation for astronaut surface access). Lunar Link ITT mechanics added: TAS-FR is a
+   mandatory subcontractor with ≥€750k reserved per study, out of a €296M 2021 contract covering Link and View together.
+6. **New Glenn RTF → MK1 — sharpened by retargeting, not by a date.** `new-glenn-rtf-2026` is now a **2026–2027 range
+   with status `slipped`**: the company target is still end-2026, but the vehicle was grounded through September, Ars
+   Technica (Sep 4) noted no meaningful update in about a month and "good reason for skepticism," and an independent
+   assessment expects Q1 2027. Added the LC-36B groundbreaking, the Vertical Integration Facility and the 120,000 sq ft
+   Payload Processing Facility (opening early 2028) as the hardware evidence either way.
+7. **Starship orbital refuel — still no firm date, but the gate is now dated.** New event `starship-flight-14-2026`:
+   first orbital-insertion attempt, FAA airspace window **18 Sep 2026, 12:15–14:14 UTC** (backup 19 Sep), after an
+   Aug 28 33-engine Super Heavy static fire. Entered as `planned`, not `scheduled`, because the window is FAA planning
+   data and SpaceX had not confirmed it.
+8. **MoonFall ICD — still absent.** Re-checked: no MoonFall-specific interface document exists; Firefly publishes generic
+   launch-vehicle payload user's guides that treat mission ICDs as a service item, and JPL's page gives instruments
+   without interfaces. Recorded with the Alpha PUG cited as evidence of what *does* exist.
+9. **ILRS partner hardware — one real addition.** The Russian Academy of Sciences approved Russia's ILRS **segment
+   concept** (announced Apr 1, 2026 by Bakanov), and Lavochkin's published station work list (relay satellite, research
+   satellite, telecom module, robotic assembly/repair modules, energy modules, science modules, mobile lab with ascent
+   rocket) is the closest thing to a Russian hardware manifest. Reactor lineage traced to Kurchatov/Rosatom's Elena-AM
+   (~68 kWe terrestrial) with a four-phase 2033–2036 roadmap.
+10. **AxEMU venue — still undecided**, but the suit program changed underneath the question: NASA directed Axiom in early
+    September 2026 to build a simplified **"Sortie Suit"** variant for the first landings, with shortened certification
+    duration requirements and six-days-a-week NASA/Axiom meetings disclosed at the Aerospace Safety Advisory Panel.
+11. **Canadarm3 surface year — still open.** CSA's own August 6 release names no funding change, amendment or timeline;
+    CSA's Canadarm3 pages (updated Apr 24, 2026) still say delivery "no earlier than 2029" against the Gateway baseline;
+    Canadian analysis puts a Canadarm3-derived arm on a Lunar Utility Vehicle in Moon Base Phase 3 (2033+).
+12. **Artemis V vs OIG — no published resolution, but the contradiction is now precisely dated.** NASA moved Artemis V to
+    **no later than March 2030** in December 2024 (the baseline OIG audited, and the reason Blue Origin got 15 extra
+    months) while the March 2026 architecture release targets **late 2028**. Left as a recorded conflict.
+13. **Other high-value 2026–2035 items — the big one was power, and it was missing entirely.** See net-new below.
+
+### Net-new events (14)
+
+**US surface power / policy layer (5)** — the largest gap this pass closed
+- `us-space-policy-eo-2025` — Dec 18, 2025 executive order: Americans on the Moon by 2028, a permanent base, and nuclear
+  reactors on the Moon and in orbit including a lunar surface reactor by 2030. Cited by both the NASA–DOE MOU and NASA's
+  own Moon Base solicitations as their authority.
+- `nasa-doe-fsp-mou-2026` — Jan 13, 2026 NASA–DOE memorandum of understanding on Fission Surface Power (MOU published
+  Feb 2, 2026; NASA funds and manages, DOE handles nuclear safety/fuel).
+- `nasa-sparc-lr1-drfp-2026` — Aug 30, 2026 SPARC draft RFP (80GRC026R0009), amended Sep 1, responses due Sep 28, 2026;
+  LR-1 Phase 1 task orders intended for two or more contractors alongside the MAIDIQ, with NASA reserving zero awards.
+- `lunar-reactor-1-2030` — LR-1 itself: 20 kWe, HALEU, closed Brayton, five years unattended, <15 t, ~4.5 m stowed in a
+  7.8 m fairing, intended to land in 2030; NSTM-3 (Apr 14, 2026) requires ≥20 kWe for ≥5 surface years, one design
+  extensible to 100 kWe, downselect to ≤2 designs within a year.
+- `moon-base-demos-baa-2026` — NextSTEP-3 Appendix B reissued Jul 16, 2026 as "Moon Base Demonstrations"
+  (80MSFC26R0003); Directed-Topic Call 1 = Initial Surface Power, white papers due Aug 24, 2026 after an extension.
+
+**CLPS manifest completion (2)**
+- `im-cs8-nova-c-2028` — Intuitive Machines' sixth CLPS award: production-line-qualified Nova-C no later than 2028,
+  $68.6M base + $79.7M product-line-qualification incentive.
+- `firefly-cs8-blue-ghost-2028` — Firefly's $144.2M CS-8 delivery, late 2028, same three NASA payloads.
+  (Both titled by task order because trackers disagree on mission numbers.)
+
+**Commercial / gates (3)**
+- `starship-flight-14-2026` — first Starship orbital-insertion attempt; the precondition for propellant transfer.
+- `ispace-mission-5-2029` — post-CP-12 Mission 5 retargeted to **2029** in the Aug 7, 2026 Q1 FY2027 materials.
+- `ispace-starship-mcs-2030` — ispace's secured **500 kg** allocation on a Starship lunar landing "as early as 2030"
+  plus the new Mobile Cargo System service; a commercial manifest position, not a SpaceX-published flight.
+
+**Suits (1)**
+- `axemu-sortie-suit-2026` — NASA's simplified Sortie Suit directive for the first landings.
+
+**Europe (2)**
+- `esa-small-lunar-missions-2025` — ESA's Terrae Novae small-lunar-mission line: €50M target, <4.5 years, eight
+  proposals selected Dec 2025, seven at €150k concept maturation, MAGPIE on a direct implementation path.
+- `esa-mani-lunar-mapper-2029` — Máni, Denmark's first lunar mission and the first ESA mission led from Denmark:
+  polar 3D mapping smallsat, approved Dec 16, 2025 at the 342nd Council, Phase A/B1, launch target 2029,
+  Space Inventor prime, ~€50M with Polish/Dutch/Slovenian/French partners.
+
+**ILRS (1)**
+- `ilrs-russia-segment-concept-2026` — RAS approval of Russia's ILRS segment concept.
+
+### Key updates to existing events (46 ids)
+
+- **CLPS windows / placeholders:** `griffin-1-moon-base-ii-2026` (manifest: 10 payloads/6 countries, FLIP ~500 kg,
+  CubeRover, BEACON with Mission Control, ESA LandCam-X, Nobile Crater, ~$323M, ≥5 surface days; +CA),
+  `im-3-2026`, `blue-ghost-m2-2026`, `esa-moonlight-pathfinder-2026`, `rashid-2-blue-ghost`,
+  `blue-moon-mk1-endurance-2026` (seven Blue Moon vehicles in production; "Moon Base 1" naming), `viper-blue-moon-2027`,
+  `peregrine-2-2028` (second CS-8 Astrobotic delivery still undetailed), `clps-cs8-awards-2026`.
+- **Artemis / HLS:** `artemis-iii-2027` (June 2027 statements, RS-25 install complete Sep 1, wet dress before end of
+  2026, New Glenn-first sequence), `artemis-iv-2028`, `artemis-v-2028`, `hls-oig-report-2026`,
+  `hls-uncrewed-lunar-demos-2027`, `starship-orbital-refuel-demo`, `starship-hls-crew-window`, `new-glenn-rtf-2026`
+  (now 2026–2027 `slipped`).
+- **Suits:** `axemu-flight-demo-2027`, `axiom-axemu-lcvg-2026`, `axemu-oig-readiness-risk-2026` (original 2025/2026
+  demos → late 2027, ~18-month slips; OIG worst case 2031; Dec 31, 2027 recommendation targets).
+- **Procurement:** `clps-2-0-procurement-2026` (solicitation 80JSC026R0015; proposals due Jun 30, 2026 actual; award
+  planned **Sep 8, 2026**, contract start Oct 1, 2026; schedule last updated Aug 24, 2026; **no award announced** as of
+  Sep 13), `moon-base-ltv-awards-2026` (CX-2B, contract 80JSC026F7015, $25.38M obligated + $6.58M on Aug 6, 2026; rover
+  specs), `nasa-ignition-moon-base-2026`, `moon-base-phase-1-2029`, `sr1-freedom-ppe-repurpose-2026` (SR-1 named as
+  LR-1's precursor: HALEU, 20 kWe closed Brayton).
+- **Russia:** `luna-26-2028`, `luna-27a-2029`, `luna-27b-2030` (pole assignment now attributed to Lavochkin's DG:
+  A=south 2029, B=north 2030), `luna-28-sample-return` (2034 per Lavochkin), `luna-30-roving-2034` (Space Atom sequence
+  2033/2034/2035; needs a 100 t-class launcher Roscosmos is not building), `ilrs-nuclear-power-plant-2036`,
+  `ilrs-partners-policy-2025` ('555' plan).
+- **China:** `change-7-slipped-2026`, `change-8-2028` (41 proposals → 14 accepted → 10 projects; cancellation rumours
+  rebutted), `clep-cmsa-reorganization-2026` (Queqiao-2 moved too; five ILRS cargo missions 2031–2035 in the 2021 plan).
+- **India / Japan:** `chandrayaan-4-2027` (Oct 2027 committee target vs chairman's 2028; SC120/SE2000 not flight-ready
+  before 2028–29; ₹34.6 crore of ₹150 crore spent), `chandrayaan-5-lupex-2028` (Space Commission approved, Cabinet
+  pending; 6,800 kg lander / 350 kg rover), `ispace-m3-2028`, `ispace-ultra-restructure-2026`, `ispace-mission-2-5-2027`
+  (Argo Space named).
+- **Europe / Canada:** `esa-rome-ministerial-2026`, `esa-gateway-modules-posture-2026`, `esa-lunar-link-repurpose-itt-2026`,
+  `canadarm3-moon-base-repurpose-2026`, `firefly-moonfall-drones-2028`, `artemis-accords-ongoing` (72nd signatory
+  ceremony scheduled Sep 14, 2026).
+
+### New actors / bibliography
+
+- **Actors (+3):** US Department of Energy, White House (Executive Office of the President), Space Inventor.
+  Kurchatov Institute and Argo Space are named in `notes` rather than as actor records, because neither has a verified
+  official URL in this pass's fetches and the dataset requires one.
+- **Bibliography (+48, one duplicate merged):** White House NSTM-3, NASA/DOE reactor releases and the signed MOU,
+  SAM.gov SPARC and NextSTEP-3 Appendix B postings, NASA JSC's CLPS2 acquisition page, USAspending's CX-2B record,
+  Intuitive Machines' sixth-award release, ispace Q1 FY2027 release and deck, ESA's small-lunar-missions page and 347th
+  Council outcomes, European Spaceflight / University of Copenhagen / Science in Poland on Máni, Blue Origin's LC-36B
+  release, NASASpaceflight's dual-pad piece, Ars Technica (Sortie Suit + Rocket Report 9.09), Spaceflight Now and
+  Florida Today on Artemis III timing, CSA's Canadarm3 release and data sheet, TASS on the Russian ILRS segment, NEI on
+  the Roscosmos reactor roadmap, China in Space on Chang'e-7, India Today and The Hindu on Chandrayaan-4/5, Voyager's
+  Griffin-1 page, Pasadena Now on JPL testing, Firefly's Alpha PUG, plus four tracker listings retained explicitly as
+  **rejected placeholders**.
+
+### Skipped because weak / thin (unchanged skips are not re-litigated)
+
+- **Any day-level date** for Griffin-1, IM-3, Blue Ghost 2 or MK1 Endurance — all four remaining candidates were tracker
+  placeholders; cited as such instead of adopted.
+- **A second Astrobotic CS-8 event** — trackers call it Peregrine Mission Three, but no NASA or Voyager payload/site
+  detail exists; kept as a note on `peregrine-2-2028`.
+- **Artemis IV provider designation event** — NASA is still explicitly readiness-based.
+- **Starship ship-to-ship transfer calendar date** — still unpublished; only the Flight 14 gate is dated.
+- **Firefly CS-8 mission number and landing site** — unpublished; entry titled by task order.
+- **CT-4 payload count discrepancy** (a trade summary says seven payloads vs NASA's six) — single mid-tier source, not
+  entered.
+- **A Kurchatov Institute actor record** and **an Argo Space actor record** — no verified official URLs this pass.
+- **MoonFall ICD, VIPER option exercise, Canadarm3 surface year, CNSA English Chang'e-7 re-date, New Glenn RTF day,
+  AxEMU venue** — all re-checked, all still unpublished.
+- **ESA ministerial exact day** — ESA still says only "December 2026 in Italy"; the 15 December date remains media-sourced
+  and stays in `notes`, so the event keeps month precision.
+- **CLPS 2.0 awards** — NASA's own schedule planned award on Sep 8, 2026 and nothing has been announced; recorded as an
+  open item rather than an inferred award.
+- **The other previewed Moon Base solicitations** (power-and-avionics delivery, extra science manifest, south pole optical
+  imager, comm/nav relay constellation) — not released as of Sep 13, 2026.
+
+### Contradictions worth carrying forward
+
+- **Artemis V: late 2028 (public) vs no later than March 2030 (December 2024 contractual baseline, audited by OIG).**
+  Unresolved; dataset keeps the public date and records the conflict.
+- **Artemis III: 2027 (NASA pages) vs "as early as June 2027" (Isaacman, Aug 21, 2026) vs "no later than June 2027"
+  (contractual).** Dataset keeps year precision.
+- **Fission surface power sizing: 100 kW by end-2029 (July 2025 NASA memo) vs 20 kWe landing in 2030 (Aug 2026 LR-1
+  procurement), with 10 kW and 40 kW-class descriptions still live on older NASA pages.** Recorded in
+  `lunar-reactor-1-2030` notes; the 100 kWe figure survives only as an extensibility requirement.
+- **Chandrayaan-4: October 2027 (Department of Space committee material) vs 2028 (ISRO chairman), against a
+  semi-cryogenic LVM3 not expected before 2028–29 and separate reporting that two existing LVM3s will be used instead.**
+- **ispace Mission 5: 2030 (March 2026 restructure) vs 2029 (August 2026 investor materials).** Now split across
+  `ispace-ultra-restructure-2026` (the numbering) and `ispace-mission-5-2029` (the current target).
+- **Chang'e-8: "around 2029" (CNSA English) vs "no earlier than 2028" (CCTV, Sept 2026), with an unspecified CMSA
+  reconfiguration reported Sep 10, 2026.** Range retained.
+- **Luna-27 pole assignment:** Lavochkin's DG assigns A=south/B=north (Feb 2026) while Zelyony said the order was
+  undetermined (Aug 2025). Dataset follows Lavochkin and flags it as industry-stated.
+- **New: Starship Flight 14 date provenance.** The FAA lists Sep 18, 2026; SpaceX had published nothing. Entered as
+  `planned` with day precision and an explicit provenance note — the one place this pass uses a day for an unflown
+  mission, and only because the window is a government-published artifact.
+
+### Open questions after this pass
+
+1. **CLPS launch days** for Griffin-1 (inside Nov 2026), IM-3 (inside Q1 2027), Blue Ghost 2 and MK1 Endurance — open.
+2. **Artemis IV HLS provider designation** — open; gated on the Artemis III LEO demo.
+3. **VIPER CS-7 option exercise** — open; gated on Endurance.
+4. **Starship ship-to-ship propellant transfer date** — open; watch whether Flight 14 flies on Sep 18–19, 2026.
+5. **CNSA official English Chang'e-7 re-date** — open; Feb/Mar 2027 windows are secondary-sourced.
+6. **ESA I-Hab / Lunar View / Lunar Link flight assignments** — open until the Rome ministerial (Dec 2026, day still
+   unofficial).
+7. **New Glenn actual return-to-flight date** — open; company end-2026 vs independent Q1 2027.
+8. **MoonFall public interface documentation** — open.
+9. **Canadarm3 lunar-surface deployment year** — open (value resolved earlier at CDN $1B).
+10. **AxEMU 2027 demo venue (ISS EVA vs Artemis III)** — open, and now entangled with the Sortie Suit rework and
+    shortened certification requirements.
+11. **CLPS 2.0 awards** — open past NASA's own planned Sep 8, 2026 award date.
+12. **SPARC / LR-1 Phase 1 awards** — new open question: final RFP, source selection and whether NASA awards two or more
+    Phase 1 task orders after the Sep 28, 2026 response date.
+13. **Which lander delivers LR-1**, and whether a 2030 landing survives an 18-month Phase 1 — new open question.
+14. **SR-1 Freedom launch year** — still open; its role as LR-1 precursor is now explicit.
+15. **Remaining Moon Base solicitations** (power/avionics delivery, extra science manifest, south pole optical imager,
+    comm/nav relay constellation) — open.
+16. **Firefly CS-8 mission designation and site**, and the **second Astrobotic CS-8 mission** — open.
+17. **Máni's implementation selection** (Phase A/B1 → build) and whether the 2029 target holds — new open question.
+18. **Chang'e-8 reconfiguration specifics under CMSA** — still open.
