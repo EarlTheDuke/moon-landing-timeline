@@ -563,5 +563,125 @@
       "Moon Base"
     ],
     "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+    "title": "NASA Marches Toward Artemis III Mission in 2027, Names Crew Members",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis",
+      "HLS",
+      "crew"
+    ],
+    "id": "nasa-artemis-iii-crew",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://www.nasa.gov/our-artemis-iii-crew/",
+    "title": "Our Artemis III Crew",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis",
+      "crew"
+    ],
+    "id": "nasa-artemis-iii-crew-page",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://www.nasa.gov/news-release/nasa-plans-to-assign-missions-for-two-future-artemis-cargo-landers/",
+    "title": "NASA Plans to Assign Missions for Two Future Artemis Cargo Landers",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis",
+      "HLS",
+      "cargo",
+      "JAXA"
+    ],
+    "id": "nasa-cargo-landers-assign",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://www.nasa.gov/news-release/nasa-japan-advance-space-cooperation-sign-agreement-for-lunar-rover/",
+    "title": "NASA, Japan Advance Space Cooperation, Sign Agreement for Lunar Rover",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis",
+      "JAXA",
+      "rover"
+    ],
+    "id": "nasa-jaxa-pressurized-rover",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://finance.yahoo.com/quote/LUNR/earnings/LUNR-Q2-2026-earnings_call-669158.html",
+    "title": "Intuitive Machines, Inc. (LUNR) Q2 FY2026 earnings call transcript",
+    "publisher": "Yahoo Finance / Intuitive Machines",
+    "topics": [
+      "CLPS",
+      "IM-3",
+      "Altus"
+    ],
+    "id": "im-q2-2026-earnings",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://spacenews.com/axiom-space-plans-2027-flight-test-of-spacesuit/",
+    "title": "Axiom Space plans 2027 flight test of spacesuit",
+    "publisher": "SpaceNews",
+    "topics": [
+      "AxEMU",
+      "Artemis"
+    ],
+    "id": "spacenews-axemu-2027-flight",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://spacenews.com/esa-opens-call-to-repurpose-gateway-communications-module/",
+    "title": "ESA opens call to repurpose Gateway communications module",
+    "publisher": "SpaceNews",
+    "topics": [
+      "ESA",
+      "Gateway",
+      "Moonlight",
+      "Lunar Link"
+    ],
+    "id": "spacenews-lunar-link-repurpose",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://isstracker.pl/en/news/esa-otwiera-nabor-na-ponowne-wykorzystanie-modulu-komunikacyjnego-gateway,5D_5NR",
+    "title": "ESA opens call to repurpose Gateway communications module (ITT detail)",
+    "publisher": "ISS Tracker / European Spaceflight syndicated",
+    "topics": [
+      "ESA",
+      "Lunar Link",
+      "Moonlight"
+    ],
+    "id": "esa-lunar-link-itt-coverage",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://www.gao.gov/assets/gao-26-108556.pdf",
+    "title": "GAO-26-108556: NASA Assessments of Major Projects",
+    "publisher": "U.S. GAO",
+    "topics": [
+      "Artemis",
+      "HLS",
+      "Starship",
+      "propellant transfer"
+    ],
+    "id": "gao-26-108556",
+    "accessed": "2026-09-13"
+  },
+  {
+    "url": "https://spaceflightnow.com/2026/06/09/73614/",
+    "title": "NASA names four-man crew to Artemis 3 mission",
+    "publisher": "Spaceflight Now",
+    "topics": [
+      "Artemis",
+      "crew"
+    ],
+    "id": "sfn-artemis-iii-crew",
+    "accessed": "2026-09-13"
   }
 ]

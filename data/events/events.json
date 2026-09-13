@@ -274,7 +274,7 @@
       "CA"
     ],
     "program": "Gateway",
-    "summary": "NASA pauses/stops Gateway as a lunar orbital station on the prior Artemis path; HALO/PPE tech eyed for Lunar Infrastructure Demo (LID) surface missions and related Moon Base work. ESA (Jun 2026 Council briefing): continue I-Hab through CDR then assess repurpose; slow Lunar View while retaining deep-space tech; assess Lunar Link (possible Moonlight tie). CSA/MDA (Aug 2026): intend to repurpose Canadarm3 investments for lunar-surface ops.",
+    "summary": "NASA pauses/stops Gateway as a lunar orbital station on the prior Artemis path; HALO/PPE tech eyed for Lunar Infrastructure Demo (LID) surface missions and related Moon Base work. ESA (Jun 2026): I-Hab through CDR; slow Lunar View; assess Lunar Link (Jul 2026 ITT for standalone/Moonlight-precursor studies targeting development schedules that could support Q4 2029). CSA/MDA (Aug 2026): repurpose Canadarm3 for lunar-surface ops.",
     "sources": [
       {
         "url": "https://spaceflightnow.com/2026/08/06/nasa-northrop-grumman-repurpose-gateway-elements-for-moon-base-demo-missions/",
@@ -298,6 +298,12 @@
         "url": "https://www.prnewswire.com/news-releases/mda-space-responds-to-canadian-space-agency-announcement-on-canadarm3-302845464.html",
         "title": "MDA Space Responds to CSA Canadarm3 Announcement",
         "publisher": "MDA Space / PR Newswire",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacenews.com/esa-opens-call-to-repurpose-gateway-communications-module/",
+        "title": "ESA opens call to repurpose Gateway communications module",
+        "publisher": "SpaceNews",
         "accessed": "2026-09-13"
       }
     ],
@@ -374,7 +380,7 @@
     ],
     "confidence": "confirmed",
     "date_end": null,
-    "notes": "Separate from this completed unveiling: NASA OIG (Apr 2026) warns AxEMU lunar/microgravity demos slipped to late 2027 with little margin for Artemis IV 2028 landing; historical-average scenario could push demos to ~2031. See axemu-oig-readiness-risk-2026."
+    "notes": "Separate from this completed unveiling: NASA OIG (Apr 2026) warns AxEMU demos slipped to late 2027 with little margin for Artemis IV 2028; Axiom (Apr 2026 Space Symposium) says NASA expects a 2027 in-space suit flight (ISS EVA or Artemis III). See axemu-oig-readiness-risk-2026 and axemu-flight-demo-2027."
   },
   {
     "id": "blue-moon-mk1-endurance-2026",
@@ -460,11 +466,11 @@
   },
   {
     "id": "im-3-2026",
-    "title": "Intuitive Machines IM-3 — Reiner Gamma + CADRE swarm",
-    "date_start": "2026",
-    "date_precision": "year",
-    "status": "planned",
-    "category": "rover",
+    "title": "Intuitive Machines IM-3 — Reiner Gamma + CADRE + Altus-1",
+    "date_start": "2027-01",
+    "date_precision": "range",
+    "status": "slipped",
+    "category": "uncrewed_lander",
     "actors": [
       "Intuitive Machines",
       "NASA",
@@ -478,8 +484,14 @@
       "KR"
     ],
     "program": "CLPS",
-    "summary": "Intuitive Machines Nova-C IM-3 (Moon Base designation in NASA materials) to Reiner Gamma with Lunar Vertex science, JPL CADRE micro-rovers, ESA retroreflector, and international/commercial payloads. NASA event page lists 2026; secondary encyclopedic summaries say second half 2026. No firm day.",
+    "summary": "Intuitive Machines Nova-C IM-3 (NASA Moon Base designation) to Reiner Gamma with Lunar Vertex, JPL CADRE micro-rovers, ESA retroreflector, and commercial/international payloads, plus Altus-1 lunar communications relay. CEO Stephen Altemus (Q2 FY2026 earnings) stated a January–March 2027 Falcon 9 window after AIT, engine hot-fire, and an October 2026 delta FRR — slipping the earlier NASA 2026 listing.",
     "sources": [
+      {
+        "url": "https://finance.yahoo.com/quote/LUNR/earnings/LUNR-Q2-2026-earnings_call-669158.html",
+        "title": "Intuitive Machines Q2 FY2026 earnings call transcript",
+        "publisher": "Yahoo Finance / Intuitive Machines",
+        "accessed": "2026-09-13"
+      },
       {
         "url": "https://www.nasa.gov/event/clps-flight-intuitive-machines-im-3/",
         "title": "Moon Base: Intuitive Machines IM-3",
@@ -494,15 +506,15 @@
       }
     ],
     "confidence": "planned",
-    "date_end": null,
-    "notes": "Prefer NASA year 2026. Launch-tracker NET Mar 2027 ignored as sole source (aggregator). Update if NASA slips."
+    "date_end": "2027-03",
+    "notes": "Company earnings call is the schedule driver (Q1 2027 Jan–Mar). NASA event page still shows year 2026 as of access — treat as outdated listing. Status slipped vs prior 2026 public target. Day not published."
   },
   {
     "id": "blue-ghost-m2-2026",
     "title": "Firefly Blue Ghost Mission 2 — far side + Elytra + Pathfinder",
-    "date_start": "2026",
-    "date_precision": "range",
-    "status": "planned",
+    "date_start": "2027",
+    "date_precision": "year",
+    "status": "slipped",
     "category": "uncrewed_lander",
     "actors": [
       "Firefly Aerospace",
@@ -522,7 +534,7 @@
       "CA"
     ],
     "program": "CLPS",
-    "summary": "CLPS far-side campaign ('Riders 2 the Dark'): Blue Ghost stacked on Elytra Dark; lunar-orbit deploy of ESA Lunar Pathfinder; surface delivery of NASA LuSEE-Night / JPL User Terminal plus commercial Rashid Rover 2 (UAE), Fleet SPIDER (AU), and Volta LightPort (CA). Firefly lists launch NET 2027; earlier ESA/MBRSC materials said 2026.",
+    "summary": "CLPS far-side campaign ('Riders 2 the Dark'): Blue Ghost stacked on Elytra Dark; lunar-orbit deploy of ESA Lunar Pathfinder; surface delivery of NASA LuSEE-Night / JPL User Terminal plus commercial Rashid Rover 2 (UAE), Fleet SPIDER (AU), and Volta LightPort (CA). Firefly official mission page lists launch no earlier than 2027 (prior public materials said 2026 / NET Dec 2026).",
     "sources": [
       {
         "url": "https://fireflyspace.com/missions/blue-ghost-mission-2/",
@@ -544,8 +556,8 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Firefly official page (accessed 2026-09-13) says NET 2027; MBRSC/earlier ESA Pathfinder pages still said 2026. Keep range; do not invent a day.",
-    "date_end": "2027"
+    "notes": "Slipped vs earlier 2026 CLPS/ESA Pathfinder public targets. Firefly page is controlling NET year; no day published.",
+    "date_end": null
   },
   {
     "id": "draper-apex-2026",
@@ -584,9 +596,9 @@
   {
     "id": "esa-moonlight-pathfinder-2026",
     "title": "ESA Lunar Pathfinder communications relay (Moonlight precursor)",
-    "date_start": "2026",
-    "date_precision": "range",
-    "status": "planned",
+    "date_start": "2027",
+    "date_precision": "year",
+    "status": "slipped",
     "category": "infrastructure",
     "actors": [
       "ESA",
@@ -622,8 +634,8 @@
       }
     ],
     "confidence": "planned",
-    "date_end": "2027",
-    "notes": "Tied to Blue Ghost M2 window (2026–2027). LunaNet interoperability demo planned separately for 2029."
+    "date_end": null,
+    "notes": "Tied to Blue Ghost M2; Firefly NET 2027 supersedes earlier 2026 Pathfinder materials. LunaNet interop demo remains 2029."
   },
   {
     "id": "change-7-slipped-2026",
@@ -669,31 +681,39 @@
     "category": "demo",
     "actors": [
       "NASA",
+      "ESA",
       "SpaceX",
       "Blue Origin",
       "Axiom Space"
     ],
     "countries": [
-      "US"
+      "US",
+      "EU"
     ],
     "program": "Artemis",
-    "summary": "Apollo 9–style risk-reduction flight: crew on SLS/Orion docks with SpaceX Starship HLS and/or Blue Origin Blue Moon test articles in LEO; xEVA suit checkout; not a lunar landing.",
+    "summary": "Crewed LEO risk-reduction flight (not a lunar landing): SLS/Orion docks with Blue Origin Blue Moon MK2 and/or SpaceX Starship Version 3 HLS test articles. NASA named crew (Jun 2026): Randy Bresnik (CDR), Luca Parmitano/ESA (PLT), Andre Douglas and Frank Rubio (MS); Bob Hines backup. Up to two crew may enter the Blue Moon test article; NASA states astronauts will not enter the Starship test article. Optional AxEMU suit checkout under discussion.",
     "sources": [
       {
-        "url": "https://www.nasa.gov/humans-in-space/artemis/",
-        "title": "NASA Artemis Program",
+        "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+        "title": "NASA Marches Toward Artemis III Mission in 2027, Names Crew Members",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/our-artemis-iii-crew/",
+        "title": "Our Artemis III Crew",
         "publisher": "NASA",
         "accessed": "2026-09-13"
       },
       {
         "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/",
-        "title": "How Artemis III Lander Test Paves Way",
+        "title": "How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings",
         "publisher": "NASA",
         "accessed": "2026-09-13"
       }
     ],
     "confidence": "planned",
-    "notes": "NASA cites mid-2027; year precision until firm window.",
+    "notes": "NASA architecture materials cite mid-2027; Isaacman has also said late 2027 for provider readiness. Year precision until a firm launch window. HLS provider for Artemis IV still readiness-based after this demo.",
     "date_end": null
   },
   {
@@ -746,7 +766,7 @@
       "US"
     ],
     "program": "CLPS",
-    "summary": "IM-4 delivers six NASA science/tech payloads to Mons Mouton near lunar south pole.",
+    "summary": "IM-4 delivers six NASA science/tech payloads to Mons Mouton near the lunar south pole. Intuitive Machines Q2 FY2026 earnings: still on track for late 2027 while resources shift from IM-3 completion.",
     "sources": [
       {
         "url": "https://www.nasa.gov/event/clps-flight-intuitive-machines-im-4-2/",
@@ -759,11 +779,17 @@
         "title": "Commercial Lunar Payload Services",
         "publisher": "NASA",
         "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://finance.yahoo.com/quote/LUNR/earnings/LUNR-Q2-2026-earnings_call-669158.html",
+        "title": "Intuitive Machines Q2 FY2026 earnings call transcript",
+        "publisher": "Yahoo Finance / Intuitive Machines",
+        "accessed": "2026-09-13"
       }
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": ""
+    "notes": "Company: late 2027 retained; year precision."
   },
   {
     "id": "viper-blue-moon-2027",
@@ -906,10 +932,22 @@
         "title": "NASA's Acquisition of Next-Generation Spacesuit Services (IG-26-006)",
         "publisher": "NASA OIG",
         "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/",
+        "title": "NASA Marches Toward Artemis III Mission in 2027, Names Crew Members",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacenews.com/axiom-space-plans-2027-flight-test-of-spacesuit/",
+        "title": "Axiom Space plans 2027 flight test of spacesuit",
+        "publisher": "SpaceNews",
+        "accessed": "2026-09-13"
       }
     ],
     "confidence": "planned",
-    "notes": "NASA repeatedly says 'early 2028' since mid-2025; still planned not scheduled until L- date. Suit risk: NASA OIG Apr 2026 — AxEMU demonstrations targeted late 2027 with little/no schedule margin for early-2028 landing; Axiom/NASA still publicly targeting 2028 surface EVAs.",
+    "notes": "NASA repeatedly says early 2028 since mid-2025; still planned not scheduled until L- date. Provider TBD by readiness after Artemis III LEO demos (Starship or Blue Moon). Suit risk: NASA OIG Apr 2026 — AxEMU demos late 2027 with little margin; Axiom still publicly targeting 2028 surface EVAs and a 2027 in-space suit demo (ISS or Artemis III).",
     "date_end": null
   },
   {
@@ -1728,10 +1766,16 @@
         "title": "Artemis III lander test",
         "publisher": "NASA",
         "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.gao.gov/assets/gao-26-108556.pdf",
+        "title": "GAO-26-108556: NASA Assessments of Major Projects",
+        "publisher": "U.S. GAO",
+        "accessed": "2026-09-13"
       }
     ],
     "confidence": "planned",
-    "notes": "Ship-to-ship cryogenic propellant transfer remains a hard gate before uncrewed lunar HLS demo and Artemis IV. No firm NASA-published calendar date for the first dedicated orbital transfer demo as of 2026-09-13; secondary leaks (e.g. mid-2026 targets) not used as sole source."
+    "notes": "Ship-to-ship cryogenic propellant transfer remains a hard gate before uncrewed lunar HLS demo and Artemis IV. GAO-26-108556: as of May 2026 SpaceX had not demonstrated on-orbit propellant storage/transfer; key demos already delayed >1 year when NASA re-baselined Artemis (Feb 2026), with HLS cost/schedule under review. No firm NASA-published calendar date for the first dedicated orbital transfer demo as of 2026-09-13 — see starship-orbital-refuel-demo."
   },
   {
     "id": "india-crewed-moon-2040",
@@ -1872,10 +1916,10 @@
   {
     "id": "rashid-2-blue-ghost",
     "title": "UAE Rashid Rover 2 on Blue Ghost Mission 2 (far side)",
-    "date_start": "2026",
-    "date_end": "2027",
-    "date_precision": "range",
-    "status": "planned",
+    "date_start": "2027",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "slipped",
     "category": "rover",
     "actors": [
       "MBRSC",
@@ -1902,7 +1946,7 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Same launch campaign as blue-ghost-m2-2026; separate event for rover science/actor visibility. Window tied to Firefly NET 2027."
+    "notes": "Same launch campaign as blue-ghost-m2-2026; separate event for rover science/actor visibility. Window tied to Firefly NET 2027. Aligned to Firefly BG-2 NET 2027 (accessed 2026-09-13)."
   },
   {
     "id": "cz10b-first-flight-2026",
@@ -2439,7 +2483,7 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Policy/risk milestone (report issuance), not a flight. Track against Artemis IV surface EVA readiness."
+    "notes": "Policy/risk milestone (report issuance), not a flight. Track against Artemis IV surface EVA readiness and axemu-flight-demo-2027 (Axiom Apr 2026: in-space test on ISS or Artemis III in 2027)."
   },
   {
     "id": "canadarm3-moon-base-repurpose-2026",
@@ -2491,7 +2535,7 @@
       "EU"
     ],
     "program": "Artemis",
-    "summary": "After the 347th ESA Council (17 Jun 2026 briefing), ESA Director of Human and Robotic Exploration said I-Hab development continues through critical design review then repurpose assessment; Lunar View activities slow while retaining key deep-space technologies; Lunar Link under assessment including possible Moonlight communications use. Broader European exploration roadmap expected at Dec 2026 interim ministerial meeting.",
+    "summary": "After the 347th ESA Council (17 Jun 2026 briefing), ESA said I-Hab continues through CDR then repurpose assessment; Lunar View slows while retaining deep-space tech; Lunar Link under assessment including possible Moonlight use. On 27 Jul 2026 ESA issued an Invitation to Tender for Lunar Link Repurposing Mission Phase 1 (up to two ~€3M Phase A/B1 studies ≤12 months); study schedules are required to support a possible Q4 2029 launch. Broader roadmap expected at Dec 2026 interim ministerial.",
     "sources": [
       {
         "url": "https://europeanspaceflight.com/esa-details-next-steps-for-agencys-gateway-contributions/",
@@ -2504,10 +2548,22 @@
         "title": "ESA to decide by June on Europe's Gateway contributions",
         "publisher": "SpaceNews",
         "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://spacenews.com/esa-opens-call-to-repurpose-gateway-communications-module/",
+        "title": "ESA opens call to repurpose Gateway communications module",
+        "publisher": "SpaceNews",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://isstracker.pl/en/news/esa-otwiera-nabor-na-ponowne-wykorzystanie-modulu-komunikacyjnego-gateway,5D_5NR",
+        "title": "ESA Lunar Link repurposing ITT detail (Q4 2029 schedule support)",
+        "publisher": "ISS Tracker",
+        "accessed": "2026-09-13"
       }
     ],
     "confidence": "planned",
-    "notes": "Reporting of ESA Council press briefing; prefer later esa.int release if published. No firm flight dates for redeployed modules."
+    "notes": "ITT is a study call, not a flight award. Q4 2029 is a schedule-support requirement in the tender, not a confirmed launch. Prefer esa-star / esa.int primary if mirrored later."
   },
   {
     "id": "australia-roover-2030",
@@ -2544,5 +2600,211 @@
     ],
     "confidence": "planned",
     "notes": "ASA primary pages confirm 2030 + Intuitive Machines; year precision only."
+  },
+  {
+    "id": "axemu-flight-demo-2027",
+    "title": "AxEMU in-space flight demonstration (ISS or Artemis III)",
+    "date_start": "2027",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "demo",
+    "actors": [
+      "Axiom Space",
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Artemis",
+    "summary": "Axiom Space plans the first in-space test of the AxEMU lunar surface suit in 2027, either via an ISS demonstration (better for EVA) or as part of the revised Artemis III LEO mission with HLS providers (launch loads / pressurized cabin checkout). Venue TBD; CEO Jonathan Cirtain (Apr 2026 Space Symposium) said NASA expects to fly a suit in 2027 one way or the other. Qualification testing targeted to wrap ~mid-2027 ahead of Artemis IV surface suits.",
+    "sources": [
+      {
+        "url": "https://spacenews.com/axiom-space-plans-2027-flight-test-of-spacesuit/",
+        "title": "Axiom Space plans 2027 flight test of spacesuit",
+        "publisher": "SpaceNews",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://oig.nasa.gov/news/spacesuit-development-delays-could-impact-artemis-timeline-and-iss-operations/",
+        "title": "Spacesuit Development Delays Could Impact Artemis Timeline",
+        "publisher": "NASA OIG",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Not a firm countdown; ISS vs Artemis III path undecided. Aligns with OIG late-2027 demo risk framing."
+  },
+  {
+    "id": "esa-lunar-link-repurpose-itt-2026",
+    "title": "ESA Lunar Link repurposing ITT (Phase A/B1 studies)",
+    "date_start": "2026-07",
+    "date_end": null,
+    "date_precision": "month",
+    "status": "in_progress",
+    "category": "policy",
+    "actors": [
+      "ESA"
+    ],
+    "countries": [
+      "EU"
+    ],
+    "program": "Moonlight",
+    "summary": "Following the Jun 2026 Council posture on Gateway contributions, ESA issued a 27 Jul 2026 Invitation to Tender for Lunar Link Repurposing Mission Phase 1 studies — up to two parallel firm-fixed-price contracts (each up to ~€3M) for ≤12-month Phase A/B1 work on standalone cislunar communications / Moonlight-precursor concepts. Tender requires proposed development schedules that support a possible Q4 2029 launch.",
+    "sources": [
+      {
+        "url": "https://spacenews.com/esa-opens-call-to-repurpose-gateway-communications-module/",
+        "title": "ESA opens call to repurpose Gateway communications module",
+        "publisher": "SpaceNews",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://isstracker.pl/en/news/esa-otwiera-nabor-na-ponowne-wykorzystanie-modulu-komunikacyjnego-gateway,5D_5NR",
+        "title": "ESA Lunar Link repurposing ITT detail",
+        "publisher": "ISS Tracker",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://europeanspaceflight.com/esa-details-next-steps-for-agencys-gateway-contributions/",
+        "title": "ESA Details Next Steps for Agency's Gateway Contributions",
+        "publisher": "European Spaceflight",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "confirmed",
+    "notes": "Confirmed ITT issuance; Q4 2029 is a study schedule support target, not a funded flight. Flight assignment still open pending Dec 2026 ministerial / study results."
+  },
+  {
+    "id": "starship-orbital-refuel-demo",
+    "title": "Starship ship-to-ship orbital propellant transfer demo",
+    "date_start": "2026",
+    "date_end": "2027",
+    "date_precision": "range",
+    "status": "slipped",
+    "category": "demo",
+    "actors": [
+      "SpaceX",
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "HLS",
+    "summary": "Critical HLS technology demonstration: rendezvous/docking of two Starships and cryogenic methane/oxygen propellant transfer in LEO (later campaigns need many tanker flights for a lunar-capable HLS). GAO-26-108556 reports that as of May 2026 SpaceX had not yet demonstrated on-orbit propellant storage/transfer, and that propellant-transfer and uncrewed lunar demos were already delayed more than a year when NASA re-baselined Artemis in Feb 2026. No firm public launch date.",
+    "sources": [
+      {
+        "url": "https://www.gao.gov/assets/gao-26-108556.pdf",
+        "title": "GAO-26-108556: NASA Assessments of Major Projects",
+        "publisher": "U.S. GAO",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/",
+        "title": "How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Do not treat 2026 as a countdown date — year/range reflects slipped prior targets and continuing 2026–27 planning language only. Secondary podcast/wiki NETs not used as sole sources."
+  },
+  {
+    "id": "jaxa-pressurized-rover-2032",
+    "title": "JAXA pressurized lunar rover delivery (Artemis VII+) via Starship cargo",
+    "date_start": "2032",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "rover",
+    "actors": [
+      "JAXA",
+      "Toyota",
+      "NASA",
+      "SpaceX"
+    ],
+    "countries": [
+      "JP",
+      "US"
+    ],
+    "program": "Artemis",
+    "summary": "Under the Apr 2024 NASA–Japan agreement, JAXA (with Toyota industry partnership) develops a crewed pressurized rover accommodating two astronauts for up to ~30 days near the south pole, with remote/uncrewed ops between crewed visits (~10-year life). NASA plans to use it from Artemis VII onward. NASA later assigned SpaceX’s Starship cargo lander to deliver the rover no earlier than fiscal year 2032.",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-japan-advance-space-cooperation-sign-agreement-for-lunar-rover/",
+        "title": "NASA, Japan Advance Space Cooperation, Sign Agreement for Lunar Rover",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-plans-to-assign-missions-for-two-future-artemis-cargo-landers/",
+        "title": "NASA Plans to Assign Missions for Two Future Artemis Cargo Landers",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      },
+      {
+        "url": "https://www.nasa.gov/suits-and-rovers/pressurized-rover/",
+        "title": "Pressurized Rover",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "NET FY2032 is NASA cargo-assignment language (not a firm civil date). Artemis VII numbering may shift with architecture changes — retain as planning label."
+  },
+  {
+    "id": "blue-origin-lunar-habitat-2033",
+    "title": "Blue Origin large lunar surface habitat cargo delivery",
+    "date_start": "2033",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "infrastructure",
+    "actors": [
+      "Blue Origin",
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "Artemis",
+    "summary": "As part of NASA’s large cargo lander demonstration assignments to HLS providers, the agency expects Blue Origin to deliver a lunar surface habitat no earlier than fiscal year 2033, complementary to SpaceX’s pressurized-rover cargo delivery. Builds on prior NASA requests for cargo variants of crewed Blue Moon / Starship landers.",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/news-release/nasa-plans-to-assign-missions-for-two-future-artemis-cargo-landers/",
+        "title": "NASA Plans to Assign Missions for Two Future Artemis Cargo Landers",
+        "publisher": "NASA",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "NET FY2033 NASA assignment language only; habitat design details and exact mission number not fixed in the release."
+  },
+  {
+    "id": "im-altus-constellation-2028",
+    "title": "Intuitive Machines Altus-2–5 lunar relay constellation deployment",
+    "date_start": "2028",
+    "date_end": null,
+    "date_precision": "year",
+    "status": "planned",
+    "category": "infrastructure",
+    "actors": [
+      "Intuitive Machines",
+      "NASA"
+    ],
+    "countries": [
+      "US"
+    ],
+    "program": "CLPS",
+    "summary": "After Altus-1 rides IM-3 in Q1 2027, Intuitive Machines stated (Q2 FY2026 earnings) it plans to deploy the remaining four Altus lunar communications relay satellites (Altus-2 through Altus-5) together in 2028 as part of its Lunar Data Network / Near Space Network services architecture supporting multi-mission cislunar connectivity.",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/quote/LUNR/earnings/LUNR-Q2-2026-earnings_call-669158.html",
+        "title": "Intuitive Machines Q2 FY2026 earnings call transcript",
+        "publisher": "Yahoo Finance / Intuitive Machines",
+        "accessed": "2026-09-13"
+      }
+    ],
+    "confidence": "planned",
+    "notes": "Company earnings guidance; launch vehicle/manifest not detailed in transcript excerpt. Year precision only."
   }
 ]

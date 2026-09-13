@@ -58,16 +58,18 @@
 
 ## Open questions (follow-ups)
 
-1. Firm NET windows for Griffin-1, IM-3, Blue Ghost M2, Draper APEX once manifests freeze.
+1. Firm **day** NETs for Griffin-1 and Blue Ghost M2; IM-3 day inside company Jan–Mar 2027 window.
 2. Which HLS provider NASA designates for Artemis IV after 2027 LEO tests.
-3. Whether VIPER option is exercised post–MK1 flight.
+3. Whether VIPER option is exercised post–MK1 Endurance flight.
 4. Official CNSA English confirmation of Chang’e-7/8 years after Aug 2026 scrub.
-5. Disposition of ESA Lunar I-Hab / Lunar View / Lunar Link and CSA Canadarm3 after Gateway pause.
-6. Blue Origin New Glenn return-to-flight date (gates MK1).
-7. Starship orbital refueling demo schedule vs Artemis III/IV.
+5. Flight assignments for ESA I-Hab / Lunar View after Gateway pause (Lunar Link now in Phase A/B1 study with Q4 2029 schedule-support target).
+6. Blue Origin New Glenn return-to-flight actual date (gates MK1).
+7. Firm calendar date for Starship ship-to-ship propellant transfer (GAO documents slip; still no countdown).
 8. Firefly MoonFall drone demo — firm payload/interface public docs.
-9. ILRS partner list beyond CN/RU and contribution hardware dates.
-10. Axiom AxEMU flight demo: in-space 2027 claims vs OIG delay warnings (track for suit readiness risk to Artemis IV).
+9. ILRS partner hardware contribution flight dates (partner count improved; detailed flights partial).
+10. AxEMU 2027 demo venue (ISS vs Artemis III) and whether it closes OIG margin risk for Artemis IV 2028.
+11. Canadarm3 lunar-surface deployment year / contract value.
+12. Exact MK1 Endurance civil window inside Q1 2027 once New Glenn RTF flies.
 
 ## Source quality notes
 
@@ -166,3 +168,53 @@
 10. AxEMU in-space demo vs OIG risk — **partially improved** (OIG findings ingested; 2027 demo still to occur).
 11. Canadarm3 surface deployment year / contract value — **still open**.
 12. Blue Moon MK1 Endurance exact Q1 2027 window — company expectation only until New Glenn flies.
+
+## Changelog — 2026-09-13 (priority deepen: CLPS windows, HLS/Artemis III–IV, Starship refuel, AxEMU, Gateway Lunar Link, 2032–33 cargo)
+
+### Net-new events (6)
+- `axemu-flight-demo-2027` — Axiom Apr 2026 Space Symposium: 2027 in-space AxEMU test on ISS **or** Artemis III (venue TBD).
+- `esa-lunar-link-repurpose-itt-2026` — ESA 27 Jul 2026 ITT for Lunar Link Phase A/B1 studies; schedules must support possible **Q4 2029** launch.
+- `starship-orbital-refuel-demo` — GAO-26-108556: ship-to-ship cryogenic transfer not demonstrated as of May 2026; already delayed >1 year; **no firm date** (2026–2027 range / slipped).
+- `jaxa-pressurized-rover-2032` — NASA–Japan rover + NASA cargo assignment: Starship cargo delivery **NET FY2032** for Artemis VII+.
+- `blue-origin-lunar-habitat-2033` — companion NASA cargo assignment: Blue Origin surface habitat **NET FY2033**.
+- `im-altus-constellation-2028` — IM earnings: Altus-2–5 four-satellite lunar relay deploy together in **2028** (after Altus-1 on IM-3).
+
+### Key updates to existing events
+- `im-3-2026` → **slipped** to **2027-01–2027-03** per CEO Altemus Q2 FY2026 earnings (Jan–Mar Falcon 9); Altus-1 on same stack; NASA event page still shows 2026 (treated as stale).
+- `im-4-2027` → company still **late 2027** on track.
+- `blue-ghost-m2-2026` / `esa-moonlight-pathfinder-2026` / `rashid-2-blue-ghost` → Firefly official **NET 2027**; status **slipped** vs earlier 2026 materials.
+- `artemis-iii-2027` → NASA Jun 2026 crew: Bresnik / Parmitano (ESA) / Douglas / Rubio (+ Hines backup); Blue Moon enterable, Starship test article **not** enterable.
+- `artemis-iv-2028` → notes refreshed for III demo gate + AxEMU 2027 demo path.
+- `esa-gateway-modules-posture-2026` / `gateway-pause-2026` → Lunar Link ITT + Q4 2029 schedule-support language folded in.
+- `starship-hls-crew-window` → GAO propellant-transfer finding cited; cross-ref new refuel demo event.
+- `axiom-axemu-lcvg-2026` / `axemu-oig-readiness-risk-2026` → cross-ref `axemu-flight-demo-2027`.
+
+### New actors / sources
+- Actors: Toyota.
+- Bibliography: NASA Artemis III crew release + crew page; NASA cargo lander assignment; NASA–Japan pressurized rover agreement; IM Q2 FY2026 earnings transcript; SpaceNews AxEMU 2027 flight; SpaceNews/ISS Tracker Lunar Link ITT; GAO-26-108556; Spaceflight Now Artemis III crew.
+
+### Skipped because weak / thin
+- Firm **day** NETs for Griffin-1 (still late/Q4 2026 company language; aggregator November dates unused).
+- VIPER CS-7 option exercise — still gated on Endurance / base-task review; no exercise news.
+- HLS provider designation for Artemis IV — still readiness-based.
+- Official CNSA English Chang’e-7/8 re-date — still open.
+- New Glenn actual RTF flight — end-2026 goal unchanged; not flown.
+- Firefly MoonFall public ICD — still absent.
+- Canadarm3 surface deployment year / contract value — still open.
+- Exact MK1 Endurance civil day inside Q1 2027 — company expectation only.
+- Dedicated Starship refuel **calendar day** — still unpublished (event uses range + slipped, not a countdown).
+
+### Open questions — status after this pass
+1. Firm CLPS **day** windows (Griffin-1, IM-3 day inside Jan–Mar 2027, BG-2 day) — **still open** (IM-3 now has company month-range; Griffin still year/Q4).
+2. HLS provider for Artemis IV — **still open**.
+3. VIPER option exercise — **still open** (gated on Endurance).
+4. Official CNSA English Chang’e-7/8 years — **still open**.
+5. ESA I-Hab/View/Link **flight** assignments — **partially improved** (Lunar Link ITT + Q4 2029 study target; I-Hab/View flights TBD). Dec 2026 interim ministerial may clarify.
+6. New Glenn RTF actual date — **still open** (end-2026 goal).
+7. Starship ship-to-ship refueling **firm date** — **partially improved** (GAO slip documented; no countdown).
+8. Firefly MoonFall public ICD — **still open**.
+9. ILRS partner hardware flight list — **still partial**.
+10. AxEMU in-space demo venue (ISS vs Artemis III) — **partially improved** (2027 intent confirmed; venue TBD).
+11. Canadarm3 surface deployment year / contract value — **still open**.
+12. Blue Moon MK1 Endurance exact Q1 2027 window — **still open** until New Glenn flies.
+13. **Resolved enough for dataset:** IM-3 company window Q1 2027; BG-2/Pathfinder/Rashid NET 2027; Artemis III crew named; Lunar Link study path with Q4 2029 schedule support; JAXA pressurized rover NET FY2032 + Blue Origin habitat NET FY2033 cargo assignments; Altus constellation 2028 plan.

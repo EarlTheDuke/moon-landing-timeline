@@ -436,5 +436,16 @@
     ],
     "url": "https://mda.space/",
     "notes": "Builder of Canadarm3; adapting robotics for lunar-surface/Moon Base logistics after Gateway pause."
+  },
+  {
+    "name": "Toyota",
+    "type": "company",
+    "country": "JP",
+    "programs": [
+      "Artemis"
+    ],
+    "url": "https://global.toyota/en/",
+    "notes": "Partner with JAXA on crewed pressurized lunar rover (Lunar Cruiser nickname).",
+    "id": "toyota"
   }
 ]
