@@ -78,11 +78,12 @@
   {
     "id": "nasa-viper-bo",
     "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-to-deliver-viper-rover-to-moons-south-pole/",
-    "title": "VIPER on Blue Origin",
+    "title": "NASA Selects Blue Origin to Deliver VIPER Rover to Moon’s South Pole",
     "publisher": "NASA",
     "topics": [
       "VIPER",
-      "CLPS"
+      "CLPS",
+      "Blue Moon"
     ],
     "accessed": "2026-09-13"
   },
@@ -262,6 +263,304 @@
     "publisher": "New Space Economy",
     "topics": [
       "ILRS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "firefly-bg2",
+    "url": "https://fireflyspace.com/missions/blue-ghost-mission-2/",
+    "title": "Blue Ghost + Elytra: Lunar Far Side",
+    "publisher": "Firefly Aerospace",
+    "topics": [
+      "CLPS",
+      "Pathfinder",
+      "Rashid 2"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-moonlight-overview",
+    "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/ESA_s_Moonlight_programme_Pioneering_the_path_for_lunar_exploration",
+    "title": "ESA's Moonlight programme",
+    "publisher": "ESA",
+    "topics": [
+      "Moonlight",
+      "LunaNet"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-argonaut-page",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Argonaut_Europe_s_lunar_lander_programme",
+    "title": "Argonaut: Europe's lunar lander programme",
+    "publisher": "ESA",
+    "topics": [
+      "Argonaut"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "cnsa-ilrs-partners",
+    "url": "https://www.cnsa.gov.cn/english/n6465652/n6465653/c10670178/content.html",
+    "title": "ILRS attracts more partners",
+    "publisher": "CNSA",
+    "topics": [
+      "ILRS",
+      "partners"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-pakistan-change8",
+    "url": "https://spacenews.com/pakistan-rover-to-fly-on-chinas-change-8-lunar-south-pole-mission/",
+    "title": "Pakistan rover on Chang'e-8",
+    "publisher": "SpaceNews",
+    "topics": [
+      "ILRS",
+      "Chang'e-8"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "kasa-roadmap-nasa",
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/03/ip-kasa.pdf",
+    "title": "KASA Space Exploration Roadmap IP",
+    "publisher": "NASA / KASA",
+    "topics": [
+      "Korea",
+      "KPLL"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "tass-luna-2032-2036",
+    "url": "https://tass.com/science/2113137",
+    "title": "Russia Luna-28/29/30 2032–2036",
+    "publisher": "TASS",
+    "topics": [
+      "Luna"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "jaxa-slim",
+    "url": "https://global.jaxa.jp/projects/sas/slim/",
+    "title": "SLIM project",
+    "publisher": "JAXA",
+    "topics": [
+      "SLIM",
+      "Japan"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "isro-crewed-2040",
+    "url": "https://www.newindianexpress.com/india/2025/Oct/15/crewed-moon-mission-by-2040-maiden-human-spaceflight-to-launch-in-2027-isro-chief-narayanan-2",
+    "title": "ISRO crewed Moon by 2040",
+    "publisher": "The New Indian Express",
+    "topics": [
+      "India",
+      "crewed"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-argonaut-consortium",
+    "url": "https://spacenews.com/esa-unveils-thales-alenia-space-led-consortium-for-its-argonaut-lunar-lander/",
+    "title": "ESA Argonaut Thales consortium",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Argonaut"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "xinhua-cz10b",
+    "url": "https://english.news.cn/20260710/3ad9cf3d515642f0ba3922040b9a28c6/c.html",
+    "title": "Long March-10B maiden flight and net recovery",
+    "publisher": "Xinhua",
+    "topics": [
+      "CZ-10",
+      "China Crewed Lunar"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-cz10b",
+    "url": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/",
+    "title": "China recovers Long March 10B booster",
+    "publisher": "SpaceNews",
+    "topics": [
+      "CZ-10"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ispace-cp12-termination",
+    "url": "https://www.ispace-inc.com/wp-content/uploads/2026/07/20260715-CP-12-update.pdf",
+    "title": "ispace-U.S. Update on Contract with Draper (CP-12 termination)",
+    "publisher": "ispace",
+    "topics": [
+      "CLPS",
+      "Draper",
+      "APEX",
+      "ispace"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-draper-terminate",
+    "url": "https://spacenews.com/nasa-terminates-draper-lunar-lander-mission/",
+    "title": "NASA terminates Draper lunar lander mission",
+    "publisher": "SpaceNews",
+    "topics": [
+      "CLPS",
+      "Draper",
+      "APEX"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "astrobotic-griffin-unveil",
+    "url": "https://www.astrobotic.com/griffin-1-lunar-lander-unveiled-ahead-of-environmental-testing/",
+    "title": "Griffin-1 Lunar Lander Unveiled Ahead of Environmental Testing",
+    "publisher": "Astrobotic",
+    "topics": [
+      "CLPS",
+      "Griffin",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sfn-griffin-q4-2026",
+    "url": "https://spaceflightnow.com/2026/06/16/astrobotic-showcases-griffin-1-lander-ahead-of-environmental-testing-in-california/",
+    "title": "Astrobotic showcases Griffin-1 lander ahead of environmental testing",
+    "publisher": "Spaceflight Now",
+    "topics": [
+      "CLPS",
+      "Griffin",
+      "Falcon Heavy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sfn-new-glenn-be4-mk1",
+    "url": "https://spaceflightnow.com/2026/08/06/blue-origin-identifies-engine-issue-behind-new-glenn-explosion/",
+    "title": "Blue Origin identifies engine issue behind New Glenn explosion",
+    "publisher": "Spaceflight Now",
+    "topics": [
+      "New Glenn",
+      "Blue Moon",
+      "MK1"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "blue-origin-ng-rtf",
+    "url": "https://www.blueorigin.com/news/new-glenn-return-to-flight",
+    "title": "New Glenn Return to Flight",
+    "publisher": "Blue Origin",
+    "topics": [
+      "New Glenn",
+      "LC-36"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-oig-axemu-2026",
+    "url": "https://oig.nasa.gov/news/spacesuit-development-delays-could-impact-artemis-timeline-and-iss-operations/",
+    "title": "Spacesuit Development Delays Could Impact Artemis Timeline and ISS Operations",
+    "publisher": "NASA OIG",
+    "topics": [
+      "AxEMU",
+      "xEVAS",
+      "Artemis"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-oig-axemu-pdf",
+    "url": "https://oig.nasa.gov/wp-content/uploads/2026/04/final-report-ig-26-006-nasas-acquisition-of-next-generation-spacesuit-services.pdf",
+    "title": "NASA's Acquisition of Next-Generation Spacesuit Services (IG-26-006)",
+    "publisher": "NASA OIG",
+    "topics": [
+      "AxEMU",
+      "xEVAS",
+      "Artemis"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esf-esa-gateway-june2026",
+    "url": "https://europeanspaceflight.com/esa-details-next-steps-for-agencys-gateway-contributions/",
+    "title": "ESA Details Next Steps for Agency's Gateway Contributions",
+    "publisher": "European Spaceflight",
+    "topics": [
+      "ESA",
+      "Gateway",
+      "I-Hab",
+      "Moonlight"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "mda-canadarm3-aug2026",
+    "url": "https://www.prnewswire.com/news-releases/mda-space-responds-to-canadian-space-agency-announcement-on-canadarm3-302845464.html",
+    "title": "MDA Space Responds to Canadian Space Agency Announcement on Canadarm3",
+    "publisher": "MDA Space / PR Newswire",
+    "topics": [
+      "Canadarm3",
+      "CSA",
+      "Artemis"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-canadarm3-lid",
+    "url": "https://spacenews.com/northrop-grumman-canadian-space-agency-repurpose-their-gateway-projects/",
+    "title": "Northrop Grumman, Canadian Space Agency repurpose their Gateway projects",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Canadarm3",
+      "LID",
+      "Gateway"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "asa-roover",
+    "url": "https://www.space.gov.au/meet-roo-ver",
+    "title": "Meet Roo-ver",
+    "publisher": "Australian Space Agency",
+    "topics": [
+      "Roo-ver",
+      "CLPS",
+      "Australia"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "asa-roover-im",
+    "url": "https://www.space.gov.au/news-and-media/nasa-selects-intuitive-machines-to-carry-australian-roover-to-the-moon",
+    "title": "Aussie Moon rover's journey confirmed (Intuitive Machines)",
+    "publisher": "Australian Space Agency",
+    "topics": [
+      "Roo-ver",
+      "CLPS",
+      "Intuitive Machines"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-im3-event",
+    "url": "https://www.nasa.gov/event/clps-flight-intuitive-machines-im-3/",
+    "title": "Moon Base: Intuitive Machines IM-3",
+    "publisher": "NASA",
+    "topics": [
+      "CLPS",
+      "IM-3",
+      "Moon Base"
     ],
     "accessed": "2026-09-13"
   }

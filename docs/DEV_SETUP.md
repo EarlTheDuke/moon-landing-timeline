@@ -3,62 +3,41 @@
 **Machine:** Omarchy (`machineId` `5a081c52-bc37-469c-8f99-1e3fb52a3dd3`)  
 **Project:** `/home/jack/Projects/moon-landing-timeline`  
 **User:** `jack`  
-**Checked:** 2026-09-13 PT
+**Updated:** 2026-09-13 PT
 
-## Already present (data work can proceed)
+## Done (Omar automated)
 
-| Tool | Notes |
+| Tool | Status |
 |------|--------|
-| **git** | 2.55.0 |
-| **Node** | v26.8.1 via mise (`~/.local/share/mise/installs/node/...`) |
-| **Python** | 3.14.7 |
-| **Project dirs** | `docs/`, `data/{events,actors,sources}/`, `research/`, `app/` |
+| **Cursor** | `cursor-bin` 3.20.10 + `cursor-cli` installed; launched on this project |
+| **git** | 2.55.0; identity `jack snider` / `findlife42@gmail.com`; repo initialized |
+| **SSH** | ed25519 key at `~/.ssh/id_ed25519`; `~/.ssh/config` has `github.com` |
+| **Docker** | daemon enabled; `jack` in `docker` group (new login needed for group in terminals) |
+| **Node / Python** | Node via mise; Python 3.x present |
+| **App preview** | Static UI in `app/` — serve from repo root |
 
-No extra runtime install is required to edit or validate JSON/Markdown for this phase.
+## You must do (sign-in / human)
+
+1. **Cursor:** Sign in, then pick the **best / strongest** model on your plan for serious coding.
+2. **Docker (optional now):** Log out/in once so terminals pick up the `docker` group (`docker ps` without permission errors).
+3. **Remotes (later):** Add `~/.ssh/id_ed25519.pub` to GitHub/Origin when we push.
+
+## Preview the timeline UI
+
+```bash
+cd ~/Projects/moon-landing-timeline
+python3 -m http.server 8765
+# open http://127.0.0.1:8765/app/
+```
+
+## Validate data
 
 ```bash
 cd ~/Projects/moon-landing-timeline
 python3 -c 'import json; json.load(open("data/events/events.json")); print("ok")'
-node -e 'JSON.parse(require("fs").readFileSync("data/events/events.json","utf8")); console.log("ok")'
 ```
 
-## Still needed for full agent / app development
+## Safety
 
-### 1. Cursor install
-- Install the Cursor desktop app on Omarchy so local agents and the IDE share this tree.
-- Open `~/Projects/moon-landing-timeline` as the workspace.
-
-### 2. Docker daemon + docker group for `jack`
-- Docker package may be installed, but **daemon not usable yet** and **`jack` is not in the `docker` group**.
-- Typical fix (run with appropriate privileges):
-
-```bash
-# ensure service
-sudo systemctl enable --now docker
-# allow jack to talk to the daemon without root
-sudo usermod -aG docker jack
-# then log out/in (or newgrp docker) before docker ps
-```
-
-- Verify: `docker ps` as `jack` with no permission error.
-
-### 3. SSH keys
-- Generate or install SSH keys for GitHub/GitLab and any remote deploy hosts.
-- Example:
-
-```bash
-ssh-keygen -t ed25519 -C "jack@omarchy" -f ~/.ssh/id_ed25519
-# add ~/.ssh/id_ed25519.pub to GitHub/GitLab
-eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519
-```
-
-## Suggested next tooling (when building `app/`)
-
-- Package manager already via Node/mise; pick a simple stack later (e.g. Vite + static JSON fetch).
-- Optional: `jq` for CLI JSON queries; Docker only when you want containerized preview/deploy.
-- Do **not** block data curation on Docker/Cursor — JSON + git + editor is enough for phase 1.
-
-## Safety / ops
-
-- Do not commit secrets (`.env`, keys). Keep SSH private keys out of the repo.
-- This box is shared among agents; avoid destructive `docker system prune` without intent.
+- Do not commit secrets (`.env`, private keys).
+- Avoid destructive `docker system prune` without intent.

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moon Landing Timeline</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Moon Landing Timeline</h1>
+    <div class="sub">International lunar events — data-first draft (NASA/Artemis, commercial, China, Russia, ESA, India, Japan, Korea, UAE, partners)</div>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search title, actors, program…" autocomplete="off" />
+      <select id="status" aria-label="Filter by status"><option value="">All statuses</option></select>
+      <select id="country" aria-label="Filter by country"><option value="">All countries</option></select>
+    </div>
+  </header>
+  <main>
+    <div class="meta" id="meta">Loading events…</div>
+    <div class="timeline" id="list"></div>
+  </main>
+  <footer>Serve from repo root so <code>../data/events/events.json</code> loads. Example: <code>python3 -m http.server 8765</code> then open <code>/app/</code>. Events grouped by year; sticky year pills stay visible while scrolling.</footer>
+  <script src="./app.js"></script>
+</body>
+</html>

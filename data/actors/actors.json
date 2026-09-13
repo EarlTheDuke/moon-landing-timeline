@@ -19,10 +19,11 @@
     "type": "agency",
     "country": "EU",
     "programs": [
-      "Moonlight",
       "Argonaut",
+      "Gateway",
+      "LunaNet",
       "MAGPIE",
-      "Gateway"
+      "Moonlight"
     ],
     "url": "https://www.esa.int/",
     "notes": "Orion ESM; Moonlight LCNS; Argonaut lander; MAGPIE rover."
@@ -68,8 +69,10 @@
     "type": "agency",
     "country": "JP",
     "programs": [
+      "Gateway",
       "LUPEX",
-      "Gateway"
+      "LunaNet",
+      "SLIM"
     ],
     "url": "https://www.jaxa.jp/",
     "notes": "LUPEX rover with ISRO; Gateway contributions historically."
@@ -104,10 +107,11 @@
     "type": "agency",
     "country": "KR",
     "programs": [
-      "Danuri"
+      "Danuri",
+      "KPLL"
     ],
     "url": "https://www.kari.re.kr/",
-    "notes": "KPLO/Danuri orbiter (2022); CLPS payload participation."
+    "notes": "KPLO/Danuri orbiter (2022); leads national KPLL lander with KASA."
   },
   {
     "id": "mbrsc",
@@ -118,7 +122,7 @@
       "Emirates Lunar Mission"
     ],
     "url": "https://www.mbrsc.ae/",
-    "notes": "Rashid rover program; Rashid 2 on commercial lander."
+    "notes": "Emirates Lunar Mission; Rashid 1 lost on Hakuto-R M1; Rashid 2 on Firefly Blue Ghost M2 far side."
   },
   {
     "id": "spacex",
@@ -329,5 +333,108 @@
     ],
     "url": "https://www.pradagroup.com/",
     "notes": "AxEMU outer layer and LCVG partnership."
+  },
+  {
+    "id": "kasa",
+    "name": "KASA",
+    "type": "agency",
+    "country": "KR",
+    "programs": [
+      "Danuri"
+    ],
+    "url": "https://www.kasa.go.kr/",
+    "notes": "Korea AeroSpace Administration; lunar lander roadmap and CLPS payloads."
+  },
+  {
+    "id": "suparco",
+    "name": "SUPARCO",
+    "type": "agency",
+    "country": "PK",
+    "programs": [
+      "ILRS"
+    ],
+    "url": "https://suparco.gov.pk/",
+    "notes": "Pakistan space agency; Jinnah-1 rover on Chang'e-8; ILRS partner."
+  },
+  {
+    "id": "telespazio",
+    "name": "Telespazio",
+    "type": "company",
+    "country": "IT",
+    "programs": [
+      "Moonlight"
+    ],
+    "url": "https://www.telespazio.com/",
+    "notes": "Prime of Moonlight LCNS industrial consortium for ESA."
+  },
+  {
+    "id": "thales-alenia-space",
+    "name": "Thales Alenia Space",
+    "type": "company",
+    "country": "FR",
+    "programs": [
+      "Argonaut",
+      "Gateway"
+    ],
+    "url": "https://www.thalesaleniaspace.com/",
+    "notes": "Argonaut Lunar Descent Element prime (Italy entity); historical Gateway modules."
+  },
+  {
+    "id": "fleet-space",
+    "name": "Fleet Space",
+    "type": "company",
+    "country": "AU",
+    "programs": [
+      "CLPS"
+    ],
+    "url": "https://www.fleetspace.com/",
+    "notes": "SPIDER seismic payload on Blue Ghost Mission 2."
+  },
+  {
+    "id": "volta-space",
+    "name": "Volta Space",
+    "type": "company",
+    "country": "CA",
+    "programs": [
+      "CLPS"
+    ],
+    "url": "https://www.voltaspace.tech/",
+    "notes": "LightPort wireless power demo on Blue Ghost Mission 2."
+  },
+  {
+    "id": "cast",
+    "name": "CAST",
+    "type": "company",
+    "country": "CN",
+    "programs": [
+      "CLEP",
+      "ILRS"
+    ],
+    "url": "http://www.cast.cn/",
+    "notes": "China Academy of Space Technology; Chang'e spacecraft."
+  },
+  {
+    "id": "australian-space-agency",
+    "name": "Australian Space Agency",
+    "type": "agency",
+    "country": "AU",
+    "programs": [
+      "Artemis",
+      "CLPS"
+    ],
+    "url": "https://www.space.gov.au/",
+    "notes": "National agency funding Roo-ver and Australian CLPS payloads (e.g. Fleet SPIDER)."
+  },
+  {
+    "id": "mda-space",
+    "name": "MDA Space",
+    "type": "company",
+    "country": "CA",
+    "programs": [
+      "Artemis",
+      "Gateway"
+    ],
+    "url": "https://mda.space/",
+    "notes": "Builder of Canadarm3; adapting robotics for lunar-surface/Moon Base logistics after Gateway pause."
   }
 ]

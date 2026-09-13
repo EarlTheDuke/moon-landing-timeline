@@ -1,0 +1,255 @@
+:root {
+  --bg: #0b1020;
+  --panel: #121a2f;
+  --panel-2: #162038;
+  --text: #e8eefc;
+  --muted: #9aa8c7;
+  --line: #2a3658;
+  --accent: #c9d4ff;
+  --ok: #6dcea0;
+  --planned: #7eb6ff;
+  --scheduled: #5ec8e8;
+  --inprogress: #a78bfa;
+  --slipped: #e0b35a;
+  --conceptual: #c4b5fd;
+  --cancelled: #e07a7a;
+  --rumored: #f0c674;
+  --confirmed: #6dcea0;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: radial-gradient(1200px 600px at 20% -10%, #1a2748, var(--bg));
+  color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+  background: rgba(11, 16, 32, 0.88);
+  border-bottom: 1px solid var(--line);
+  padding: 0.85rem 1rem 1rem;
+}
+
+h1 {
+  margin: 0 0 0.3rem;
+  font-size: clamp(1.15rem, 3.5vw, 1.4rem);
+  letter-spacing: 0.02em;
+}
+
+.sub {
+  color: var(--muted);
+  font-size: 0.9rem;
+  max-width: 52rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.8rem;
+}
+
+input, select {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.95rem;
+  min-height: 2.5rem;
+}
+
+input { min-width: min(100%, 220px); flex: 1 1 200px; }
+select { flex: 0 1 auto; min-width: 8.5rem; }
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.5rem;
+}
+
+.meta {
+  color: var(--muted);
+  margin-bottom: 0.85rem;
+  font-size: 0.9rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--line);
+}
+
+.year-group {
+  margin: 0 0 1.15rem;
+}
+
+.year-header {
+  position: sticky;
+  top: 5.6rem;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0 0 0.65rem 0.15rem;
+  padding: 0.35rem 0.65rem;
+  background: rgba(11, 16, 32, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  width: fit-content;
+  max-width: calc(100% - 0.5rem);
+}
+
+.year-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+}
+
+.year-count {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.event {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0.95rem 1rem;
+  margin: 0 0 0.85rem 0.65rem;
+}
+
+.event::before {
+  content: "";
+  position: absolute;
+  left: -1.42rem;
+  top: 1.15rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(201, 212, 255, 0.15);
+}
+
+.event.status-completed::before { background: var(--ok); }
+.event.status-planned::before,
+.event.status-scheduled::before { background: var(--planned); }
+.event.status-slipped::before { background: var(--slipped); }
+.event.status-cancelled::before { background: var(--cancelled); }
+.event.status-in_progress::before { background: var(--inprogress); }
+.event.status-conceptual::before { background: var(--conceptual); }
+
+.date {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-bottom: 0.3rem;
+}
+
+.title-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.6rem;
+  align-items: baseline;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.02rem;
+  flex: 1 1 12rem;
+  line-height: 1.35;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.badge {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 999px;
+  padding: 0.18rem 0.5rem;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.badge.status-completed { color: var(--ok); border-color: color-mix(in srgb, var(--ok) 45%, var(--line)); background: color-mix(in srgb, var(--ok) 12%, transparent); }
+.badge.status-planned { color: var(--planned); border-color: color-mix(in srgb, var(--planned) 45%, var(--line)); background: color-mix(in srgb, var(--planned) 10%, transparent); }
+.badge.status-scheduled { color: var(--scheduled); border-color: color-mix(in srgb, var(--scheduled) 45%, var(--line)); background: color-mix(in srgb, var(--scheduled) 10%, transparent); }
+.badge.status-in_progress { color: var(--inprogress); border-color: color-mix(in srgb, var(--inprogress) 45%, var(--line)); background: color-mix(in srgb, var(--inprogress) 12%, transparent); }
+.badge.status-slipped { color: var(--slipped); border-color: color-mix(in srgb, var(--slipped) 45%, var(--line)); background: color-mix(in srgb, var(--slipped) 12%, transparent); }
+.badge.status-conceptual { color: var(--conceptual); border-color: color-mix(in srgb, var(--conceptual) 45%, var(--line)); background: color-mix(in srgb, var(--conceptual) 10%, transparent); }
+.badge.status-cancelled { color: var(--cancelled); border-color: color-mix(in srgb, var(--cancelled) 45%, var(--line)); background: color-mix(in srgb, var(--cancelled) 12%, transparent); }
+
+.badge.confidence-confirmed { color: var(--confirmed); border-color: color-mix(in srgb, var(--confirmed) 40%, var(--line)); }
+.badge.confidence-planned { color: var(--planned); border-color: color-mix(in srgb, var(--planned) 35%, var(--line)); }
+.badge.confidence-rumored { color: var(--rumored); border-color: color-mix(in srgb, var(--rumored) 40%, var(--line)); }
+
+.summary {
+  margin: 0.55rem 0 0.3rem;
+  color: #d5def5;
+  font-size: 0.95rem;
+}
+
+.actors {
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+.notes {
+  margin-top: 0.4rem;
+  color: #b8c4e0;
+  font-size: 0.8rem;
+  border-left: 2px solid var(--line);
+  padding-left: 0.55rem;
+}
+
+.empty {
+  color: var(--muted);
+  padding: 2rem 0.5rem;
+}
+
+footer {
+  max-width: 920px;
+  margin: 0 auto 2rem;
+  padding: 0.75rem 1rem 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+footer code {
+  font-size: 0.75rem;
+  background: var(--panel-2);
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  header { padding: 0.75rem 0.85rem 0.9rem; }
+  .year-header { top: 7.2rem; }
+  .timeline { padding-left: 0.7rem; }
+  .event { margin-left: 0.45rem; padding: 0.85rem 0.85rem; }
+  .event::before { left: -1.22rem; }
+  h2 { font-size: 0.98rem; flex-basis: 100%; }
+  .controls { gap: 0.45rem; }
+  input, select { width: 100%; flex: 1 1 100%; }
+}
+
+@media (min-width: 900px) {
+  .year-header { top: 5.2rem; }
+}
