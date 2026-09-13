@@ -683,5 +683,960 @@
     ],
     "id": "sfn-artemis-iii-crew",
     "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-ignition-release",
+    "url": "https://www.nasa.gov/news-release/nasa-unveils-initiatives-to-achieve-americas-national-space-policy/",
+    "title": "NASA Unveils Initiatives to Achieve America's National Space Policy",
+    "publisher": "NASA",
+    "topics": [
+      "Ignition",
+      "Moon Base",
+      "policy",
+      "Gateway"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-ignition-pdf",
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/03/ignition.pdf",
+    "title": "Igniting a Golden Age of Exploration and Innovation (Ignition fact sheet)",
+    "publisher": "NASA",
+    "topics": [
+      "Ignition",
+      "Moon Base",
+      "architecture",
+      "CLPS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-ignition-page",
+    "url": "https://www.nasa.gov/ignition/",
+    "title": "Ignition",
+    "publisher": "NASA",
+    "topics": [
+      "Ignition",
+      "CLPS",
+      "CX-2",
+      "CS-8"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-moonbase-about",
+    "url": "https://www.nasa.gov/reference/moonbase-about/",
+    "title": "About Moon Base",
+    "publisher": "NASA",
+    "topics": [
+      "Moon Base",
+      "architecture",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-moonbase-users-guide",
+    "url": "https://nasa.gov/wp-content/uploads/2026/04/moon-base-architecture-users-guide.pdf",
+    "title": "Moon Base Architecture User's Guide",
+    "publisher": "NASA",
+    "topics": [
+      "Moon Base",
+      "architecture",
+      "ISRU",
+      "SR-1 Freedom"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-building-moonbase-pdf",
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/03/building-the-moon-base-1.pdf",
+    "title": "Building the Moon Base (phase overview)",
+    "publisher": "NASA",
+    "topics": [
+      "Moon Base",
+      "architecture",
+      "MoonFall"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nsf-moonbase-phases",
+    "url": "https://www.nasaspaceflight.com/2026/03/nasa-moon-base-pivots-gateway/",
+    "title": "NASA outlines Moon Base plans, pivots on Gateway",
+    "publisher": "NASASpaceFlight",
+    "topics": [
+      "Moon Base",
+      "Gateway",
+      "architecture",
+      "ISRU"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-cs8-awards",
+    "url": "https://www.nasa.gov/news-release/nasa-awards-more-moon-base-science-previews-new-opportunities/",
+    "title": "NASA Awards More Moon Base Science, Previews New Opportunities",
+    "publisher": "NASA",
+    "topics": [
+      "CLPS",
+      "CS-8",
+      "Moon Base",
+      "PROMISE"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-cs8-600m",
+    "url": "https://spacenews.com/nasa-awards-nearly-600-million-in-lunar-lander-missions/",
+    "title": "NASA awards nearly $600 million in lunar lander missions",
+    "publisher": "SpaceNews",
+    "topics": [
+      "CLPS",
+      "CS-8",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spo-cs8-awards",
+    "url": "https://spacepolicyonline.com/news/nasa-awards-more-clps-contracts-may-send-mars-rover-engineering-model-to-the-moon/",
+    "title": "NASA Awards More CLPS Contracts, May Send Mars Rover Engineering Model to the Moon",
+    "publisher": "SpacePolicyOnline",
+    "topics": [
+      "CLPS",
+      "CS-8",
+      "PROMISE",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "astrobotic-voyager-close",
+    "url": "https://www.astrobotic.com/voyager-awarded-298m-nasa-contract-under-completed-astrobotic-acquisition/",
+    "title": "Voyager awarded $298M NASA contract under completed Astrobotic acquisition",
+    "publisher": "Astrobotic / Voyager Technologies",
+    "topics": [
+      "Griffin",
+      "Peregrine",
+      "CS-8",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-clps-deliveries",
+    "url": "https://science.nasa.gov/lunar-science/clps-deliveries/",
+    "title": "Commercial Lunar Payload Services (CLPS) Deliveries",
+    "publisher": "NASA Science",
+    "topics": [
+      "CLPS",
+      "task orders",
+      "CT-3",
+      "CT-4",
+      "CS-6"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-cs6-science",
+    "url": "https://science.nasa.gov/lunar-science/programs/clps/cs-6-science/",
+    "title": "CS-6 Science",
+    "publisher": "NASA Science",
+    "topics": [
+      "CLPS",
+      "CS-6",
+      "Blue Ghost"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "firefly-bg4-award",
+    "url": "https://fireflyspace.com/news/firefly-awarded-177-million-nasa-contract-for-mission-to-the-moons-south-pole/",
+    "title": "Firefly Awarded $177 Million NASA Contract for Mission to the Moon's South Pole",
+    "publisher": "Firefly Aerospace",
+    "topics": [
+      "CLPS",
+      "CS-6",
+      "Blue Ghost",
+      "Haworth"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-firefly-cs6",
+    "url": "https://www.nasa.gov/news-release/nasa-selects-firefly-for-new-artemis-science-tech-delivery-to-moon/",
+    "title": "NASA Selects Firefly for New Artemis Science, Tech Delivery to Moon",
+    "publisher": "NASA",
+    "topics": [
+      "CLPS",
+      "CS-6",
+      "Blue Ghost"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "firefly-bg-south-pole",
+    "url": "https://fireflyspace.com/missions/blue-ghost-elytra-lunar-south-pole/",
+    "title": "Blue Ghost + Elytra: Lunar South Pole",
+    "publisher": "Firefly Aerospace",
+    "topics": [
+      "Blue Ghost",
+      "Elytra",
+      "Ocula"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "firefly-moonfall-award",
+    "url": "https://fireflyspace.com/news/firefly-aerospace-wins-75-million-nasa-jpl-moonfall-subcontract-to-deliver-drones-to-the-moons-south-pole/",
+    "title": "Firefly Aerospace Wins $75 Million NASA JPL MoonFall Subcontract",
+    "publisher": "Firefly Aerospace",
+    "topics": [
+      "MoonFall",
+      "Elytra",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "jpl-moonfall",
+    "url": "https://www.jpl.nasa.gov/missions/moonfall/",
+    "title": "MoonFall: NASA's Lunar Drone Mission",
+    "publisher": "NASA JPL",
+    "topics": [
+      "MoonFall",
+      "drones",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "firefly-elytra-moonfall",
+    "url": "https://fireflyspace.com/missions/elytra-nasa-moonfall/",
+    "title": "Elytra — NASA MoonFall",
+    "publisher": "Firefly Aerospace",
+    "topics": [
+      "MoonFall",
+      "Elytra"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "space-moonfall-detail",
+    "url": "https://www.space.com/astronomy/moon/nasa-wants-to-use-a-fleet-of-moonfall-drones-to-scout-the-lunar-south-pole-we-believe-we-can-do-it",
+    "title": "NASA wants to use a fleet of MoonFall drones to scout the lunar south pole",
+    "publisher": "Space.com",
+    "topics": [
+      "MoonFall",
+      "drones"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-oig-hls-ig26004",
+    "url": "https://oig.nasa.gov/wp-content/uploads/2026/03/final-report-ig-26-004-nasas-management-of-the-human-landing-system-contracts.pdf",
+    "title": "NASA's Management of the Human Landing System Contracts (IG-26-004)",
+    "publisher": "NASA OIG",
+    "topics": [
+      "HLS",
+      "Starship",
+      "Blue Moon",
+      "propellant transfer",
+      "Artemis IV"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-artemis-iii-engine-blog",
+    "url": "https://www.nasa.gov/blogs/missions/2026/08/27/nasa-starts-artemis-iii-engine-install-boosters-crew-training-advance/",
+    "title": "NASA Starts Artemis III Engine Install; Boosters, Crew Training Advance",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis III",
+      "SLS",
+      "Orion",
+      "crew"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ars-artemis-iii-late-2027",
+    "url": "https://arstechnica.com/space/2026/04/put-it-in-pencil-nasas-artemis-iii-mission-will-launch-no-earlier-than-late-2027/",
+    "title": "Put it in pencil: NASA's Artemis III mission will launch no earlier than late 2027",
+    "publisher": "Ars Technica",
+    "topics": [
+      "Artemis III",
+      "HLS",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "aa-sls-centaur-v",
+    "url": "https://aerospaceamerica.aiaa.org/inside-nasa-marshalls-progress-on-artemis-iii-hardware-plans-for-new-sls-upper-stage/",
+    "title": "Inside NASA Marshall's progress on Artemis III hardware, plans for new SLS upper stage",
+    "publisher": "Aerospace America (AIAA)",
+    "topics": [
+      "SLS",
+      "Centaur V",
+      "Artemis III",
+      "Artemis V"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "payload-artemis-iii-landers",
+    "url": "https://payloadspace.com/artemis-iii-astronauts-will-meet-spacex-blue-origin-landers-in-earth-orbit/",
+    "title": "Artemis III Astronauts Will Meet SpaceX, Blue Origin Landers in Earth Orbit",
+    "publisher": "Payload",
+    "topics": [
+      "Artemis III",
+      "HLS",
+      "propellant transfer"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "aa-axemu-qualification",
+    "url": "https://aerospaceamerica.aiaa.org/axiom-readies-for-yearlong-spacesuit-qualification-testing/",
+    "title": "Axiom Space readies for yearlong spacesuit qualification testing",
+    "publisher": "Aerospace America (AIAA)",
+    "topics": [
+      "AxEMU",
+      "suits",
+      "xEVAS",
+      "Artemis IV"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacedaily-starship-refuel",
+    "url": "https://spacedaily.com/t-starship-large-scale-orbital-refuelling-mars/",
+    "title": "Starship and large-scale orbital refuelling",
+    "publisher": "SpaceDaily",
+    "topics": [
+      "Starship",
+      "propellant transfer"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-ce7-rollback",
+    "url": "https://spacenews.com/long-march-6c-launches-7-satellites-change-7-rocket-rolled-back-to-assembly-building/",
+    "title": "Long March 6C launches 7 satellites, Chang'e-7 rocket rolled back to assembly building",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Chang'e-7",
+      "CLEP"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "cnsa-ce7-ao-pdf",
+    "url": "https://www.cnsa.gov.cn/english/n6465645/n6465648/c6840870/part/6797907.pdf",
+    "title": "Chang'E-7 Mission Announcement of Opportunity",
+    "publisher": "CNSA",
+    "topics": [
+      "Chang'e-7",
+      "CLEP",
+      "partners"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "narit-ce7-delay",
+    "url": "https://www.narit.or.th/en/PressRelease-20260823-UPDATE-launch-of-LONG-MARCH-5-Y14",
+    "title": "UPDATE: Launch of Long March 5 Y14 carrying Chang'e 7 delayed by a month",
+    "publisher": "NARIT (Thailand)",
+    "topics": [
+      "Chang'e-7",
+      "MATCH",
+      "partners"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "govcn-ce7-south-pole",
+    "url": "https://english.www.gov.cn/news/202605/23/content_WS6a118ca1c6d00ca5f9a0b33c.html",
+    "title": "China's upcoming lunar mission to target moon's south pole",
+    "publisher": "The State Council of the PRC",
+    "topics": [
+      "Chang'e-7",
+      "CMSA",
+      "CZ-10"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "cnsa-ce8-2029",
+    "url": "https://www.cnsa.gov.cn/english/n6465652/n6465653/c10670293/content.html",
+    "title": "China to launch Chang'e-8 lunar mission around 2029, collaborating with int'l partners",
+    "publisher": "CNSA",
+    "topics": [
+      "Chang'e-8",
+      "ILRS",
+      "partners",
+      "ISRU"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-ce8-reconfig",
+    "url": "https://spacenews.com/china-alters-change-8-lunar-south-pole-mission-amid-lunar-program-reorganization/",
+    "title": "China alters Chang'e-8 lunar south pole mission amid lunar program reorganization",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Chang'e-8",
+      "CMSA",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "china-in-space-clep-cmsa",
+    "url": "https://www.china-in-space.com/p/change-missions-are-now-managed-by",
+    "title": "Chang'e Missions Are Now Managed by China Manned Space Agency",
+    "publisher": "China in Space",
+    "topics": [
+      "CLEP",
+      "CMSA",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "jamestown-whole-of-nation",
+    "url": "https://jamestown.substack.com/p/space-sector-is-test-bed-for-new",
+    "title": "Space Sector is Test Bed for New Whole-of-Nation System",
+    "publisher": "Jamestown Foundation",
+    "topics": [
+      "CLEP",
+      "CMSA",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "govcn-lanyue-test",
+    "url": "https://english.www.gov.cn/news/202508/07/content_WS68949af4c6d0868f4e8f4b21.html",
+    "title": "China completes first landing, takeoff test of manned lunar lander",
+    "publisher": "The State Council of the PRC / CMSA",
+    "topics": [
+      "Lanyue",
+      "China Crewed Lunar",
+      "crewed landing"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-lanyue-test",
+    "url": "https://spacenews.com/china-completes-landing-and-takeoff-test-for-crewed-moon-lander/",
+    "title": "China completes landing and takeoff test for crewed moon lander",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Lanyue",
+      "China Crewed Lunar",
+      "CZ-10"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-isaacman-circumlunar",
+    "url": "https://spacenews.com/isaacman-expects-chinese-crewed-mission-around-the-moon-in-2027/",
+    "title": "Isaacman expects Chinese crewed mission around the moon in 2027",
+    "publisher": "SpaceNews",
+    "topics": [
+      "China Crewed Lunar",
+      "Mengzhou",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "iki-luna26",
+    "url": "https://iki.cosmos.ru/research/missions/luna-26",
+    "title": "Luna-26 mission page",
+    "publisher": "IKI RAS (Space Research Institute)",
+    "topics": [
+      "Luna",
+      "relay",
+      "Luna-26"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "interfax-luna27-2029",
+    "url": "https://interfax.com/newsroom/top-stories/113182/",
+    "title": "Launch of Russia's Luna 27 spacecraft moved to 2029",
+    "publisher": "Interfax",
+    "topics": [
+      "Luna",
+      "Luna-27"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "interfax-ilrs-power-memo",
+    "url": "https://interfax.com/newsroom/top-stories/111329/",
+    "title": "Roscosmos, CNSA sign memorandum of cooperation to build lunar power plant",
+    "publisher": "Interfax",
+    "topics": [
+      "ILRS",
+      "nuclear power",
+      "partners"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "reuters-lunar-nuclear",
+    "url": "https://www.reuters.com/business/aerospace-defense/russia-plans-nuclear-power-plant-moon-within-decade-2025-12-24/",
+    "title": "Russia plans a nuclear power plant on the moon within a decade",
+    "publisher": "Reuters",
+    "topics": [
+      "ILRS",
+      "nuclear power",
+      "Luna"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "wnn-lunar-power-2036",
+    "url": "https://world-nuclear-news.org/articles/russia-targeting-lunar-power-station-by-2036",
+    "title": "Russia targeting lunar power station by 2036",
+    "publisher": "World Nuclear News",
+    "topics": [
+      "ILRS",
+      "nuclear power",
+      "Lavochkin"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "isro-ch5-lupex-tim",
+    "url": "https://www.isro.gov.in/ISRO_EN/ISRO_JAXA_CH5_Technical_Interface_Meet.html",
+    "title": "ISRO and JAXA Gear Up for Joint Chandrayaan-5 / LUPEX Mission in the Technical Interface Meet",
+    "publisher": "ISRO",
+    "topics": [
+      "LUPEX",
+      "Chandrayaan-5",
+      "India",
+      "Japan"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "news9-lupex-pdr",
+    "url": "https://www.news9live.com/science/isro-jaxa-conduct-prelimnary-design-review-of-chandrayaan-5-lupex-mission-2950630",
+    "title": "ISRO, JAXA conduct Preliminary Design Review of Chandrayaan 5/LUPEX mission",
+    "publisher": "News9",
+    "topics": [
+      "LUPEX",
+      "Chandrayaan-5"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "indiatoday-lupex-tanegashima",
+    "url": "https://www.indiatoday.in/science/story/isro-jaxa-chandrayaan-5-lupex-mission-tanegashima-space-centre-moon-south-pole-launch-preparations-2028-india-japan-space-collaboration-2902164-2026-04-27",
+    "title": "ISRO team visits Japan to assess Chandrayaan-5 launch site prep",
+    "publisher": "India Today",
+    "topics": [
+      "LUPEX",
+      "Chandrayaan-5",
+      "H3"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ispace-ultra-announcement",
+    "url": "https://www.ispace-inc.com/2026/03/27/ispace-announces-new-ultra-lunar-lander-integrating-japanese-and-u-s-lander-models/",
+    "title": "ispace Announces New \"ULTRA\" Lunar Lander Integrating Japanese and U.S. Lander Models",
+    "publisher": "ispace",
+    "topics": [
+      "ispace",
+      "ULTRA",
+      "APEX"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ispace-schedule-statement",
+    "url": "https://www.ispace-inc.com/2026/03/30/statement-regarding-certain-reports-in-domestic-media/",
+    "title": "Statement Regarding Certain Reports in Domestic Media (mission schedule)",
+    "publisher": "ispace",
+    "topics": [
+      "ispace",
+      "ULTRA",
+      "Mission 2.5"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-ispace-redesign",
+    "url": "https://spacenews.com/ispace-redesigns-lunar-lander-introduces-lunar-communications-service/",
+    "title": "ispace redesigns lunar lander, introduces lunar communications service",
+    "publisher": "SpaceNews",
+    "topics": [
+      "ispace",
+      "ULTRA",
+      "comms"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ispace-q1-fy2027",
+    "url": "https://www.ispace-inc.com/2026/08/07/ispace-announces-q1-financial-results-for-the-fiscal-year-ending-march-2027/",
+    "title": "ispace Announces Q1 Financial Results for the Fiscal Year Ending March 2027",
+    "publisher": "ispace",
+    "topics": [
+      "ispace",
+      "Mission 2.5",
+      "APEX"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ispace-mission3-page",
+    "url": "https://www.ispace-inc.com/mission-3/",
+    "title": "Mission 3 ULTRA",
+    "publisher": "ispace",
+    "topics": [
+      "ispace",
+      "ULTRA",
+      "Japan"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-magpie-rover-signing",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ESA_s_first_lunar_rover_rolls_forward",
+    "title": "ESA's first lunar rover rolls forward",
+    "publisher": "ESA",
+    "topics": [
+      "MAGPIE",
+      "ESA",
+      "Moon Explore",
+      "rover"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esf-magpie-65m",
+    "url": "https://europeanspaceflight.com/esa-awards-ispace-e65m-contract-to-build-and-deliver-magpie-rover-to-the-moon/",
+    "title": "ESA Awards ispace €65M Contract to Build and Deliver MAGPIE Rover to the Moon",
+    "publisher": "European Spaceflight",
+    "topics": [
+      "MAGPIE",
+      "ispace",
+      "ESA"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-argonaut-family",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Argonaut_lunar_lander_family_grows",
+    "title": "Argonaut lunar lander family grows",
+    "publisher": "ESA",
+    "topics": [
+      "Argonaut",
+      "ESA",
+      "cargo"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacewatch-esa-ministerial",
+    "url": "https://spacewatch.global/2026/06/esa-council-sets-december-ministerial-in-rome-reframes-exploration-after-nasas-gateway-decision/",
+    "title": "ESA Council Sets December Ministerial in Rome, Reframes Exploration After NASA's Gateway Decision",
+    "publisher": "SpaceWatch.Global",
+    "topics": [
+      "ESA",
+      "policy",
+      "I-Hab",
+      "Gateway"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-international-space-summit",
+    "url": "https://www.esa.int/About_Us/Corporate_news/Europe_s_space_future_in_focus_at_the_International_Space_Summit",
+    "title": "Europe's space future in focus at the International Space Summit",
+    "publisher": "ESA",
+    "topics": [
+      "ESA",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "politico-aschbacher-crew",
+    "url": "https://www.politico.eu/article/european-space-agency-josef-aschbacher-launch-without-nasa/",
+    "title": "Europe's space chief wants decision this year on launching without NASA",
+    "publisher": "POLITICO Europe",
+    "topics": [
+      "ESA",
+      "policy",
+      "crew"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "tas-mph-contract",
+    "url": "https://www.thalesaleniaspace.com/en/press-releases/thales-alenia-space-signs-contract-italian-space-agency-asi-develop-first-human",
+    "title": "Thales Alenia Space signs a contract with ASI to develop the first human outpost on the lunar surface",
+    "publisher": "Thales Alenia Space",
+    "topics": [
+      "MPH",
+      "ASI",
+      "Moon Base",
+      "habitat"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esf-mph-srr",
+    "url": "https://europeanspaceflight.com/italys-lunar-habitat-clears-nasa-system-requirements-review/",
+    "title": "Italy's Lunar Habitat Clears NASA System Requirements Review",
+    "publisher": "European Spaceflight",
+    "topics": [
+      "MPH",
+      "ASI",
+      "Moon Base",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esf-mph-design-contract",
+    "url": "https://europeanspaceflight.com/asi-awards-new-lunar-habitat-contract-to-thales-alenia-space/",
+    "title": "ASI Awards New Lunar Habitat Contract to Thales Alenia Space",
+    "publisher": "European Spaceflight",
+    "topics": [
+      "MPH",
+      "ASI",
+      "habitat"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "payload-canadarm3-pivot",
+    "url": "https://payloadspace.com/mda-space-will-repurpose-canadarm3-for-lunar-surface/",
+    "title": "MDA Space Will 'Repurpose' Canadarm3 For Lunar Surface",
+    "publisher": "Payload",
+    "topics": [
+      "Canadarm3",
+      "CSA",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spaceq-moonbase-canada",
+    "url": "https://spaceq.ca/nasa-unveils-new-moon-base-plans-pauses-lunar-gateway/",
+    "title": "NASA unveils new Moon base plans, pauses Lunar Gateway",
+    "publisher": "SpaceQ",
+    "topics": [
+      "Moon Base",
+      "CSA",
+      "LUV",
+      "MPH"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "darpa-lasso-program",
+    "url": "https://www.darpa.mil/research/programs/lunar-assay-small-satellite-orbiter",
+    "title": "LASSO — Lunar Assay via Small Satellite Orbiter",
+    "publisher": "DARPA",
+    "topics": [
+      "LASSO",
+      "orbiter",
+      "ISRU"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "orbitaltoday-lasso-awards",
+    "url": "https://orbitaltoday.com/2026/05/03/darpa-awards-three-companies-lasso-contracts/",
+    "title": "DARPA Awards Three Companies LASSO Contracts",
+    "publisher": "Orbital Today",
+    "topics": [
+      "LASSO",
+      "orbiter"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-falcon9-lunar-impact",
+    "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact/",
+    "title": "NASA Will Attempt to Observe Rocket Part's Lunar Impact",
+    "publisher": "NASA",
+    "topics": [
+      "space debris",
+      "Blue Ghost",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-upper-stage-disposal",
+    "url": "https://spacenews.com/nasa-spacex-studying-how-to-prevent-future-upper-stage-lunar-collisions/",
+    "title": "NASA, SpaceX studying how to prevent future upper stage lunar collisions",
+    "publisher": "SpaceNews",
+    "topics": [
+      "space debris",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-accords-turkiye",
+    "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-turkiye-as-newest-artemis-accords-signatory/",
+    "title": "NASA Welcomes Türkiye as Newest Artemis Accords Signatory",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis Accords",
+      "partners",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "state-accords-turkiye",
+    "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/united-states-welcomes-turkiyes-signing-of-the-artemis-accords",
+    "title": "United States Welcomes Türkiye's Signing of the Artemis Accords",
+    "publisher": "U.S. Department of State",
+    "topics": [
+      "Artemis Accords",
+      "partners"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-accords-hub",
+    "url": "https://www.nasa.gov/artemis-accords/",
+    "title": "Artemis Accords",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis Accords",
+      "partners",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "yonhap-kasa-2027-budget",
+    "url": "https://en.yna.co.kr/view/AEN20260901007700320",
+    "title": "KASA seeks record budget for 2027 to nurture space as strategic industry",
+    "publisher": "Yonhap News Agency",
+    "topics": [
+      "Korea",
+      "KPLL",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sedaily-kasa-budget",
+    "url": "https://en.sedaily.com/technology/2026/09/01/korea-space-agency-budget-jumps-47-percent-to-165-trillion",
+    "title": "Korea Space Agency Budget Jumps 47% to 1.65 Trillion Won",
+    "publisher": "Seoul Economic Daily",
+    "topics": [
+      "Korea",
+      "KPLL",
+      "comms",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "donga-kasa-2026-plan",
+    "url": "https://dongascience.com/en/news/75820",
+    "title": "South Korea's KASA to boost lunar lander development despite R&D budget limits",
+    "publisher": "DongA Science",
+    "topics": [
+      "Korea",
+      "KPLL",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sfn-ltv-rovers-2026",
+    "url": "https://spaceflightnow.com/2026/06/26/next-gen-astronaut-moon-rovers-aim-for-deployment-ahead-of-artemis-4-crew-arrival/",
+    "title": "Next-gen astronaut Moon rovers aim for deployment ahead of Artemis 4 crew arrival",
+    "publisher": "Spaceflight Now",
+    "topics": [
+      "LTV",
+      "Moon Base",
+      "MK1"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "isstracker-bo-lander-fleet",
+    "url": "https://isstracker.pl/en/news/blue-origin-kontynuuje-prace-nad-ladownikami-ksiezycowymi-podczas-odzyskiwania-po-wybuchu-rakiety-new-glenn,6TzPHG",
+    "title": "Blue Origin continues work on lunar landers during recovery from New Glenn explosion",
+    "publisher": "ISS Tracker / SpaceNews",
+    "topics": [
+      "MK1",
+      "Blue Moon",
+      "VIPER",
+      "LTV",
+      "LC-36"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-ct3-scalpss",
+    "url": "https://spacenews.com/nasa-payload-to-fly-on-first-blue-origin-lunar-lander-mission/",
+    "title": "NASA payload to fly on first Blue Origin lunar lander mission (CT-3)",
+    "publisher": "SpaceNews",
+    "topics": [
+      "MK1",
+      "CT-3",
+      "CLPS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "ars-new-glenn-rtf",
+    "url": "https://arstechnica.com/space/2026/06/blue-origin-vows-to-fly-its-new-glenn-rocket-before-the-end-of-this-year/",
+    "title": "Blue Origin has set a very aggressive return-to-flight timeline",
+    "publisher": "Ars Technica",
+    "topics": [
+      "New Glenn",
+      "LC-36",
+      "MK1"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "im-q2-fy2026-transcript",
+    "url": "https://stockanalysis.com/stocks/lunr/transcripts/669158-q2-2026/",
+    "title": "Intuitive Machines (LUNR) Q2 FY2026 earnings call transcript",
+    "publisher": "Intuitive Machines / StockAnalysis",
+    "topics": [
+      "IM-3",
+      "Altus",
+      "CT-4",
+      "CS-8",
+      "LTV"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sam-accords-vs-ilrs",
+    "url": "https://southasiamonitor.org/geopolitics-security-and-strategic-affairs/race-moon-how-artemis-ilrs-cold-war-impacts-global-south",
+    "title": "The Race for the Moon: How the Artemis-ILRS Cold War Impacts Global South Nations",
+    "publisher": "South Asia Monitor",
+    "topics": [
+      "Artemis Accords",
+      "ILRS",
+      "partners",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
   }
 ]
