@@ -1,0 +1,333 @@
+[
+  {
+    "id": "nasa",
+    "name": "NASA",
+    "type": "agency",
+    "country": "US",
+    "programs": [
+      "Artemis",
+      "CLPS",
+      "Moon Base",
+      "HLS"
+    ],
+    "url": "https://www.nasa.gov/",
+    "notes": "Lead Artemis agency; CLPS customer."
+  },
+  {
+    "id": "esa",
+    "name": "ESA",
+    "type": "agency",
+    "country": "EU",
+    "programs": [
+      "Moonlight",
+      "Argonaut",
+      "MAGPIE",
+      "Gateway"
+    ],
+    "url": "https://www.esa.int/",
+    "notes": "Orion ESM; Moonlight LCNS; Argonaut lander; MAGPIE rover."
+  },
+  {
+    "id": "cnsa",
+    "name": "CNSA",
+    "type": "agency",
+    "country": "CN",
+    "programs": [
+      "CLEP",
+      "ILRS"
+    ],
+    "url": "https://www.cnsa.gov.cn/",
+    "notes": "Chang'e robotic program and ILRS."
+  },
+  {
+    "id": "cmsa",
+    "name": "CMSA",
+    "type": "agency",
+    "country": "CN",
+    "programs": [
+      "China Crewed Lunar"
+    ],
+    "url": "http://www.cmse.gov.cn/",
+    "notes": "Crewed lunar: Long March 10, Mengzhou, Lanyue."
+  },
+  {
+    "id": "roscosmos",
+    "name": "Roscosmos",
+    "type": "agency",
+    "country": "RU",
+    "programs": [
+      "Luna",
+      "ILRS"
+    ],
+    "url": "https://www.roscosmos.ru/",
+    "notes": "Luna-26+ after Luna-25 failure; ILRS partner."
+  },
+  {
+    "id": "jaxa",
+    "name": "JAXA",
+    "type": "agency",
+    "country": "JP",
+    "programs": [
+      "LUPEX",
+      "Gateway"
+    ],
+    "url": "https://www.jaxa.jp/",
+    "notes": "LUPEX rover with ISRO; Gateway contributions historically."
+  },
+  {
+    "id": "isro",
+    "name": "ISRO",
+    "type": "agency",
+    "country": "IN",
+    "programs": [
+      "Chandrayaan",
+      "LUPEX"
+    ],
+    "url": "https://www.isro.gov.in/",
+    "notes": "Chandrayaan-3 success; sample return and LUPEX."
+  },
+  {
+    "id": "csa",
+    "name": "CSA",
+    "type": "agency",
+    "country": "CA",
+    "programs": [
+      "Artemis",
+      "Gateway"
+    ],
+    "url": "https://www.asc-csa.gc.ca/",
+    "notes": "Artemis II crew Hansen; Canadarm3 for Gateway."
+  },
+  {
+    "id": "kari",
+    "name": "KARI",
+    "type": "agency",
+    "country": "KR",
+    "programs": [
+      "Danuri"
+    ],
+    "url": "https://www.kari.re.kr/",
+    "notes": "KPLO/Danuri orbiter (2022); CLPS payload participation."
+  },
+  {
+    "id": "mbrsc",
+    "name": "MBRSC",
+    "type": "agency",
+    "country": "AE",
+    "programs": [
+      "Emirates Lunar Mission"
+    ],
+    "url": "https://www.mbrsc.ae/",
+    "notes": "Rashid rover program; Rashid 2 on commercial lander."
+  },
+  {
+    "id": "spacex",
+    "name": "SpaceX",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "HLS",
+      "Artemis",
+      "CLPS"
+    ],
+    "url": "https://www.spacex.com/",
+    "notes": "Starship HLS; Falcon 9/Heavy for many CLPS missions."
+  },
+  {
+    "id": "blue-origin",
+    "name": "Blue Origin",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "HLS",
+      "CLPS",
+      "Moon Base"
+    ],
+    "url": "https://www.blueorigin.com/",
+    "notes": "Blue Moon MK1 cargo / MK2 crew; New Glenn; VIPER option; LTV delivery."
+  },
+  {
+    "id": "intuitive-machines",
+    "name": "Intuitive Machines",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "CLPS"
+    ],
+    "url": "https://www.intuitivemachines.com/",
+    "notes": "Nova-C IM-1..IM-4; first commercial soft landing."
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly Aerospace",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "CLPS",
+      "Moon Base"
+    ],
+    "url": "https://fireflyspace.com/",
+    "notes": "Blue Ghost M1 success; M2 far side; M3 Gruithuisen; MoonFall drones."
+  },
+  {
+    "id": "astrobotic",
+    "name": "Astrobotic",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "CLPS",
+      "Moon Base"
+    ],
+    "url": "https://www.astrobotic.com/",
+    "notes": "Peregrine failed 2024; Griffin-1 Moon Base II."
+  },
+  {
+    "id": "ispace",
+    "name": "ispace",
+    "type": "company",
+    "country": "JP",
+    "programs": [
+      "Hakuto-R",
+      "MAGPIE"
+    ],
+    "url": "https://ispace-inc.com/",
+    "notes": "Hakuto-R M1/M2 failures; ULTRA M3/M4; ispace-Europe MAGPIE."
+  },
+  {
+    "id": "ispace-europe",
+    "name": "ispace-Europe",
+    "type": "company",
+    "country": "LU",
+    "programs": [
+      "MAGPIE"
+    ],
+    "url": "https://ispace-inc.com/",
+    "notes": "ESA MAGPIE prime (Phase 2)."
+  },
+  {
+    "id": "axiom-space",
+    "name": "Axiom Space",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Artemis"
+    ],
+    "url": "https://www.axiomspace.com/",
+    "notes": "AxEMU xEVA suits with Prada."
+  },
+  {
+    "id": "astrolab",
+    "name": "Astrolab",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Moon Base",
+      "LTV"
+    ],
+    "url": "https://www.astrolab.space/",
+    "notes": "FLIP rover on Griffin; CLV-1 crewed LTV."
+  },
+  {
+    "id": "lunar-outpost",
+    "name": "Lunar Outpost",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Moon Base",
+      "LTV"
+    ],
+    "url": "https://www.lunaroutpost.com/",
+    "notes": "Pegasus crewed LTV; MAPP heritage."
+  },
+  {
+    "id": "draper",
+    "name": "Draper",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "CLPS"
+    ],
+    "url": "https://www.draper.com/",
+    "notes": "APEX 1.0 south pole CLPS."
+  },
+  {
+    "id": "lockheed-martin",
+    "name": "Lockheed Martin",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Artemis"
+    ],
+    "url": "https://www.lockheedmartin.com/",
+    "notes": "Orion prime."
+  },
+  {
+    "id": "boeing",
+    "name": "Boeing",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Artemis"
+    ],
+    "url": "https://www.boeing.com/",
+    "notes": "SLS core stage / exploration systems."
+  },
+  {
+    "id": "northrop-grumman",
+    "name": "Northrop Grumman",
+    "type": "company",
+    "country": "US",
+    "programs": [
+      "Gateway",
+      "Moon Base",
+      "Artemis"
+    ],
+    "url": "https://www.northropgrumman.com/",
+    "notes": "HALO; SLS boosters; LID demos."
+  },
+  {
+    "id": "sstl",
+    "name": "SSTL",
+    "type": "company",
+    "country": "GB",
+    "programs": [
+      "Moonlight"
+    ],
+    "url": "https://www.sstl.co.uk/",
+    "notes": "Lunar Pathfinder relay."
+  },
+  {
+    "id": "npo-lavochkin",
+    "name": "NPO Lavochkin",
+    "type": "company",
+    "country": "RU",
+    "programs": [
+      "Luna"
+    ],
+    "url": "https://www.laspace.ru/",
+    "notes": "Luna series spacecraft developer."
+  },
+  {
+    "id": "casc",
+    "name": "CASC",
+    "type": "company",
+    "country": "CN",
+    "programs": [
+      "CLEP",
+      "China Crewed Lunar"
+    ],
+    "url": "http://www.spacechina.com/",
+    "notes": "Long March launch vehicles; spacecraft."
+  },
+  {
+    "id": "prada",
+    "name": "Prada",
+    "type": "company",
+    "country": "IT",
+    "programs": [
+      "Artemis"
+    ],
+    "url": "https://www.pradagroup.com/",
+    "notes": "AxEMU outer layer and LCVG partnership."
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "id": "nasa-artemis",
+    "url": "https://www.nasa.gov/humans-in-space/artemis/",
+    "title": "NASA Artemis Program",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis",
+      "Orion",
+      "SLS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-artemis-arch-update",
+    "url": "https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/",
+    "title": "NASA Adds Mission to Artemis / Architecture Update",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis III",
+      "Artemis IV",
+      "policy"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-artemis-strengthen",
+    "url": "https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/",
+    "title": "NASA Strengthens Artemis",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis",
+      "SLS",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-artemis-iv",
+    "url": "https://www.nasa.gov/mission/artemis-iv/",
+    "title": "Artemis IV",
+    "publisher": "NASA",
+    "topics": [
+      "crewed landing"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-artemis-ii-return",
+    "url": "https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/",
+    "title": "Artemis II splashdown",
+    "publisher": "NASA",
+    "topics": [
+      "Artemis II"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-clps",
+    "url": "https://www.nasa.gov/reference/commercial-lunar-payload-services/",
+    "title": "CLPS Delivery Timeline",
+    "publisher": "NASA",
+    "topics": [
+      "CLPS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-clps-providers",
+    "url": "https://www.nasa.gov/commercial-lunar-payload-services/clps-providers/",
+    "title": "CLPS Providers",
+    "publisher": "NASA",
+    "topics": [
+      "CLPS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-viper-bo",
+    "url": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-to-deliver-viper-rover-to-moons-south-pole/",
+    "title": "VIPER on Blue Origin",
+    "publisher": "NASA",
+    "topics": [
+      "VIPER",
+      "CLPS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-moon-base-landers",
+    "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "title": "Moon Base cargo landers",
+    "publisher": "NASA",
+    "topics": [
+      "Moon Base",
+      "MK1",
+      "Griffin"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-moon-base-rovers",
+    "url": "https://www.nasa.gov/news-release/nasa-provides-update-on-moon-base-rovers-landers-missions/",
+    "title": "Moon Base LTVs",
+    "publisher": "NASA",
+    "topics": [
+      "LTV",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-hls-artemis-iii-test",
+    "url": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/",
+    "title": "Artemis III HLS test",
+    "publisher": "NASA",
+    "topics": [
+      "HLS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nasa-returning-pdf",
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/03/1-going-back-to-the-moon.pdf",
+    "title": "Returning to the Moon PDF",
+    "publisher": "NASA",
+    "topics": [
+      "architecture"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-moonlight",
+    "url": "https://www.esa.int/Newsroom/Press_Releases/ESA_launches_Moonlight_to_establish_lunar_communications_and_navigation_infrastructure",
+    "title": "ESA Moonlight launch",
+    "publisher": "ESA",
+    "topics": [
+      "Moonlight",
+      "comms"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-argonaut",
+    "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Argonaut_Europe_s_lunar_lander_programme",
+    "title": "ESA Argonaut",
+    "publisher": "ESA",
+    "topics": [
+      "Argonaut"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "esa-magpie",
+    "url": "https://www.esa.int/ESA_Multimedia/Images/2026/09/MAGPIE_signing_ceremony",
+    "title": "MAGPIE signing",
+    "publisher": "ESA",
+    "topics": [
+      "MAGPIE",
+      "rover"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "cnsa-queqiao2",
+    "url": "https://www.cnsa.gov.cn/english/n6465652/n6465653/c10489434/content.html",
+    "title": "Queqiao-2 launch",
+    "publisher": "CNSA",
+    "topics": [
+      "relay",
+      "CLEP"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-china-pathway",
+    "url": "https://spacenews.com/china-outlines-pathway-for-lunar-and-deep-space-exploration/",
+    "title": "China lunar pathway",
+    "publisher": "SpaceNews",
+    "topics": [
+      "ILRS",
+      "Chang'e"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "spacenews-change7-delay",
+    "url": "https://spacenews.com/china-delays-change-7-lunar-south-pole-landing-mission-launch/",
+    "title": "Chang'e-7 delay",
+    "publisher": "SpaceNews",
+    "topics": [
+      "Chang'e-7"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "interfax-luna",
+    "url": "https://interfax.com/newsroom/top-stories/113389/",
+    "title": "Russia Luna delays",
+    "publisher": "Interfax",
+    "topics": [
+      "Luna"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "isro-ch4",
+    "url": "https://www.isro.gov.in/ISRO_Nationalsciencemeet_ch4.html",
+    "title": "Chandrayaan-4 science meet",
+    "publisher": "ISRO",
+    "topics": [
+      "Chandrayaan-4"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "axiom-axemu",
+    "url": "https://www.axiomspace.com/release/axiom-space-prada-unveil-inner-layer-of-next-gen-lunar-spacesuit",
+    "title": "AxEMU LCVG unveil",
+    "publisher": "Axiom Space",
+    "topics": [
+      "suits"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "firefly-bg1",
+    "url": "https://www.nasa.gov/news-release/touchdown-carrying-nasa-science-fireflys-blue-ghost-lands-on-moon/",
+    "title": "Blue Ghost M1 landing",
+    "publisher": "NASA",
+    "topics": [
+      "CLPS"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "sfn-gateway-repurpose",
+    "url": "https://spaceflightnow.com/2026/08/06/nasa-northrop-grumman-repurpose-gateway-elements-for-moon-base-demo-missions/",
+    "title": "Gateway HALO to LID",
+    "publisher": "Spaceflight Now",
+    "topics": [
+      "Gateway",
+      "Moon Base"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nse-china-crewed",
+    "url": "https://newspaceeconomy.ca/2026/04/03/the-chinese-manned-lunar-program/",
+    "title": "Chinese manned lunar program",
+    "publisher": "New Space Economy",
+    "topics": [
+      "CMSA",
+      "Mengzhou"
+    ],
+    "accessed": "2026-09-13"
+  },
+  {
+    "id": "nse-ilrs",
+    "url": "https://newspaceeconomy.ca/2026/04/03/chinas-international-lunar-research-station-program/",
+    "title": "ILRS program overview",
+    "publisher": "New Space Economy",
+    "topics": [
+      "ILRS"
+    ],
+    "accessed": "2026-09-13"
+  }
+]
