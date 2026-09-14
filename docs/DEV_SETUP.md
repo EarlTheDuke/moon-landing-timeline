@@ -30,6 +30,22 @@ python3 -m http.server 8765
 # open http://127.0.0.1:8765/app/
 ```
 
+Serve the **repo root**, not `app/`: the page fetches `../data/events/events.json`
+(and `../data/actors/actors.json` for actor links). Opening the file directly with
+`file://` fails because browsers block those fetches.
+
+`app/` is plain HTML + CSS + vanilla JS — no build, no dependencies, no install
+step. Edit `app/index.html`, `app/styles.css` or `app/app.js` and reload.
+
+Handy while developing:
+
+| Thing | How |
+|-------|-----|
+| Focus search | Press `/` |
+| Reproduce a view | Filters live in the URL, e.g. `?status=slipped&sort=desc&view=compact` |
+| Scan quickly | **Compact** view toggle; click any card to expand just that one |
+| Sanity-check a render | Filter chips + "Showing N of M events" line under the stats strip |
+
 ## Validate data
 
 ```bash
