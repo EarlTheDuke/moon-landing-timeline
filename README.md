@@ -13,7 +13,31 @@ Interactive, easy-to-read timeline of significant Moon / lunar exploration activ
 - `data/sources` — canonical references
 - `research` — notes, contradictions, open questions
 - `docs` — schema, project brief, Omarchy dev setup
-- `app` — future interactive front-end (not started)
+- `app` — static timeline browser (plain HTML/CSS/JS, no build step)
+
+## Preview the timeline
+
+The app reads `../data/events/events.json` directly, so serve the **repo root**:
+
+```bash
+python3 -m http.server 8765
+# then open http://127.0.0.1:8765/app/
+```
+
+Opening `app/index.html` straight from the filesystem will not work — browsers
+block `fetch` on `file://` URLs.
+
+### What the browser can do
+- **Search** across titles, summaries, notes, actors, programs and country names
+  (multiple words are ANDed; matches are highlighted). Press `/` to jump to the box.
+- **Filter** by status, country, event type, program and confidence, plus decade
+  by clicking a bar in the stats strip. Active filters show as removable chips.
+- **Sort** oldest-first or newest-first, and switch between **Detailed** cards
+  (summary, countries, actors, notes, sources) and **Compact** rows for fast
+  scanning. Any card can be expanded on its own.
+- **Jump to a year** with the year rail under the filters.
+- **Share a view**: filters, sort and view mode are stored in the URL, so
+  `…/app/?status=planned&country=US` reopens the same slice.
 
 ## Omarchy status (2026-09-13)
 - Path: `~/Projects/moon-landing-timeline`
