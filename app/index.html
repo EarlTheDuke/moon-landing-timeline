@@ -27,6 +27,11 @@
     <div class="wrap">
       <form class="filters" id="filters" role="search" autocomplete="off">
         <div class="search-row">
+          <div class="mode-toggle" role="group" aria-label="Page mode">
+            <button type="button" class="mode-btn" data-mode="timeline" aria-pressed="true">Timeline</button>
+            <button type="button" class="mode-btn" data-mode="highlights" aria-pressed="false">Highlights</button>
+          </div>
+
           <div class="field search-field">
             <label class="visually-hidden" for="search">Search events</label>
             <span class="search-icon" aria-hidden="true">⌕</span>
@@ -97,6 +102,38 @@
   </div>
 
   <main class="wrap" id="main">
+    <section class="highlights" id="highlights" aria-labelledby="highlights-heading" hidden>
+      <h2 class="section-heading" id="highlights-heading">Highlights — ready-to-edit post drafts</h2>
+      <p class="highlights-lede">
+        A curated slice of the timeline, grouped by story beat. Each draft is the event title, its
+        recorded date or status, and the <strong>first sentence of the summary in the data</strong> —
+        nothing is added or rephrased. Copy one, read it back against the source, then post it yourself.
+      </p>
+
+      <div class="beat-row" id="beat-row" role="group" aria-label="Story beat"></div>
+
+      <div class="draft-options">
+        <label class="draft-option">
+          <input type="checkbox" id="draft-date" checked />
+          Date / status line
+        </label>
+        <label class="draft-option">
+          <input type="checkbox" id="draft-hashtag" />
+          #Program tag
+        </label>
+        <p class="field draft-sort">
+          <label class="visually-hidden" for="highlight-sort">Highlight order</label>
+          <select id="highlight-sort">
+            <option value="score">Punchiest first</option>
+            <option value="date">Timeline order</option>
+          </select>
+        </p>
+      </div>
+
+      <p class="result-meta" id="highlight-meta" role="status" aria-live="polite"></p>
+      <div class="highlight-grid" id="highlight-list"></div>
+    </section>
+
     <section class="stats" aria-labelledby="stats-heading">
       <h2 class="section-heading" id="stats-heading">At a glance</h2>
       <div class="stats-grid">
@@ -116,6 +153,8 @@
     <div class="timeline" id="timeline" tabindex="-1"></div>
   </main>
 
+  <p class="visually-hidden" id="copy-live" role="status" aria-live="polite"></p>
+
   <footer class="wrap">
     <p>
       Serve the repo root so <code>../data/events/events.json</code> loads:
@@ -125,8 +164,14 @@
       Dates use the precision recorded in the data — <em>year-level</em> and <em>month-level</em> targets are
       labelled as such, so a bare year never pretends to be a launch date.
     </p>
+    <p>
+      Need a single event to screenshot? Open <a href="./share.html">share.html</a> for a one-event card
+      you can deep-link, e.g. <code>share.html?event=artemis-iv-2028</code>.
+    </p>
   </footer>
 
+  <script src="./data.js"></script>
+  <script src="./highlights.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>

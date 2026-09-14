@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Moon Landing Timeline — share card</title>
+  <meta name="description" content="One lunar timeline event on a screenshot-ready card, with a ≤280 character draft post." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#share-frame">Skip to the card</a>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Share card</p>
+      <h1>One event, ready to screenshot</h1>
+      <p class="tagline">
+        Deep-link any event with <code>?event=&lt;id&gt;</code> — for example
+        <code>share.html?event=artemis-iv-2028</code>. Screenshot the card, copy or edit the draft,
+        then post it yourself. <a href="./">Back to the timeline</a>.
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap share-main" id="main">
+    <div class="share-controls">
+      <p class="field">
+        <label class="visually-hidden" for="event-picker">Event</label>
+        <select id="event-picker"></select>
+      </p>
+      <button type="button" class="btn-ghost" id="prev">← Prev</button>
+      <button type="button" class="btn-ghost" id="next">Next →</button>
+      <div class="view-toggle" role="group" aria-label="Card shape">
+        <button type="button" class="view-btn" data-ratio="16x9" aria-pressed="true">16:9</button>
+        <button type="button" class="view-btn" data-ratio="1x1" aria-pressed="false">1:1</button>
+        <button type="button" class="view-btn" data-ratio="free" aria-pressed="false">Fit</button>
+      </div>
+      <label class="draft-option">
+        <input type="checkbox" id="draft-hashtag" />
+        #Program tag
+      </label>
+    </div>
+
+    <div class="share-frame" id="share-frame" data-ratio="16x9">
+      <article class="share-card" id="share-card"></article>
+    </div>
+
+    <section class="share-draft" aria-labelledby="draft-heading">
+      <h2 id="draft-heading">Draft post — edit before you send</h2>
+      <label class="visually-hidden" for="draft">Draft post text</label>
+      <textarea id="draft" spellcheck="true"></textarea>
+      <div class="share-draft-actions">
+        <button type="button" class="btn-copy" id="copy">Copy draft</button>
+        <span class="char-count" id="char-count"></span>
+        <button type="button" class="btn-ghost" id="reset-draft">Reset to generated draft</button>
+        <a class="btn-ghost" id="timeline-link" href="./">Open in timeline ↗</a>
+      </div>
+    </section>
+
+    <section class="share-sources" id="share-sources" aria-label="Sources"></section>
+  </main>
+
+  <p class="visually-hidden" id="copy-live" role="status" aria-live="polite"></p>
+
+  <footer class="wrap">
+    <p>
+      Serve the repo root so <code>../data/events/events.json</code> loads:
+      <code>python3 -m http.server 8765</code>, then open
+      <code>http://127.0.0.1:8765/app/share.html</code>.
+    </p>
+    <p>
+      The blurb is the first sentence of the event summary in <code>data/events/events.json</code>.
+      Check it against the linked source before posting — nothing here is auto-published.
+    </p>
+  </footer>
+
+  <script src="./data.js"></script>
+  <script src="./highlights.js"></script>
+  <script src="./share.js"></script>
+</body>
+</html>

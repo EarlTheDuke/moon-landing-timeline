@@ -1,84 +1,27 @@
 /**
  * Moon Landing Timeline — static browser UI.
  * Reads ../data/events/events.json (and actors.json when available) and renders
- * a filterable, groupable timeline. No build step, no dependencies.
+ * a filterable, groupable timeline plus a Highlights mode with post drafts.
+ * No build step, no dependencies.
  */
 
-const EVENTS_URL = "../data/events/events.json";
-const ACTORS_URL = "../data/actors/actors.json";
+const {
+  STATUS_ORDER,
+  STATUS_LABELS,
+  CATEGORY_LABELS,
+  PRECISION_LABELS,
+  COUNTRY_NAMES,
+  labelFor,
+  el,
+  yearOf,
+  decadeOf,
+  formatDate,
+  loadEvents,
+  loadActors,
+  copyText,
+} = window.MLT;
 
-const STATUS_ORDER = [
-  "completed",
-  "in_progress",
-  "scheduled",
-  "planned",
-  "slipped",
-  "conceptual",
-  "cancelled",
-];
-
-const STATUS_LABELS = {
-  completed: "Completed",
-  in_progress: "In progress",
-  scheduled: "Scheduled",
-  planned: "Planned",
-  slipped: "Slipped",
-  conceptual: "Conceptual",
-  cancelled: "Cancelled",
-};
-
-const CATEGORY_LABELS = {
-  crewed_landing: "Crewed landing",
-  crewed_orbit: "Crewed orbit",
-  uncrewed_lander: "Uncrewed lander",
-  rover: "Rover",
-  orbiter: "Orbiter",
-  infrastructure: "Infrastructure",
-  demo: "Demo / tech",
-  policy: "Policy / contract",
-  other: "Other",
-};
-
-const CONFIDENCE_LABELS = {
-  confirmed: "Confirmed",
-  planned: "Planned target",
-  rumored: "Rumored",
-};
-
-const PRECISION_LABELS = {
-  day: "",
-  month: "month-level date",
-  year: "year-level target",
-  range: "date range",
-};
-
-const COUNTRY_NAMES = {
-  AE: "United Arab Emirates",
-  AU: "Australia",
-  BH: "Bahrain",
-  CA: "Canada",
-  CN: "China",
-  DE: "Germany",
-  EG: "Egypt",
-  EU: "Europe (ESA)",
-  FR: "France",
-  GB: "United Kingdom",
-  IN: "India",
-  IR: "Iran",
-  IT: "Italy",
-  JP: "Japan",
-  KR: "South Korea",
-  LU: "Luxembourg",
-  PE: "Peru",
-  PK: "Pakistan",
-  RU: "Russia",
-  TH: "Thailand",
-  TR: "Türkiye",
-  US: "United States",
-  ZA: "South Africa",
-};
-
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const H = window.MLT_HIGHLIGHTS;
 
 const FILTER_LABELS = {
   q: "Search",
@@ -104,6 +47,15 @@ const els = {
   headlineStats: document.getElementById("headline-stats"),
   toolbar: document.getElementById("toolbar"),
   reset: document.getElementById("reset"),
+  stats: document.querySelector(".stats"),
+  highlights: document.getElementById("highlights"),
+  highlightList: document.getElementById("highlight-list"),
+  highlightMeta: document.getElementById("highlight-meta"),
+  highlightSort: document.getElementById("highlight-sort"),
+  beatRow: document.getElementById("beat-row"),
+  draftDate: document.getElementById("draft-date"),
+  draftHashtag: document.getElementById("draft-hashtag"),
+  copyLive: document.getElementById("copy-live"),
 };
 
 const state = {
@@ -116,58 +68,19 @@ const state = {
   decade: "",
   sort: "asc",
   view: "detailed",
+  mode: "timeline",
+  beat: "",
+  hsort: "score",
 };
 
 let allEvents = [];
+let curated = [];
 let actorsById = new Map();
 /** Per-card overrides of the global compact/detailed default. */
 const openOverrides = new Map();
 let yearObserver = null;
 
 /* ------------------------------------------------------------------ utils */
-
-function labelFor(kind, value) {
-  if (!value) return "";
-  if (kind === "status") return STATUS_LABELS[value] || value;
-  if (kind === "category") return CATEGORY_LABELS[value] || value;
-  if (kind === "confidence") return CONFIDENCE_LABELS[value] || value;
-  if (kind === "country") return COUNTRY_NAMES[value] ? `${COUNTRY_NAMES[value]} (${value})` : value;
-  if (kind === "decade") return `${value}s`;
-  return value;
-}
-
-function el(tag, className, text) {
-  const node = document.createElement(tag);
-  if (className) node.className = className;
-  if (text != null) node.textContent = text;
-  return node;
-}
-
-function yearOf(event) {
-  const match = String(event.date_start || "").match(/^(\d{4})/);
-  return match ? match[1] : "Unknown";
-}
-
-function decadeOf(event) {
-  const year = yearOf(event);
-  return year === "Unknown" ? "Unknown" : `${year.slice(0, 3)}0`;
-}
-
-function formatDatePart(value) {
-  if (!value) return "Date TBD";
-  const [y, m, d] = String(value).split("-");
-  if (d) return `${MONTHS[Number(m) - 1]} ${Number(d)}, ${y}`;
-  if (m) return `${MONTHS[Number(m) - 1]} ${y}`;
-  return y;
-}
-
-function formatDate(event) {
-  const start = formatDatePart(event.date_start);
-  if (event.date_end && event.date_end !== event.date_start) {
-    return `${start} – ${formatDatePart(event.date_end)}`;
-  }
-  return start;
-}
 
 function searchTokens() {
   return state.q.toLowerCase().split(/\s+/).filter(Boolean);
@@ -238,12 +151,16 @@ function activeFilterEntries() {
 
 function readStateFromUrl() {
   const params = new URLSearchParams(location.search);
-  for (const key of [...Object.keys(FILTER_LABELS), "sort", "view"]) {
+  for (const key of [...Object.keys(FILTER_LABELS), "sort", "view", "mode", "beat", "hsort"]) {
     const value = params.get(key);
     if (value != null) state[key] = value;
   }
   if (state.sort !== "desc") state.sort = "asc";
   if (state.view !== "compact") state.view = "detailed";
+  if (state.mode !== "highlights") state.mode = "timeline";
+  if (state.hsort !== "date") state.hsort = "score";
+  if (state.beat && !H.beatById(state.beat)) state.beat = "";
+  return params.get("event") || (location.hash.startsWith("#event-") ? location.hash.slice(7) : "");
 }
 
 function writeStateToUrl() {
@@ -251,8 +168,11 @@ function writeStateToUrl() {
   for (const [key, value] of activeFilterEntries()) params.set(key, value);
   if (state.sort !== "asc") params.set("sort", state.sort);
   if (state.view !== "detailed") params.set("view", state.view);
+  if (state.mode !== "timeline") params.set("mode", state.mode);
+  if (state.beat) params.set("beat", state.beat);
+  if (state.hsort !== "score") params.set("hsort", state.hsort);
   const query = params.toString();
-  history.replaceState(null, "", query ? `?${query}` : location.pathname);
+  history.replaceState(null, "", `${query ? `?${query}` : location.pathname}${location.hash}`);
 }
 
 /* --------------------------------------------------------------- card UI */
@@ -597,11 +517,193 @@ function renderTimeline(events) {
   observeYears();
 }
 
+/* ------------------------------------------------------------ highlights */
+
+function draftOptions() {
+  return { date: els.draftDate.checked, hashtag: els.draftHashtag.checked };
+}
+
+function announce(message) {
+  els.copyLive.textContent = message;
+}
+
+function copyButton(getText, label) {
+  const button = el("button", "btn-copy", label);
+  button.type = "button";
+  let restore = 0;
+  button.addEventListener("click", async () => {
+    const ok = await copyText(getText());
+    button.textContent = ok ? "Copied ✓" : "Copy failed";
+    button.classList.toggle("is-copied", ok);
+    announce(ok ? "Draft copied to clipboard." : "Copy failed — select the draft text and copy manually.");
+    clearTimeout(restore);
+    restore = setTimeout(() => {
+      button.textContent = label;
+      button.classList.remove("is-copied");
+    }, 1800);
+  });
+  return button;
+}
+
+function highlightCard(item, tokens) {
+  const { event } = item;
+  const draft = H.buildDraft(event, draftOptions());
+  const used = H.countChars(draft);
+
+  const card = el("article", `highlight status-${event.status || "planned"}`);
+  card.id = `highlight-${event.id}`;
+
+  const top = el("div", "highlight-top");
+  const beat = H.beatById(item.beat);
+  if (beat) top.appendChild(el("span", "beat-tag", beat.label));
+  top.appendChild(el("span", "highlight-when", H.whenPhrase(event)));
+  card.appendChild(top);
+
+  const title = el("h3", "highlight-title");
+  title.appendChild(highlighted(event.title || event.id, tokens));
+  card.appendChild(title);
+
+  if (item.why.length) {
+    const why = el("ul", "why-list");
+    for (const reason of item.why.slice(0, 4)) why.appendChild(el("li", "why-tag", reason.label));
+    card.appendChild(why);
+  }
+
+  const preview = el("p", "draft-text", draft);
+  card.appendChild(preview);
+
+  const actions = el("div", "highlight-actions");
+  actions.appendChild(copyButton(() => draft, "Copy draft"));
+
+  const count = el("span", `char-count${used > H.DRAFT_LIMIT - 20 ? " is-tight" : ""}`);
+  count.textContent = `${used}/${H.DRAFT_LIMIT}`;
+  count.title = "Characters in the draft, X's limit is 280";
+  actions.appendChild(count);
+
+  const share = el("a", "btn-ghost", "Share card ↗");
+  share.href = `./share.html?event=${encodeURIComponent(event.id)}`;
+  share.target = "_blank";
+  share.rel = "noopener";
+  actions.appendChild(share);
+
+  const timeline = el("button", "btn-ghost", "In timeline");
+  timeline.type = "button";
+  timeline.addEventListener("click", () => focusEvent(event.id));
+  actions.appendChild(timeline);
+
+  const source = (event.sources || [])[0];
+  if (source && source.url) {
+    const link = el("a", "btn-ghost", `Source: ${source.publisher || "link"} ↗`);
+    link.href = source.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    if (source.title) link.title = source.title;
+    actions.appendChild(link);
+  }
+
+  card.appendChild(actions);
+  return card;
+}
+
+function renderBeatRow(pool) {
+  const counts = new Map();
+  for (const item of pool) {
+    for (const id of item.beats) counts.set(id, (counts.get(id) || 0) + 1);
+  }
+
+  els.beatRow.replaceChildren();
+  const makeChip = (id, label, count) => {
+    const chip = el("button", "beat-chip");
+    chip.type = "button";
+    chip.setAttribute("aria-pressed", String(state.beat === id));
+    chip.append(el("span", "beat-chip-label", label), el("span", "beat-chip-count", String(count)));
+    const beat = H.beatById(id);
+    if (beat) chip.title = beat.blurb;
+    if (!count && id) chip.classList.add("is-empty");
+    chip.addEventListener("click", () => {
+      state.beat = state.beat === id ? "" : id;
+      update();
+    });
+    return chip;
+  };
+
+  els.beatRow.appendChild(makeChip("", "All beats", pool.length));
+  for (const beat of H.BEATS) {
+    els.beatRow.appendChild(makeChip(beat.id, beat.label, counts.get(beat.id) || 0));
+  }
+}
+
+function renderHighlights(events) {
+  const visible = new Set(events.map((event) => event.id));
+  const pool = curated.filter((item) => visible.has(item.event.id));
+  renderBeatRow(pool);
+
+  const items = (state.beat ? pool.filter((item) => item.beats.includes(state.beat)) : pool).sort((a, b) =>
+    state.hsort === "date"
+      ? String(a.event.date_start || "").localeCompare(String(b.event.date_start || "")) || b.score - a.score
+      : b.score - a.score || String(a.event.date_start || "").localeCompare(String(b.event.date_start || ""))
+  );
+
+  const beat = H.beatById(state.beat);
+  els.highlightMeta.textContent = beat
+    ? `${items.length} highlight${items.length === 1 ? "" : "s"} in “${beat.label}” — ${beat.blurb}`
+    : `${items.length} curated highlight${items.length === 1 ? "" : "s"} out of ${allEvents.length} events`;
+
+  els.highlightList.replaceChildren();
+  if (!items.length) {
+    const empty = el("div", "empty");
+    empty.append(
+      el("p", "empty-title", "No highlights in this slice."),
+      el("p", "empty-hint", "Highlights are a curated subset, so narrow filters can empty it. Clear a filter or pick another beat.")
+    );
+    els.highlightList.appendChild(empty);
+    return;
+  }
+
+  const tokens = searchTokens();
+  const frag = document.createDocumentFragment();
+  for (const item of items) frag.appendChild(highlightCard(item, tokens));
+  els.highlightList.appendChild(frag);
+}
+
+/* Scrolls the timeline to one event, expanding and flashing it. */
+function focusEvent(id) {
+  if (state.mode !== "timeline") setMode("timeline");
+  const card = document.getElementById(`event-${id}`);
+  if (!card) return false;
+  const toggle = card.querySelector(".event-toggle");
+  if (toggle && toggle.getAttribute("aria-expanded") !== "true") toggle.click();
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  card.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+  card.classList.add("is-target");
+  setTimeout(() => card.classList.remove("is-target"), 2400);
+  return true;
+}
+
+function setMode(mode) {
+  state.mode = mode === "highlights" ? "highlights" : "timeline";
+  syncControls();
+  update();
+}
+
 function update() {
   const events = filterEvents();
-  renderTimeline(events);
-  renderStatusChips();
-  renderDecadeBars();
+  const showHighlights = state.mode === "highlights";
+
+  document.body.dataset.mode = state.mode;
+  els.highlights.hidden = !showHighlights;
+  els.stats.hidden = showHighlights;
+  els.timeline.hidden = showHighlights;
+  els.resultMeta.hidden = showHighlights;
+
+  if (showHighlights) {
+    renderHighlights(events);
+    els.yearRail.hidden = true;
+  } else {
+    renderTimeline(events);
+    renderStatusChips();
+    renderDecadeBars();
+  }
   renderActiveFilters();
   writeStateToUrl();
 
@@ -663,6 +765,10 @@ function syncControls() {
   for (const button of document.querySelectorAll(".view-btn")) {
     button.setAttribute("aria-pressed", String(button.dataset.view === state.view));
   }
+  for (const button of document.querySelectorAll(".mode-btn")) {
+    button.setAttribute("aria-pressed", String(button.dataset.mode === state.mode));
+  }
+  els.highlightSort.value = state.hsort;
 }
 
 function resetFilters() {
@@ -705,6 +811,19 @@ function wireEvents() {
     });
   }
 
+  for (const button of document.querySelectorAll(".mode-btn")) {
+    button.addEventListener("click", () => setMode(button.dataset.mode));
+  }
+
+  els.highlightSort.addEventListener("change", () => {
+    state.hsort = els.highlightSort.value;
+    update();
+  });
+
+  for (const box of [els.draftDate, els.draftHashtag]) {
+    box.addEventListener("change", update);
+  }
+
   els.reset.addEventListener("click", resetFilters);
 
   els.yearRail.addEventListener("click", (event) => {
@@ -745,21 +864,9 @@ function wireEvents() {
 
 /* ------------------------------------------------------------------ boot */
 
-async function loadActors() {
-  try {
-    const res = await fetch(ACTORS_URL);
-    if (!res.ok) return;
-    const actors = await res.json();
-    actorsById = new Map(actors.map((actor) => [actor.name, actor]));
-  } catch (err) {
-    console.warn("Actor registry unavailable; showing plain actor names.", err);
-  }
-}
-
 async function boot() {
-  const res = await fetch(EVENTS_URL);
-  if (!res.ok) throw new Error(`Failed to load events (HTTP ${res.status}). Serve the repo root, not app/.`);
-  allEvents = await res.json();
+  allEvents = await loadEvents();
+  curated = H.curate(allEvents);
 
   for (const event of allEvents) {
     Object.defineProperty(event, "__haystack", {
@@ -780,14 +887,15 @@ async function boot() {
     });
   }
 
-  await loadActors();
+  actorsById = await loadActors();
 
-  readStateFromUrl();
+  const deepLinkId = readStateFromUrl();
   buildFilterOptions();
   syncControls();
   wireEvents();
   renderHeadlineStats();
   update();
+  if (deepLinkId) focusEvent(deepLinkId);
 }
 
 boot().catch((err) => {
