@@ -3,12 +3,14 @@
 Build social preview images.
 
   app/assets/og.png                 1200×630 site card (X / OpenGraph)
-  app/assets/share/<event-id>.png   1200×630 per-event cards (with --events)
+  app/assets/share/<event-id>.jpg   1200×630 per-event cards (with --events)
+  app/e/<event-id>.html             per-event stub pages carrying those cards as
+                                    og:image, then redirecting into the app (with --pages)
 
 Text is drawn from data/events/events.json, so re-run after data changes:
 
-  python scripts/build_og.py            # site card only
-  python scripts/build_og.py --events   # plus one card per event
+  python scripts/build_og.py                    # site card only
+  python scripts/build_og.py --events --pages   # plus one card + one stub page per event
 """
 
 from __future__ import annotations
@@ -23,11 +25,14 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
 EVENTS = ROOT / "data" / "events" / "events.json"
+IMAGES = ROOT / "data" / "images" / "images.json"
 IMG = ROOT / "app" / "assets" / "img"
 OUT = ROOT / "app" / "assets" / "og.png"
 SHARE_DIR = ROOT / "app" / "assets" / "share"
+PAGES_DIR = ROOT / "app" / "e"
 W, H = 1200, 630
 HANDLE = "@TheLimitingFctr"
+SITE_URL = "https://earltheduke.github.io/moon-landing-timeline/app/"
 
 FONT_DIRS = [Path("C:/Windows/Fonts"), Path("/usr/share/fonts"), Path("/System/Library/Fonts")]
 BOLD_CANDIDATES = ["segoeuib.ttf", "arialbd.ttf", "DejaVuSans-Bold.ttf", "Helvetica.ttc"]
@@ -169,17 +174,46 @@ def site_card(events: list[dict]) -> None:
     print(f"wrote {OUT.relative_to(ROOT)}")
 
 
-def event_image(ev: dict) -> Path:
+def load_registry() -> dict:
+    try:
+        return json.loads(IMAGES.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def event_image(ev: dict, registry: dict) -> Path:
+    """Same resolution order as app/data.js imageFor(): own → program → default → hero."""
     rel = (ev.get("image") or {}).get("file")
     if rel:
-        p = IMG / "events" / rel
+        p = (IMG / "events" / rel).resolve()
         if p.exists():
             return p
+    for key in (f"program:{ev.get('program')}", "category:default"):
+        rec = registry.get(key) or {}
+        if rec.get("file"):
+            p = (IMG / "programs" / rec["file"]).resolve()
+            if p.exists():
+                return p
     return IMG / "hero.jpg"
 
 
-def event_card(ev: dict) -> None:
-    card, draw = base_card(Image.open(event_image(ev)))
+def event_credit(ev: dict, registry: dict) -> str:
+    if ev.get("image"):
+        return ev["image"].get("credit", "")
+    for key in (f"program:{ev.get('program')}", "category:default"):
+        rec = registry.get(key) or {}
+        if rec.get("file"):
+            return rec.get("credit", "")
+    return ""
+
+
+def event_card(ev: dict, registry: dict) -> Path:
+    card, draw = base_card(Image.open(event_image(ev, registry)))
+    credit = " ".join(event_credit(ev, registry).split())
+    if credit:
+        cf = font(16)
+        text = f"Image: {credit}"[:90]
+        draw.text((W - 40 - draw.textlength(text, font=cf), 22), text, font=cf, fill=(200, 210, 240, 200))
     status = STATUS.get(ev.get("status"), "")
     when = format_date(ev)
     eyebrow = " · ".join(x for x in [ev.get("program"), status] if x)
@@ -206,19 +240,117 @@ def event_card(ev: dict) -> None:
     draw.text((W - 72 - bw, 556), brand, font=font(22, True), fill=(200, 210, 240))
 
     SHARE_DIR.mkdir(parents=True, exist_ok=True)
-    card.convert("RGB").save(SHARE_DIR / f"{ev['id']}.png", "PNG", optimize=True)
+    out = SHARE_DIR / f"{ev['id']}.jpg"
+    card.convert("RGB").save(out, "JPEG", quality=80, optimize=True, progressive=True)
+    return out
+
+
+def esc(text: str) -> str:
+    return (
+        str(text)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
+STUB = """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} — Moon Landing Timeline</title>
+  <meta name="description" content="{description}" />
+  <link rel="canonical" href="{app_url}" />
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Moon Landing Timeline" />
+  <meta property="og:title" content="{title}" />
+  <meta property="og:description" content="{description}" />
+  <meta property="og:url" content="{page_url}" />
+  <meta property="og:image" content="{image_url}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{alt}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@TheLimitingFctr" />
+  <meta name="twitter:title" content="{title}" />
+  <meta name="twitter:description" content="{description}" />
+  <meta name="twitter:image" content="{image_url}" />
+  <meta http-equiv="refresh" content="0; url={redirect}" />
+  <style>
+    body {{ margin: 0; min-height: 100vh; display: grid; place-items: center; background: #080d1c; color: #e8ecf7; font: 16px/1.5 system-ui, sans-serif; text-align: center; padding: 1rem; }}
+    a {{ color: #9dbcff; }}
+    img {{ max-width: min(90vw, 600px); border-radius: 12px; display: block; margin: 0 auto 1rem; }}
+  </style>
+</head>
+<body>
+  <div>
+    <img src="../assets/share/{id}.jpg" alt="{alt}" width="600" height="315" />
+    <p>Opening <a href="{redirect}">{title}</a> in the Moon Landing Timeline…</p>
+  </div>
+  <script>location.replace({redirect_js});</script>
+</body>
+</html>
+"""
+
+
+def stub_page(ev: dict) -> Path:
+    status = STATUS.get(ev.get("status"), "")
+    when = format_date(ev)
+    title = ev.get("title", ev["id"])
+    lead = " · ".join(x for x in [status, when] if x)
+    description = f"{lead}. {first_sentence(ev.get('summary', ''))}".strip()[:300]
+    redirect = f"../?event={ev['id']}"
+    html = STUB.format(
+        id=ev["id"],
+        title=esc(title),
+        description=esc(description),
+        alt=esc(f"{title} — {lead}"),
+        app_url=esc(f"{SITE_URL}?event={ev['id']}"),
+        page_url=esc(f"{SITE_URL}e/{ev['id']}.html"),
+        image_url=esc(f"{SITE_URL}assets/share/{ev['id']}.jpg"),
+        redirect=esc(redirect),
+        redirect_js=json.dumps(redirect),
+    )
+    PAGES_DIR.mkdir(parents=True, exist_ok=True)
+    out = PAGES_DIR / f"{ev['id']}.html"
+    out.write_text(html, encoding="utf-8", newline="\n")
+    return out
+
+
+def prune(folder: Path, keep: set[str], suffix: str) -> int:
+    removed = 0
+    if not folder.exists():
+        return 0
+    for p in folder.glob(f"*{suffix}"):
+        if p.stem not in keep:
+            p.unlink()
+            removed += 1
+    return removed
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--events", action="store_true", help="also build one card per event")
+    parser.add_argument("--events", action="store_true", help="also build one JPEG card per event")
+    parser.add_argument("--pages", action="store_true", help="also write app/e/<id>.html stub pages")
     args = parser.parse_args()
     events = json.loads(EVENTS.read_text(encoding="utf-8"))
+    ids = {ev["id"] for ev in events}
     site_card(events)
     if args.events:
+        registry = load_registry()
+        total = 0
         for ev in events:
-            event_card(ev)
-        print(f"wrote {len(events)} event cards to {SHARE_DIR.relative_to(ROOT)}")
+            total += event_card(ev, registry).stat().st_size
+        removed = prune(SHARE_DIR, ids, ".jpg")
+        print(f"wrote {len(events)} event cards to {SHARE_DIR.relative_to(ROOT)} ({total / 1e6:.1f} MB, pruned {removed})")
+    if args.pages:
+        for ev in events:
+            stub_page(ev)
+        removed = prune(PAGES_DIR, ids, ".html")
+        print(f"wrote {len(events)} stub pages to {PAGES_DIR.relative_to(ROOT)} (pruned {removed})")
     return 0
 
 

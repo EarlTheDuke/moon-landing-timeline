@@ -1,24 +1,44 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#080d1c" />
   <title>Moon Landing Timeline — share card</title>
-  <meta name="description" content="One lunar timeline event on a screenshot-ready card, with a ≤280 character draft post." />
+  <meta name="description" content="One lunar timeline event on a download-ready card, with a ≤280 character draft post." />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Moon Landing Timeline" />
+  <meta property="og:title" content="Moon Landing Timeline — share cards" />
+  <meta property="og:description" content="Download a picture card for any Moon mission on the timeline, with a ready-to-edit post." />
+  <meta property="og:image" content="https://earltheduke.github.io/moon-landing-timeline/app/assets/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@TheLimitingFctr" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
-<body>
+<body class="share-page">
   <a class="skip-link" href="#share-frame">Skip to the card</a>
 
-  <header class="hero">
+  <header class="hero share-hero">
     <div class="wrap">
+      <nav class="topbar" aria-label="Site">
+        <a class="brand" href="./">
+          <img src="./assets/favicon.svg" alt="" width="26" height="26" />
+          <span>Moon Landing Timeline</span>
+        </a>
+        <div class="topbar-actions">
+          <a class="btn-ghost" href="./">← Back to the timeline</a>
+          <button type="button" class="btn-icon" data-theme-toggle aria-pressed="false" title="Switch to light mode" aria-label="Toggle light and dark mode">
+            <span class="icon-sun" aria-hidden="true">☀</span><span class="icon-moon" aria-hidden="true">☾</span>
+          </button>
+        </div>
+      </nav>
       <p class="eyebrow">Share card</p>
-      <h1>One event, ready to screenshot</h1>
+      <h1>One event, ready to post</h1>
       <p class="tagline">
-        Deep-link any event with <code>?event=&lt;id&gt;</code> — for example
-        <code>share.html?event=artemis-iv-2028</code>. Screenshot the card, copy or edit the draft,
-        then post it yourself. <a href="./">Back to the timeline</a>.
+        Pick an event, download the picture card as a PNG, copy the draft, and post it yourself.
+        The card link below carries its own preview image when pasted into X.
       </p>
     </div>
   </header>
@@ -43,7 +63,13 @@
     </div>
 
     <div class="share-frame" id="share-frame" data-ratio="16x9">
-      <article class="share-card" id="share-card"></article>
+      <article class="share-card has-photo" id="share-card"></article>
+    </div>
+
+    <div class="share-download-row">
+      <button type="button" class="btn-copy" id="download">Download PNG</button>
+      <button type="button" class="btn-ghost" id="copy-link">Copy card link</button>
+      <span class="share-hint" id="download-hint">1200 × 675 px, image included</span>
     </div>
 
     <section class="share-draft" aria-labelledby="draft-heading">
@@ -63,15 +89,11 @@
 
   <p class="visually-hidden" id="copy-live" role="status" aria-live="polite"></p>
 
-  <footer class="wrap">
-    <p>
-      Serve the repo root so <code>../data/events/events.json</code> loads:
-      <code>python3 -m http.server 8765</code>, then open
-      <code>http://127.0.0.1:8765/app/share.html</code>.
-    </p>
-    <p>
-      The blurb is the first sentence of the event summary in <code>data/events/events.json</code>.
-      Check it against the linked source before posting — nothing here is auto-published.
+  <footer class="wrap site-footer">
+    <p class="footer-fine">
+      The blurb is the first sentence of the event summary in the data. Check it against the linked
+      source before posting — nothing here is auto-published. Photos: NASA and Wikimedia Commons
+      contributors, credited on the card.
     </p>
   </footer>
 
