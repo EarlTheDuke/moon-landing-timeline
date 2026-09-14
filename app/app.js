@@ -575,7 +575,8 @@ function highlightCard(item, tokens) {
   card.id = `highlight-${event.id}`;
 
   const top = el("div", "highlight-top");
-  const beat = H.beatById(item.beat);
+  // While a beat is selected, label cards with that beat rather than their primary one.
+  const beat = H.beatById(state.beat) || H.beatById(item.beat);
   if (beat) top.appendChild(el("span", "beat-tag", beat.label));
   top.appendChild(el("span", "highlight-when", H.whenPhrase(event)));
   card.appendChild(top);
