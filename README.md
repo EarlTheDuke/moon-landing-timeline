@@ -1,99 +1,98 @@
 # Moon Landing Timeline
 
-Interactive, easy-to-read timeline of significant Moon / lunar exploration activity for the next ~5+ years (stretch to ~2035 where public dates exist).
+**Live:** https://earltheduke.github.io/moon-landing-timeline/
 
-## Goals
-- Deep international coverage: NASA Artemis + US commercial, China (ILRS/Chang’e), Russia, ESA/JAXA/ISRO and other partners
-- Source-cited events with confidence + date precision (no invented day-level dates)
-- Eventually: polished interactive UI for public / @TheLimitingFctr audience
+What's happening on the Moon, in one sourced, interactive timeline: NASA Artemis and
+US commercial landers, China's Chang'e / ILRS / crewed programme, Russia's Luna,
+ESA, India, Japan, Korea, the UAE and partners — 2024 through the mid-2030s. Every
+event cites its sources and states how precise the date is and how confident we are.
+Built for [@TheLimitingFctr](https://x.com/TheLimitingFctr) and anyone who wants the
+real schedule rather than the press-release one.
+
+## What's on the page
+
+- **Now & next** — the missions coming up soonest, with pictures and "in 5 days" style
+  countdowns. *This month* and *All upcoming* filter the full list.
+- **The decade at a glance** — a horizontal, draggable map of 2024–2035. Milestone
+  picture cards sit above the axis; lanes below show every event by program (Artemis,
+  CLPS, China, Russia, Europe, others) with a *Today* line. Hover a dot for a tooltip,
+  click anything for the full detail dialog.
+- **Race to the Moon** — a scoreboard: next crewed landing target for the US-led bloc vs
+  China / ILRS partners, landing attempts so far, missions in the pipeline.
+- **Schedule changes** — every slipped or cancelled item, newest first.
+- **The full timeline** — 119 cards with photos, flags, program colours and milestone
+  callouts. Past years are folded by default. Search, filter by status / country /
+  type / program / confidence / month, sort, compact view, year rail, light and dark
+  themes. Every view is a shareable URL (`?status=slipped&country=CN`,
+  `?event=artemis-iv-2028` opens the dialog).
+- **Highlights mode** — curated story beats with ready-to-edit ≤280-character drafts,
+  built verbatim from the data (see below).
+- **Share cards** — `app/share.html?event=<id>` shows one event on a photo card,
+  downloadable as a 1200×675 or 1080×1080 PNG. Every event also has a stub page at
+  `app/e/<id>.html` with its own preview image, so pasting that link into X shows the
+  card.
 
 ## Layout
-- `data/events` — timeline events (JSON)
+
+- `data/events` — timeline events (JSON, the source of truth)
 - `data/actors` — agencies, companies, nations
 - `data/sources` — canonical references
+- `data/images` — provenance for every picture used
 - `research` — notes, contradictions, open questions
 - `docs` — schema, project brief, Omarchy dev setup
-- `app` — static timeline browser + Highlights post drafting (plain HTML/CSS/JS, no build step)
+- `app` — the static site (plain HTML/CSS/JS, no build step)
+  - `app.js` main page, `overview.js` decade map, `highlights.js` curation + drafts,
+    `share.js` share cards, `data.js` shared helpers
+  - `assets/img` photos (NASA public domain / Wikimedia Commons, credited),
+    `assets/flags` SVG flags, `assets/share` per-event preview cards, `e/` stub pages
+- `scripts` — Python helpers (Pillow required) that regenerate derived assets
 
-## Preview the timeline
+## Run it locally
 
 The app reads `../data/events/events.json` directly, so serve the **repo root**:
 
 ```bash
-python3 -m http.server 8765
-# then open http://127.0.0.1:8765/app/
+python -m http.server 8000
+# then open http://127.0.0.1:8000/app/
 ```
 
-Opening `app/index.html` straight from the filesystem will not work — browsers
-block `fetch` on `file://` URLs.
+Opening `app/index.html` straight from the filesystem will not work — browsers block
+`fetch` on `file://` URLs.
 
-### What the browser can do
-- **Search** across titles, summaries, notes, actors, programs and country names
-  (multiple words are ANDed; matches are highlighted). Press `/` to jump to the box.
-- **Filter** by status, country, event type, program and confidence, plus decade
-  by clicking a bar in the stats strip. Active filters show as removable chips.
-- **Sort** oldest-first or newest-first, and switch between **Detailed** cards
-  (summary, countries, actors, notes, sources) and **Compact** rows for fast
-  scanning. Any card can be expanded on its own.
-- **Jump to a year** with the year rail under the filters.
-- **Share a view**: mode, filters, sort and view are stored in the URL, so
-  `…/app/?status=planned&country=US` or `…/app/?mode=highlights&beat=power` reopens the same slice.
+## Updating the data
 
-### Highlights mode — drafting posts for X
+1. Edit `data/events/events.json` following `docs/SCHEMA.md` (cite sources, never
+   invent day-level dates). Add an `image` block or a query in
+   `scripts/image_manifest.json` if the event deserves its own picture.
+2. Regenerate derived assets:
 
-Switch the toolbar toggle from **Timeline** to **Highlights** (or open `…/app/?mode=highlights`)
-to get a curated slice of the timeline built for @TheLimitingFctr story beats.
+   ```bash
+   pip install pillow
+   python scripts/fetch_images.py            # download/resize/dedupe pictures from the manifest
+   python scripts/fetch_flags.py             # SVG flags for any new country codes
+   python scripts/build_og.py --events --pages   # og.png, per-event cards, app/e/*.html
+   ```
 
-Drafting a post, start to finish:
+3. Commit and push; GitHub Pages redeploys from `master`.
 
-1. Serve the repo root, open `/app/`, click **Highlights**.
-2. Pick a beat chip (say *Power & infrastructure gates*) and skim the cards.
-3. Hit **Copy draft** on the one you want — that is the post, already under 280 characters.
-4. Paste into X, edit in your own voice, and follow the card's **Source** link to double-check
-   the claim before sending.
-5. Want a picture with it? **Share card ↗** opens `share.html` for that event, framed 16:9 for a
-   screenshot.
+## Highlights mode — drafting posts for X
 
-The details:
+Switch the toolbar toggle from **Timeline** to **Highlights** (or open `…/app/?mode=highlights`).
+Chips group curated events into *Crew on the Moon*, *Firsts & debuts*, *Power &
+infrastructure gates*, *Policy, money & contracts* and *Next up (24 months)*; curation is
+derived from fields already in `events.json` (see `app/highlights.js`).
 
-- **Story beats.** Chips group the curated events into *Crew on the Moon*, *Firsts & debuts*,
-  *Power & infrastructure gates*, *Policy, money & contracts* and *Next up (24 months)*. Curation
-  is derived from fields already in `events.json` (category, status, dates, keywords such as
-  "first"/"reactor"/"sample return", citation count) — see `app/highlights.js`.
-- **Copy blurb.** Every card shows the draft it will copy and a `NN/280` counter. **Copy draft**
-  puts a ≤280 character post on the clipboard: the event title, its recorded date (or status +
-  date for anything not yet completed), a blank line, and **the first sentence of the summary in
-  the data, verbatim**. Nothing is invented or rewritten — if a claim is not in `events.json`,
-  it will not be in the draft.
-- **Draft options.** *Date / status line* (on by default) and *#Program tag* (off) change every
-  draft at once. The same **Copy draft** button also sits at the bottom of each expanded card in
-  Timeline mode, so any of the 119 events can be grabbed, not just the curated ones.
-- **Why it was picked.** Each card lists the rules that matched ("Crewed landing", "Called a
-  first", "Nuclear surface power", "Money attached"…) plus a link to the event's first source, so
-  a draft can be checked before it is posted.
-- **Search and filters still apply**, so `?mode=highlights&country=CN` highlights only China.
+**Copy draft** puts a ≤280 character post on the clipboard: the event title, its date (or
+status + date for anything not yet completed), a blank line, and the first sentence of the
+summary **verbatim**. Nothing is invented or rewritten. Each card says why it was picked and
+links its first source so the claim can be checked before posting. **Copy link** copies the
+event's stub URL (with preview card); **Share card ↗** opens the downloadable picture card.
 
-Nothing is ever posted anywhere: the app has no backend and no API keys. It only writes to your
-clipboard when you press a copy button.
+Nothing is ever posted anywhere: the app has no backend and no API keys. It only writes to
+your clipboard when you press a copy button.
 
-### Share card for screenshots
+## Contributing
 
-`app/share.html` renders a single event large enough to screenshot, and is deep-linkable:
-
-```
-http://127.0.0.1:8765/app/share.html?event=artemis-iv-2028
-```
-
-It has an event picker, prev/next, 16:9 / 1:1 / fit framing for the image crop, an **editable**
-draft textarea with a live character count, and the event's sources listed underneath for a
-last check. `…/app/?event=<id>` does the reverse: it opens the timeline scrolled to that event.
-
-## Omarchy status (2026-09-13)
-- Path: `~/Projects/moon-landing-timeline`
-- Present: git, Node 26, Python, Docker package (daemon not usable yet; jack not in docker group)
-- Missing for full agent-dev: Cursor app, SSH keys, Docker group/daemon
-
-## Workflow
-1. Finish Omarchy tooling (Cursor, Docker, SSH)
-2. Grow `data/` as the source of truth
-3. Build interactive timeline on top of that data
+Spotted a wrong date or a missing mission?
+[Open an issue](https://github.com/EarlTheDuke/moon-landing-timeline/issues) with a link to a
+primary source, or edit `data/events/events.json` and send a pull request.

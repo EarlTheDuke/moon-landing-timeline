@@ -22,6 +22,22 @@ Array of **Event** objects:
 | `sources` | SourceRef[] | yes | Inline citations for this event |
 | `confidence` | enum | yes | `confirmed` \| `planned` \| `rumored` |
 | `notes` | string | no | Uncertainty, contradictions, UI caveats |
+| `image` | ImageRef | no | Picture shown on the event's card, dialog, overview milestone and share card. Omit to fall back to the program picture in `images.json` |
+
+### ImageRef (inline)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `file` | string | File name under `app/assets/img/events/` (a `-sm.jpg` thumbnail is built beside it) |
+| `alt` | string | Short description for screen readers |
+| `credit` | string | Photographer / agency as shown on the card |
+| `license` | string | e.g. `Public domain (NASA)`, `CC BY-SA 4.0` |
+| `source_url` | string | Page the image was taken from |
+
+Only freely reusable images (NASA public domain, Wikimedia Commons CC licences) are
+used, and the credit is always rendered next to the picture. Images are fetched,
+resized (1280 px + 520 px thumbnail) and deduplicated by `scripts/fetch_images.py`
+from the queries in `scripts/image_manifest.json`; do not hand-edit the JPEGs.
 
 ### SourceRef (inline)
 
@@ -70,6 +86,19 @@ Array of **canonical Source** objects (bibliography), distinct from per-event So
 | `publisher` | string | Publisher |
 | `topics` | string[] | Tags for filtering |
 | `accessed` | string | Access date |
+
+## `data/images/images.json`
+
+Object keyed by what a picture is for, written by `scripts/fetch_images.py`:
+
+| Key pattern | Meaning |
+|-------------|---------|
+| `<event id>` | Provenance for the event's own `image` (same fields as ImageRef plus `query` / `source`) |
+| `program:<Program>` | Fallback picture for events of that program that have none (`app/assets/img/programs/`) |
+| `category:default` | Last-resort fallback (the Moon) |
+| `hero`, `og` | Header photo and the source for the social preview card |
+
+`app/data.js` resolves `event.image` → `program:` → `category:default` in that order.
 
 ## Conventions
 
