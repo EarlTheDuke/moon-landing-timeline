@@ -3,24 +3,130 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
   <title>Moon Landing Timeline</title>
+  <meta name="description" content="Browsable timeline of international lunar exploration events — Artemis, CLPS, ILRS, Luna, Moonlight and more." />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Moon Landing Timeline</h1>
-    <div class="sub">International lunar events — data-first draft (NASA/Artemis, commercial, China, Russia, ESA, India, Japan, Korea, UAE, partners)</div>
-    <div class="controls">
-      <input id="search" type="search" placeholder="Search title, actors, program…" autocomplete="off" />
-      <select id="status" aria-label="Filter by status"><option value="">All statuses</option></select>
-      <select id="country" aria-label="Filter by country"><option value="">All countries</option></select>
+  <a class="skip-link" href="#timeline">Skip to the timeline</a>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Data-first draft</p>
+      <h1>Moon Landing Timeline</h1>
+      <p class="tagline">
+        International lunar activity in one place — NASA/Artemis and US commercial, China, Russia,
+        ESA, India, Japan, Korea, UAE and partners. Every event is sourced.
+      </p>
+      <dl class="headline-stats" id="headline-stats"></dl>
     </div>
   </header>
-  <main>
-    <div class="meta" id="meta">Loading events…</div>
-    <div class="timeline" id="list"></div>
+
+  <div class="toolbar" id="toolbar">
+    <div class="wrap">
+      <form class="filters" id="filters" role="search" autocomplete="off">
+        <div class="search-row">
+          <div class="field search-field">
+            <label class="visually-hidden" for="search">Search events</label>
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input
+              id="search"
+              name="q"
+              type="search"
+              placeholder="Search titles, summaries, actors, programs…"
+              enterkeyhint="search"
+            />
+            <kbd class="search-hint" aria-hidden="true">/</kbd>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <details class="filter-drawer" id="filter-drawer">
+            <summary class="filter-summary">
+              <span class="filter-summary-label">Filters &amp; sorting</span>
+              <span class="filter-badge" id="filter-count" hidden>0</span>
+              <span class="filter-chevron" aria-hidden="true"></span>
+            </summary>
+
+            <div class="filter-grid">
+              <p class="field">
+                <label class="visually-hidden" for="filter-status">Status</label>
+                <select id="filter-status" data-filter="status"><option value="">All statuses</option></select>
+              </p>
+              <p class="field">
+                <label class="visually-hidden" for="filter-country">Country</label>
+                <select id="filter-country" data-filter="country"><option value="">All countries</option></select>
+              </p>
+              <p class="field">
+                <label class="visually-hidden" for="filter-category">Event type</label>
+                <select id="filter-category" data-filter="category"><option value="">All types</option></select>
+              </p>
+              <p class="field">
+                <label class="visually-hidden" for="filter-program">Program</label>
+                <select id="filter-program" data-filter="program"><option value="">All programs</option></select>
+              </p>
+              <p class="field">
+                <label class="visually-hidden" for="filter-confidence">Confidence</label>
+                <select id="filter-confidence" data-filter="confidence"><option value="">All confidence</option></select>
+              </p>
+              <p class="field">
+                <label class="visually-hidden" for="filter-sort">Sort order</label>
+                <select id="filter-sort" data-filter="sort">
+                  <option value="asc">Oldest first</option>
+                  <option value="desc">Newest first</option>
+                </select>
+              </p>
+              <p class="field field-reset">
+                <button type="button" class="btn-reset" id="reset">Reset all</button>
+              </p>
+            </div>
+          </details>
+
+          <div class="view-toggle" role="group" aria-label="Card detail level">
+            <button type="button" class="view-btn" data-view="detailed" aria-pressed="true">Detailed</button>
+            <button type="button" class="view-btn" data-view="compact" aria-pressed="false">Compact</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="active-filters" id="active-filters" hidden></div>
+
+      <nav class="year-rail" id="year-rail" aria-label="Jump to year"></nav>
+    </div>
+  </div>
+
+  <main class="wrap" id="main">
+    <section class="stats" aria-labelledby="stats-heading">
+      <h2 class="section-heading" id="stats-heading">At a glance</h2>
+      <div class="stats-grid">
+        <div class="stat-block">
+          <h3 class="stat-title" id="status-chips-title">By status</h3>
+          <div class="chip-row" id="status-chips" role="group" aria-labelledby="status-chips-title"></div>
+        </div>
+        <div class="stat-block">
+          <h3 class="stat-title" id="decade-bars-title">By decade</h3>
+          <div class="bars" id="decade-bars" role="group" aria-labelledby="decade-bars-title"></div>
+        </div>
+      </div>
+    </section>
+
+    <p class="result-meta" id="result-meta" role="status" aria-live="polite">Loading events…</p>
+
+    <div class="timeline" id="timeline"></div>
   </main>
-  <footer>Serve from repo root so <code>../data/events/events.json</code> loads. Example: <code>python3 -m http.server 8765</code> then open <code>/app/</code>. Events grouped by year; sticky year pills stay visible while scrolling.</footer>
+
+  <footer class="wrap">
+    <p>
+      Serve the repo root so <code>../data/events/events.json</code> loads:
+      <code>python3 -m http.server 8765</code>, then open <code>http://127.0.0.1:8765/app/</code>.
+    </p>
+    <p>
+      Dates use the precision recorded in the data — <em>year-level</em> and <em>month-level</em> targets are
+      labelled as such, so a bare year never pretends to be a launch date.
+    </p>
+  </footer>
+
   <script src="./app.js"></script>
 </body>
 </html>
