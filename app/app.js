@@ -294,6 +294,8 @@ function renderEvent(event, tokens) {
     body.appendChild(wrap);
   }
 
+  body.appendChild(draftActions(event));
+
   toggle.addEventListener("click", () => {
     const next = toggle.getAttribute("aria-expanded") !== "true";
     toggle.setAttribute("aria-expanded", String(next));
@@ -543,6 +545,25 @@ function copyButton(getText, label) {
     }, 1800);
   });
   return button;
+}
+
+/** Copy/share row offered on every event card, using the current draft options. */
+function draftActions(event) {
+  const draft = H.buildDraft(event, draftOptions());
+  const row = el("div", "event-actions");
+  row.appendChild(copyButton(() => draft, "Copy draft"));
+
+  const used = H.countChars(draft);
+  const count = el("span", `char-count${used > H.DRAFT_LIMIT - 20 ? " is-tight" : ""}`, `${used}/${H.DRAFT_LIMIT}`);
+  count.title = "Characters in the draft post, X's limit is 280";
+  row.appendChild(count);
+
+  const share = el("a", "btn-ghost", "Share card ↗");
+  share.href = `./share.html?event=${encodeURIComponent(event.id)}`;
+  share.target = "_blank";
+  share.rel = "noopener";
+  row.appendChild(share);
+  return row;
 }
 
 function highlightCard(item, tokens) {

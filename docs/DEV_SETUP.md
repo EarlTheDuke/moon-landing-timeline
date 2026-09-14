@@ -45,6 +45,19 @@ Handy while developing:
 | Reproduce a view | Filters live in the URL, e.g. `?status=slipped&sort=desc&view=compact` |
 | Scan quickly | **Compact** view toggle; click any card to expand just that one |
 | Sanity-check a render | Filter chips + "Showing N of M events" line under the stats strip |
+| Draft an X post | **Highlights** toggle → beat chip → **Copy draft** (`?mode=highlights`) |
+| Screenshot one event | `app/share.html?event=<id>`, or **Share card ↗** on any card |
+
+`app/data.js` holds the shared labels and date formatting, `app/highlights.js` the curation rules
+and the ≤280 character draft builder, `app/app.js` the timeline and Highlights UI, `app/share.js`
+the single-event card. Curation is pure functions over `events.json`, so it is easy to try in node:
+
+```bash
+node -e 'const fs=require("fs"),vm=require("vm");global.window=global;
+for (const f of ["app/data.js","app/highlights.js"]) vm.runInThisContext(fs.readFileSync(f,"utf8"));
+const events=JSON.parse(fs.readFileSync("data/events/events.json","utf8"));
+for (const item of window.MLT_HIGHLIGHTS.curate(events)) console.log(item.score, item.beat, item.event.title);'
+```
 
 ## Validate data
 

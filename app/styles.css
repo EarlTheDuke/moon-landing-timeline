@@ -1065,6 +1065,16 @@ mark {
 
 .btn-ghost:hover { border-color: var(--accent); color: var(--text); }
 
+.event-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--line);
+}
+
 .event.is-target {
   border-color: var(--focus);
   box-shadow: 0 0 0 2px rgba(255, 215, 106, 0.35);
