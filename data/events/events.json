@@ -25,7 +25,14 @@
     ],
     "confidence": "confirmed",
     "notes": "Already flying; included as infrastructure baseline for 2025–2035 timeline.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "queqiao-2-2024.jpg",
+      "alt": "Model of the Queqiao 2 relay satellite by CAST at 2024 Zhuhai Airshow. Digitally removed watermarks.",
+      "credit": "中国新闻社",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Queqiao_2_relay_satellite_model.png"
+    }
   },
   {
     "id": "im-1-odysseus-2024",
@@ -53,7 +60,14 @@
     ],
     "confidence": "confirmed",
     "date_end": null,
-    "notes": ""
+    "notes": "",
+    "image": {
+      "file": "im-1-odysseus-2024.jpg",
+      "alt": "IM-1, the first NASA Commercial Launch Program Services launch for Intuitive Machines’ Nova-C lunar lander, will carry multiple payloads to the Moon, including Lunar Node-1, demons",
+      "credit": "NASA Marshall Space Flight Center / Intuitive Machines",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Intuitive_Machines%E2%80%99_Nova-C_lunar_lander_(IM_00309)_(cropped).jpg"
+    }
   },
   {
     "id": "blue-ghost-m1-2025",
@@ -87,7 +101,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": ""
+    "notes": "",
+    "image": {
+      "file": "blue-ghost-m1-2025.jpg",
+      "alt": "NASA's CLPS Firefly Blue Ghost Mission 1 Launch",
+      "credit": "NASA/Kim Shiflett",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250115-PH-KLS01_0055"
+    }
   },
   {
     "id": "im-2-athena-2025",
@@ -115,7 +136,14 @@
     ],
     "confidence": "confirmed",
     "notes": "PRIME-1 was an early ISRU demo; limited science due to tip-over.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "im-2-athena-2025.jpg",
+      "alt": "The Intuitive Machines IM-2 Nova-C lander (Athena) is currently scheduled to land on Mons Mouton on 6 March 2025 (predicated upon a launch before the 2nd of March). The IM-1 Odysse",
+      "credit": "NASA/GSFC/Arizona State University",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IM-2_Landing_Region_(LROC1401_-_content_im2_wac_overview).png"
+    }
   },
   {
     "id": "ispace-hakuto-r-m2-2025",
@@ -142,7 +170,14 @@
     ],
     "confidence": "confirmed",
     "notes": "Exact failure date reported as early June 2025; day precision from secondary reporting.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "ispace-hakuto-r-m2-2025.jpg",
+      "alt": "ispace HAKUTO-R RESILIENCEランダーのレプリカ。羽田空港ロビー展示品。スラスタ―部",
+      "credit": "テレストレラッソ",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RESILIENCE-lander-replica08_20250528atHanedaAirPort.jpg"
+    }
   },
   {
     "id": "artemis-ii-2026",
@@ -188,7 +223,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": ""
+    "notes": "",
+    "image": {
+      "file": "artemis-ii-2026.jpg",
+      "alt": "Artemis II launch ",
+      "credit": "NASA/Michael DeMocker",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/SLS_MAF_20260401_ArtemisIILaunch_05"
+    }
   },
   {
     "id": "lm10-mengzhou-test-2026-02",
@@ -216,7 +258,14 @@
     ],
     "confidence": "confirmed",
     "notes": "Primary Chinese state-media coverage of exact day; secondary English summaries used.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "cz10b-first-flight-2026.jpg",
+      "alt": "Mockup of the Chinese new generation crewed rocket displayed at 2022 Airshow China in Zhuhai.",
+      "credit": "Shujianyang",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_next-gen_crewed_rocket_mockup_2022.jpg"
+    }
   },
   {
     "id": "nasa-artemis-architecture-2026",
@@ -249,7 +298,14 @@
     ],
     "confidence": "confirmed",
     "date_end": null,
-    "notes": ""
+    "notes": "",
+    "image": {
+      "file": "nasa-artemis-architecture-2026.jpg",
+      "alt": "Artemis II Rollout",
+      "credit": "NASA/Joel Kowsky",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/NHQ202601160005"
+    }
   },
   {
     "id": "gateway-pause-2026",
@@ -320,7 +376,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Status remains cancelled for the orbital Gateway station. The most concrete hardware repurposing announced to date is SR-1 Freedom, a nuclear electric propulsion demonstration reusing the Power and Propulsion Element (see sr1-freedom-ppe-repurpose-2026); HALO reuse is tracked under northrop-lid-missions. International module flight assignments remain unsettled and are expected to be addressed at ESA's December 2026 Rome ministerial."
+    "notes": "Status remains cancelled for the orbital Gateway station. The most concrete hardware repurposing announced to date is SR-1 Freedom, a nuclear electric propulsion demonstration reusing the Power and Propulsion Element (see sr1-freedom-ppe-repurpose-2026); HALO reuse is tracked under northrop-lid-missions. International module flight assignments remain unsettled and are expected to be addressed at ESA's December 2026 Rome ministerial.",
+    "image": {
+      "file": "canadarm3-moon-base-repurpose-2026.jpg",
+      "alt": "Concept art of the Lunar Gateway space station as it is intended to appear in 2024, with the Power and Propulsion Element (left), Habitation and Logistics Outpost (center foregroun",
+      "credit": "National Aeronautics and Space Administration",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg"
+    }
   },
   {
     "id": "moon-base-ltv-awards-2026",
@@ -374,7 +437,14 @@
     ],
     "confidence": "confirmed",
     "date_end": null,
-    "notes": "Intuitive Machines, the third original LTV competitor, was not selected; its share price fell sharply on the news. The Ignition event two months earlier asked companies to resubmit simpler, cheaper designs that could fly sooner rather than survive a decade on the surface. NASA's Moon Base program executive is Carlos García-Galán; Ryan Stephan is acting director of cargo landers. Contract detail: the delivery award is CLPS task order CX-2B (contract 80JSC026F7015), dated May 26, 2026 with $25.38M obligated at award and a further $6.58M added on August 6, 2026 in federal spending records; the $280.4M option period covers the lander missions themselves. Rover specifications given at the briefing: under one metric ton each, up to 10 km/h, slopes to 20 degrees, two astronauts on roughly 10 km sorties and robotic traverses up to 200 km, folded for transit on the Mark 1 lander. NASA also renamed the first Mark 1 flight 'Moon Base 1' and Griffin-1 'Moon Base II'."
+    "notes": "Intuitive Machines, the third original LTV competitor, was not selected; its share price fell sharply on the news. The Ignition event two months earlier asked companies to resubmit simpler, cheaper designs that could fly sooner rather than survive a decade on the surface. NASA's Moon Base program executive is Carlos García-Galán; Ryan Stephan is acting director of cargo landers. Contract detail: the delivery award is CLPS task order CX-2B (contract 80JSC026F7015), dated May 26, 2026 with $25.38M obligated at award and a further $6.58M added on August 6, 2026 in federal spending records; the $280.4M option period covers the lander missions themselves. Rover specifications given at the briefing: under one metric ton each, up to 10 km/h, slopes to 20 degrees, two astronauts on roughly 10 km sorties and robotic traverses up to 200 km, folded for transit on the Mark 1 lander. NASA also renamed the first Mark 1 flight 'Moon Base 1' and Griffin-1 'Moon Base II'.",
+    "image": {
+      "file": "ltv-surface-delivery-2028.jpg",
+      "alt": "Lunar Terrain Vehicle Testing",
+      "credit": "NASA/James Blair",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/jsc2024e069785"
+    }
   },
   {
     "id": "axiom-axemu-lcvg-2026",
@@ -416,7 +486,14 @@
     ],
     "confidence": "confirmed",
     "date_end": null,
-    "notes": "Separate from this completed unveiling: AxEMU sits under NASA's xEVAS IDIQ (June 2022, $3.5B ceiling with task orders capped at $3.1B over a 10-year ordering period); Axiom's first task order, September 2022, is worth $228.5M for four suits for the Artemis IV landing, and the company has five suits in manufacture. Critical design review was in progress in spring 2026, with an approximately one-year qualification campaign ending around mid-2027. NASA OIG (April 2026) warns AxEMU demos slipped to late 2027 with little margin for Artemis IV in 2028. See axemu-oig-readiness-risk-2026 and axemu-flight-demo-2027. NASA moved in early September 2026 to a pared-back 'Sortie Suit' configuration of AxEMU for the first landings; see axemu-sortie-suit-2026."
+    "notes": "Separate from this completed unveiling: AxEMU sits under NASA's xEVAS IDIQ (June 2022, $3.5B ceiling with task orders capped at $3.1B over a 10-year ordering period); Axiom's first task order, September 2022, is worth $228.5M for four suits for the Artemis IV landing, and the company has five suits in manufacture. Critical design review was in progress in spring 2026, with an approximately one-year qualification campaign ending around mid-2027. NASA OIG (April 2026) warns AxEMU demos slipped to late 2027 with little margin for Artemis IV in 2028. See axemu-oig-readiness-risk-2026 and axemu-flight-demo-2027. NASA moved in early September 2026 to a pared-back 'Sortie Suit' configuration of AxEMU for the first landings; see axemu-sortie-suit-2026.",
+    "image": {
+      "file": "axemu-flight-demo-2027.jpg",
+      "alt": "axemu-prada-spacesuit-mockup-20241007-085",
+      "credit": "NASA / Axiom Space",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/axemu-prada-spacesuit-mockup-20241007-085"
+    }
   },
   {
     "id": "blue-moon-mk1-endurance-2026",
@@ -480,7 +557,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "\"We expect that launch to occur in Q1 of 2027\" — John Couluris, Blue Origin SVP Lunar Permanence, mid-2026. Blue Origin had four Mark 1 landers in production as of July 2026: SN001 Endurance, a second to carry VIPER later in 2027, and two more to carry the Astrolab and Lunar Outpost LTVs in 2028. Exercising the VIPER delivery option depends on review of this flight. No civil launch date is published; entry stays at year precision. Blue Origin had seven Blue Moon vehicles in production as of July 6, 2026, and Endurance completed full-scale thermal-vacuum testing before entering quiescent storage. NASA now calls this first Mark 1 flight Moon Base 1. Launch listings carrying a March 31, 2027 date are placeholders for 'Q1 2027', not a company-published day."
+    "notes": "\"We expect that launch to occur in Q1 of 2027\" — John Couluris, Blue Origin SVP Lunar Permanence, mid-2026. Blue Origin had four Mark 1 landers in production as of July 2026: SN001 Endurance, a second to carry VIPER later in 2027, and two more to carry the Astrolab and Lunar Outpost LTVs in 2028. Exercising the VIPER delivery option depends on review of this flight. No civil launch date is published; entry stays at year precision. Blue Origin had seven Blue Moon vehicles in production as of July 6, 2026, and Endurance completed full-scale thermal-vacuum testing before entering quiescent storage. NASA now calls this first Mark 1 flight Moon Base 1. Launch listings carrying a March 31, 2027 date are placeholders for 'Q1 2027', not a company-published day.",
+    "image": {
+      "file": "blue-moon-mk1-endurance-2026.jpg",
+      "alt": "Blue Origin’s Blue Moon Mark 1 lunar lander",
+      "credit": "NASA",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blue_Moon_Mark_1_Endurance_(mo8a3794-26)_(cropped).jpg"
+    }
   },
   {
     "id": "griffin-1-moon-base-ii-2026",
@@ -550,7 +634,14 @@
     ],
     "confidence": "planned",
     "notes": "Voyager Technologies still gives NET November 2026 as of September 2026; Spaceflight Now (June 2026) says fourth quarter 2026 with no announced date, and the CLPS task order is valued at roughly $323M. No launch day has been published by NASA or the company, so this entry stays at month precision: schedule aggregators show placeholder end-of-November dates that are not company- or NASA-confirmed. Astrobotic now operates as Voyager Lunar Systems.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "griffin-1-moon-base-ii-2026.jpg",
+      "alt": "Griffin (посадочный модуль)",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Griffin_(Astrobotic).jpg"
+    }
   },
   {
     "id": "im-3-2026",
@@ -613,7 +704,14 @@
     ],
     "confidence": "planned",
     "date_end": "2027-03",
-    "notes": "Company guidance (Q2 FY2026 call, August 2026) is a January–March 2027 Falcon 9 window; initial flight readiness review was held in July 2026 with a delta FRR in October 2026 to authorize flight, and an integrated engine hot fire remained ahead. Altus-1, Intuitive Machines' first lunar relay satellite, flies on this stack. NASA's CLPS event page still showed 2026 at access time and is treated as stale; aggregator listings vary between Q4 2026 and Q1 2027. Re-checked September 2026: the January–March 2027 window is company guidance from the August 13, 2026 Q2 FY2026 call and no launch day has been published. Tracker entries carrying a March 30–31, 2027 date mark it as 'TBD' and an early-September 2026 investor column still said 'late 2026'; neither is adopted here."
+    "notes": "Company guidance (Q2 FY2026 call, August 2026) is a January–March 2027 Falcon 9 window; initial flight readiness review was held in July 2026 with a delta FRR in October 2026 to authorize flight, and an integrated engine hot fire remained ahead. Altus-1, Intuitive Machines' first lunar relay satellite, flies on this stack. NASA's CLPS event page still showed 2026 at access time and is treated as stale; aggregator listings vary between Q4 2026 and Q1 2027. Re-checked September 2026: the January–March 2027 window is company guidance from the August 13, 2026 Q2 FY2026 call and no launch day has been published. Tracker entries carrying a March 30–31, 2027 date mark it as 'TBD' and an early-September 2026 investor column still said 'late 2026'; neither is adopted here.",
+    "image": {
+      "file": "im-3-2026.jpg",
+      "alt": "Intuitive Machines’ Nova-C lunar lander",
+      "credit": "NASA / Intuitive Machines",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/IM_00309"
+    }
   },
   {
     "id": "blue-ghost-m2-2026",
@@ -687,7 +785,14 @@
     ],
     "confidence": "planned",
     "notes": "Firefly's official mission page says NET 2027; earlier NASA and company material said 2026, and aggregators still list NET December 2026, so status is slipped. Blue Ghost powers down before lunar nightfall to avoid interfering with LuSEE-Night, which stays on the top deck and can operate up to two years. Elytra Dark then works lunar orbit for five years supporting Firefly's Ocula imaging service. Manifest includes UAE Rashid Rover 2, Fleet Space SPIDER (Australia), Volta Space LightPort (Canada), UK-built Lunar Pathfinder for ESA, and NASA's LuSEE-Night and JPL user terminal. Re-checked September 2026: Firefly's official mission page still says NET 2027. Trackers list NET December 2026 and a December 31, 2026 placeholder, and a NASA presentation in March 2026 also showed NET December 2026 — none is a Firefly-published window, so the entry keeps 2027 at year precision with no day.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "draper-apex-2026",
@@ -739,7 +844,14 @@
     ],
     "confidence": "confirmed",
     "date_end": null,
-    "notes": "Launch had slipped from 2025 to 2026 (payload-driven redesign), to 2027 (engine change in May 2025), then to 2030 when ispace merged its U.S. and Japanese lander designs into ULTRA in March 2026. ispace booked a roughly ¥3.7B impairment in Q1 FY2027 and says it will bid the CLPS 2.0 follow-on instead. The cancelled CP-12 payload set was Farside Seismic Suite (JPL), LITMS (SwRI) and LuSEE-Night-related electromagnetic work (UC Berkeley)."
+    "notes": "Launch had slipped from 2025 to 2026 (payload-driven redesign), to 2027 (engine change in May 2025), then to 2030 when ispace merged its U.S. and Japanese lander designs into ULTRA in March 2026. ispace booked a roughly ¥3.7B impairment in Q1 FY2027 and says it will bid the CLPS 2.0 follow-on instead. The cancelled CP-12 payload set was Farside Seismic Suite (JPL), LITMS (SwRI) and LuSEE-Night-related electromagnetic work (UC Berkeley).",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "esa-moonlight-pathfinder-2026",
@@ -789,7 +901,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Lunar Pathfinder is a Surrey Satellite Technology-built precursor to the Moonlight constellation, carried to lunar orbit under NASA CLPS sponsorship on Firefly's Blue Ghost Mission 2 stack: Elytra Dark deploys it alongside the Blue Ghost lander. It offers dual S-band links to lunar surface and orbital assets with an X-band link to Earth, enabling far-side missions without direct line of sight to Earth, and is commissioned using a JPL-built NASA CLPS user terminal. Firefly's official page now says NET 2027, so the launch is treated as slipped from earlier 2026 material. Aligned with blue-ghost-m2-2026 as of September 2026: Firefly still publishes NET 2027 and the December 2026 dates in launch trackers are not adopted."
+    "notes": "Lunar Pathfinder is a Surrey Satellite Technology-built precursor to the Moonlight constellation, carried to lunar orbit under NASA CLPS sponsorship on Firefly's Blue Ghost Mission 2 stack: Elytra Dark deploys it alongside the Blue Ghost lander. It offers dual S-band links to lunar surface and orbital assets with an X-band link to Earth, enabling far-side missions without direct line of sight to Earth, and is commissioned using a JPL-built NASA CLPS user terminal. Firefly's official page now says NET 2027, so the launch is treated as slipped from earlier 2026 material. Aligned with blue-ghost-m2-2026 as of September 2026: Firefly still publishes NET 2027 and the December 2026 dates in launch trackers are not adopted.",
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "change-7-slipped-2026",
@@ -869,7 +988,14 @@
     ],
     "confidence": "planned",
     "notes": "Thailand's NARIT, which contributed the MATCH cosmic-ray instrument, announced a roughly one-month delay attributed to Typhoon Narra hours before the CMSEO statement; the CMSEO wording does not confirm weather as the cause and does not clearly rule out a 2026 backup window. No official CNSA English re-date had been published at access time, so this entry keeps 2027 at year precision. South-pole illumination drives narrow windows: chief designer Wu Weiren has noted some sites are lit for more than 100 days, so launch timing is tied to arriving before an extended illumination period. Seven international payloads fly, including NARIT's MATCH and ILOA's ILO-C camera. Post-scrub reporting (China in Space, August 31, 2026) says the one-month slip was abandoned and that Long March 5 readiness is being explored for the February and March 2027 windows, which offer several day-long launch opportunities and acceptable south-pole lighting with about three months of orbital scouting first; dates were described as not finalized pending investigations and reviews. NARIT said the probe would be kept in a form of storage at Wenchang and that some instruments might be removed to keep them healthy. Chang'e-7's international payloads come from Egypt, Bahrain, Italy, Russia, Switzerland and Thailand plus the International Lunar Observatory Association, which is why the country list is broad. Still no official CNSA English re-date, so the entry stays at 2027 year precision.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "change-6-2024.jpg",
+      "alt": "Chang'e 6 mockup exhibited at the 2024 International Astronautical Congress celebrated in Milan, Italy.",
+      "credit": "BugWarp",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chang%27e_6_mockup_at_IAC_2024_02.jpg"
+    }
   },
   {
     "id": "artemis-iii-2027",
@@ -955,7 +1081,14 @@
     ],
     "confidence": "planned",
     "notes": "NASA moved the target from mid-2027 to late 2027 after both HLS providers responded that they could meet a late-2027 rendezvous and docking test (Isaacman, April 27, 2026 congressional testimony). In April 2026 NASA swapped a non-propulsive spacer for the ICPS on this flight, reserving the last ICPS for Artemis IV to protect the 2028 landing. Hardware progress: core stage arrived at Kennedy April 27, 2026; booster stacking began July 2026; RS-25 engine installation began August 24, 2026; Orion crew and service modules mated and powered on. AxEMU may fly here or on an ISS EVA instead — venue still undecided. September 2026 status: Administrator Isaacman said on August 14 that he is 'extremely confident' Artemis III flies in 2027 and on August 21 that it could launch as early as June 2027, with the SLS rolling to Pad 39B for a wet dress rehearsal before the end of 2026; NASA OIG records a contractual 'no later than June 2027' date set in December 2024. All four RS-25 engines were installed on Core Stage-3 by September 1, 2026 and booster forward center segments were being stacked. The mission sequence starts with a New Glenn launch of Blue Origin's Mark 2-based test lander days ahead of SLS/Orion. The dataset keeps year precision because NASA's own pages still say 2027.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "artemis-iii-2027.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS en route to the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2003%2024%20%20orion%20transfer"
+    }
   },
   {
     "id": "hls-uncrewed-lunar-demos-2027",
@@ -1002,7 +1135,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Range widened from 2027–2028 to 2026–2029 to reflect the OIG-documented spread between the two providers. Blue Origin's concept of operations puts a transporter in low Earth orbit as a depot, refuels it with a fleet of refuelers, then launches and fills the Blue Moon lander; the company also plans multiple New Glenn commercial and refueling flights before flying the HLS lander. Reality check for the low end of the range: Starship had not yet reached orbit as of September 2026, so the end-2026 uncrewed lunar demonstration in the OIG baseline is no longer credible; Flight 14 is the first orbital attempt (see starship-flight-14-2026)."
+    "notes": "Range widened from 2027–2028 to 2026–2029 to reflect the OIG-documented spread between the two providers. Blue Origin's concept of operations puts a transporter in low Earth orbit as a depot, refuels it with a fleet of refuelers, then launches and fills the Blue Moon lander; the company also plans multiple New Glenn commercial and refueling flights before flying the HLS lander. Reality check for the low end of the range: Starship had not yet reached orbit as of September 2026, so the end-2026 uncrewed lunar demonstration in the OIG baseline is no longer credible; Flight 14 is the first orbital attempt (see starship-flight-14-2026).",
+    "image": {
+      "file": "artemis-vi-2029.jpg",
+      "alt": "Artist’s Concept Portrays SpaceX’s Starship HLS with Raptor Engines for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2004%2024%20hls%202%20raptors"
+    }
   },
   {
     "id": "im-4-2027",
@@ -1054,7 +1194,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Company reaffirmed late 2027 and \"still on track\" on the Q2 FY2026 call while noting a $14.7M estimate-at-complete adjustment to accommodate payload changes. NASA's CLPS deliveries page lists this as CP-22: six NASA science payloads to Mons Mouton."
+    "notes": "Company reaffirmed late 2027 and \"still on track\" on the Q2 FY2026 call while noting a $14.7M estimate-at-complete adjustment to accommodate payload changes. NASA's CLPS deliveries page lists this as CP-22: six NASA science payloads to Mons Mouton.",
+    "image": {
+      "file": "im-3-2026.jpg",
+      "alt": "Intuitive Machines’ Nova-C lunar lander",
+      "credit": "NASA / Intuitive Machines",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/IM_00309"
+    }
   },
   {
     "id": "viper-blue-moon-2027",
@@ -1100,7 +1247,14 @@
     ],
     "confidence": "planned",
     "notes": "The option remained unexercised at access time and is gated on the MK1 Endurance flight, now expected Q1 2027 — leaving little margin for a late-2027 VIPER landing. Blue Origin said in July 2026 that the second Mark 1 lander for VIPER is in build for launch later in 2027. NASA counted VIPER-on-MK1 among five CLPS landings on its 2027 books as of June 2026. Under CS-7, Blue Origin handles integration, planning and deployment while NASA runs rover operations; launch is not covered by the task order. Status on September 13, 2026: NASA has published no decision to exercise the delivery option, and the gating Endurance flight has not flown. Because CS-7 does not cover launch, the option decision, the second Mark 1 build-out and a New Glenn slot all have to close inside 2027 for the 100-day science window to survive.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "viper-blue-moon-2027.jpg",
+      "alt": "Viper Rover, in SLOPE Lab,",
+      "credit": "NASA/GRC/Bridget Caswell",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GRC-2022-C-04467"
+    }
   },
   {
     "id": "chandrayaan-4-2027",
@@ -1145,7 +1299,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Two official targets are in play: Department of Space material presented to a Parliamentary Standing Committee in March 2026 lists October 2027, while ISRO chairman V. Narayanan said in 2026 that ISRO is working to launch 'by 2028'. The dataset keeps 2028 at year precision. A launch-vehicle question sits underneath: procurement was deferred mid-year when ISRO changed the configuration to a semi-cryogenic LVM3 (SC120 stage, SE2000 engine), whose first fully integrated engine hot test was targeted for the end of 2026 and whose vehicle is not expected to be flight-ready before 2028–29; other committee reporting says Chandrayaan-4 will instead fly on two existing LVM3s. Only ₹34.6 crore of the ₹150 crore allocated for 2025-26 had been spent by January 2026. Ignore secondary misquotes calling Chandrayaan-4/5 'crewed'."
+    "notes": "Two official targets are in play: Department of Space material presented to a Parliamentary Standing Committee in March 2026 lists October 2027, while ISRO chairman V. Narayanan said in 2026 that ISRO is working to launch 'by 2028'. The dataset keeps 2028 at year precision. A launch-vehicle question sits underneath: procurement was deferred mid-year when ISRO changed the configuration to a semi-cryogenic LVM3 (SC120 stage, SE2000 engine), whose first fully integrated engine hot test was targeted for the end of 2026 and whose vehicle is not expected to be flight-ready before 2028–29; other committee reporting says Chandrayaan-4 will instead fly on two existing LVM3s. Only ₹34.6 crore of the ₹150 crore allocated for 2025-26 had been spent by January 2026. Ignore secondary misquotes calling Chandrayaan-4/5 'crewed'.",
+    "image": {
+      "file": "chandrayaan-4-2027.jpg",
+      "alt": "Crop of original stereo image",
+      "credit": "ISRO/Simeon Schmauß",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chandrayaan_3_Vikram_lander_stereo_(53167467822)_crop.png"
+    }
   },
   {
     "id": "northrop-lid-missions",
@@ -1179,7 +1340,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Company concept with public LID framing; keep conceptual for dates until NASA publishes a task order/schedule."
+    "notes": "Company concept with public LID framing; keep conceptual for dates until NASA publishes a task order/schedule.",
+    "image": {
+      "file": "canadarm3-moon-base-repurpose-2026.jpg",
+      "alt": "Concept art of the Lunar Gateway space station as it is intended to appear in 2024, with the Power and Propulsion Element (left), Habitation and Logistics Outpost (center foregroun",
+      "credit": "National Aeronautics and Space Administration",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg"
+    }
   },
   {
     "id": "artemis-iv-2028",
@@ -1267,7 +1435,14 @@
     ],
     "confidence": "planned",
     "notes": "First crewed Artemis landing, targeted early 2028 at the south pole. No HLS provider designation has been made: NASA originally tapped SpaceX's Starship for this landing but has said it may pivot to Blue Origin depending on readiness demonstrated at Artemis III. NASA OIG (IG-26-004, March 2026) found Artemis IV lander development had slipped at least six months from March to October 2027 with PDR and CDR each about a year late (August 2026 and June 2027). SpaceX has described flying the trans-lunar injection with Starship rather than Orion on this mission. Suit margin is thin: Axiom has five AxEMUs in manufacture for Artemis IV under a $228.5M task order for four suits, with qualification testing running to about mid-2027. Provider designation still open on September 13, 2026: NASA's architecture release says 'Lander readiness will determine which provider' carries the crew, and the HLS contracts remain numbered with SpaceX on Artemis IV (Appendix H Option B) and Blue Origin on Artemis V. In early September 2026 NASA directed Axiom to develop a simplified 'Sortie Suit' variant intended for the initial landings on landers from both providers (see axemu-sortie-suit-2026).",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "artemis-iv-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/09%2024%2024%20First%20steps%20Axiom%20suits"
+    }
   },
   {
     "id": "artemis-v-2028",
@@ -1314,7 +1489,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Targeted late 2028 and slated to debut the standardized SLS configuration with a ULA Centaur V upper stage replacing ICPS. Contradiction to watch: NASA OIG placed Blue Origin's Mark 2 uncrewed demonstration mission — a prerequisite for the crewed Mark 2 flight — in February 2029, \"roughly one year before the planned Artemis V mission,\" implying an internal Artemis V baseline no earlier than about 2030. The conflict is now precisely dated: NASA announced in December 2024 that the Artemis V launch date had moved to no later than March 2030 — the baseline OIG audited, and the reason Blue Origin received an extra 15 months — while the March 2026 architecture release targets late 2028. Neither NASA nor OIG has published a reconciliation, so the dataset keeps the public late-2028 date and records the contradiction."
+    "notes": "Targeted late 2028 and slated to debut the standardized SLS configuration with a ULA Centaur V upper stage replacing ICPS. Contradiction to watch: NASA OIG placed Blue Origin's Mark 2 uncrewed demonstration mission — a prerequisite for the crewed Mark 2 flight — in February 2029, \"roughly one year before the planned Artemis V mission,\" implying an internal Artemis V baseline no earlier than about 2030. The conflict is now precisely dated: NASA announced in December 2024 that the Artemis V launch date had moved to no later than March 2030 — the baseline OIG audited, and the reason Blue Origin received an extra 15 months — while the March 2026 architecture release targets late 2028. Neither NASA nor OIG has published a reconciliation, so the dataset keeps the public late-2028 date and records the contradiction.",
+    "image": {
+      "file": "artemis-v-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2003%2024%20artemis%203%20on%20surface"
+    }
   },
   {
     "id": "ltv-surface-delivery-2028",
@@ -1356,7 +1538,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Blue Origin started work on two additional Mark 1 landers to carry the Astrolab and Lunar Outpost rovers, with those launches scheduled for 2028 (Couluris, July 2026). Delivery is funded through the $188M base plus $280.4M option structure of the May 26, 2026 CLPS delivery award, and depends on New Glenn return to flight and the Mark 1 Endurance pathfinder."
+    "notes": "Blue Origin started work on two additional Mark 1 landers to carry the Astrolab and Lunar Outpost rovers, with those launches scheduled for 2028 (Couluris, July 2026). Delivery is funded through the $188M base plus $280.4M option structure of the May 26, 2026 CLPS delivery award, and depends on New Glenn return to flight and the Mark 1 Endurance pathfinder.",
+    "image": {
+      "file": "ltv-surface-delivery-2028.jpg",
+      "alt": "Lunar Terrain Vehicle Testing",
+      "credit": "NASA/James Blair",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/jsc2024e069785"
+    }
   },
   {
     "id": "change-8-2028",
@@ -1429,7 +1618,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Resolves the Chang'e-8 year question at the official level: CNSA's English release says \"around 2029.\" Chinese state television reported NET 2028 in September 2026, and earlier reporting used ~2028, so the range is kept. SpaceNews reported on September 10, 2026 that the mission is being reconfigured following the transfer of lunar program authority to CMSA; the specific changes were not detailed in readable coverage at access time. Also the single best public source on ILRS partner hardware contributions. Payload selection arithmetic, for the record: CNSA opened 200 kg of capacity in October 2024, received 41 proposals, and merged 14 accepted proposals from 11 countries and regions plus the International Society for Terrain-Vehicle Systems into the 10 announced projects. China in Space argued in September 2026 that 'cancellation' rumours following the CMSA takeover are unfounded, partly because ten international payload agreements are already in place."
+    "notes": "Resolves the Chang'e-8 year question at the official level: CNSA's English release says \"around 2029.\" Chinese state television reported NET 2028 in September 2026, and earlier reporting used ~2028, so the range is kept. SpaceNews reported on September 10, 2026 that the mission is being reconfigured following the transfer of lunar program authority to CMSA; the specific changes were not detailed in readable coverage at access time. Also the single best public source on ILRS partner hardware contributions. Payload selection arithmetic, for the record: CNSA opened 200 kg of capacity in October 2024, received 41 proposals, and merged 14 accepted proposals from 11 countries and regions plus the International Society for Terrain-Vehicle Systems into the 10 announced projects. China in Space argued in September 2026 that 'cancellation' rumours following the CMSA takeover are unfounded, partly because ten international payload agreements are already in place.",
+    "image": {
+      "file": "change-6-2024.jpg",
+      "alt": "Chang'e 6 mockup exhibited at the 2024 International Astronautical Congress celebrated in Milan, Italy.",
+      "credit": "BugWarp",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chang%27e_6_mockup_at_IAC_2024_02.jpg"
+    }
   },
   {
     "id": "blue-ghost-m3-2028",
@@ -1469,7 +1665,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "CLPS task order CP-21: six NASA experiments to study the Gruithuisen Domes volcanic terrain on the near side, targeted for 2028. Note that Voyager's Peregrine-2 (CS-8) also targets the Gruithuisen Domes region in 2028 with a separate three-payload manifest."
+    "notes": "CLPS task order CP-21: six NASA experiments to study the Gruithuisen Domes volcanic terrain on the near side, targeted for 2028. Note that Voyager's Peregrine-2 (CS-8) also targets the Gruithuisen Domes region in 2028 with a separate three-payload manifest.",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "luna-26-2028",
@@ -1510,7 +1713,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "IKI RAS lists launch in 2028 from Vostochny on a Soyuz-2.1b/Fregat-M (assumed), with a global 2–3 m resolution map from stereo imaging and illumination analysis intended for autonomous navigation on later missions, plus relay duty for the Luna-27.1 and 27.2 landers in 2029 and 2030. RAS President Krasnikov confirmed 2028 and described site selection as the primary objective. Former Roscosmos head Borisov had said 2027 in December 2023. Lavochkin director general Vasily Marfin said in February 2026 that Luna-26 is in manufacture and that its job is to identify landing sites for the Luna-27 landers."
+    "notes": "IKI RAS lists launch in 2028 from Vostochny on a Soyuz-2.1b/Fregat-M (assumed), with a global 2–3 m resolution map from stereo imaging and illumination analysis intended for autonomous navigation on later missions, plus relay duty for the Luna-27.1 and 27.2 landers in 2029 and 2030. RAS President Krasnikov confirmed 2028 and described site selection as the primary objective. Former Roscosmos head Borisov had said 2027 in December 2023. Lavochkin director general Vasily Marfin said in February 2026 that Luna-26 is in manufacture and that its job is to identify landing sites for the Luna-27 landers.",
+    "image": {
+      "file": "luna-26-2028.jpg",
+      "alt": "Orbiteur lunaire russe Luna-Resurs (Luna 26) Salon du Bourget 2015, Paris",
+      "credit": "Pline",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Resurs-Orbiter-DSC_0076.jpg"
+    }
   },
   {
     "id": "chandrayaan-5-lupex-2028",
@@ -1573,7 +1783,14 @@
     ],
     "confidence": "planned",
     "notes": "ISRO describes LUPEX as the fifth Chandrayaan mission and Chandrayaan-4 as India's separate first sample-return mission, so the numbering in older sources that swap them is wrong. The September 2028 month comes from a Parliamentary Standing Committee report relayed by Indian media; the dataset keeps year precision. ISRO hot-fired its L9 lander engine prototype in 2025 and technical interface meetings have run since 2024. The Space Commission has approved the mission with Union Cabinet clearance still awaited as of March 2026 reporting. ISRO chairman Narayanan has described the LUPEX lander at about 6,800 kg with a roughly 350 kg rover, against Chandrayaan-3's 1,600 kg lander and 25 kg rover.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "chandrayaan-5-lupex-2028.jpg",
+      "alt": "Scale model (1/4) of LUPEX at JAXA pavilion at Expo 2025",
+      "credit": "Artem.G",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LUPEX_2.jpg"
+    }
   },
   {
     "id": "moonlight-lcns-ioc-2028",
@@ -1608,7 +1825,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": ""
+    "notes": "",
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "ispace-m3-2028",
@@ -1666,7 +1890,14 @@
     ],
     "confidence": "planned",
     "notes": "Renumbering matters for cross-referencing: what older sources call ispace Mission 3 (the ispace-U.S. APEX 1.0 lander for Team Draper's CP-12) is now Mission 5, and CP-12 has since been terminated. The same ULTRA design flies on Missions 4 and 5. Reaffirmed in ispace's Q1 FY2027 results (August 7, 2026): Mission 3 in 2028 and Mission 4 in 2029, with current-year revenue driven by the METI SBIR grant for Mission 3 and the Space Strategy Fund grant for Mission 4.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "ispace-hakuto-r-m2-2025.jpg",
+      "alt": "ispace HAKUTO-R RESILIENCEランダーのレプリカ。羽田空港ロビー展示品。スラスタ―部",
+      "credit": "テレストレラッソ",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RESILIENCE-lander-replica08_20250528atHanedaAirPort.jpg"
+    }
   },
   {
     "id": "firefly-moonfall-drones-2028",
@@ -1725,7 +1956,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Resolves the previously open MoonFall question on program reality and interfaces at the mission level, though no public payload interface document (ICD) exists. JPL manages the mission and NASA sources the launch vehicle. Project manager Ray Baker gave development milestones of captive-carry tests in late 2026, spacecraft integration and test in late summer 2027, and delivery to the launch site in 2028. Design leverages Ingenuity Mars Helicopter autonomy and Blue Ghost Mission 1 avionics, structures and Spectre engines. An RFP was issued the day of NASA's Ignition event. Interface documentation re-checked September 2026 and still absent: there is no public MoonFall payload interface document or drone-to-Elytra ICD. Firefly publishes payload user's guides for its launch vehicles that describe mission-specific ICDs as a service item, and JPL's mission page lists the instrument set — a retroreflector array for precise location, a sounder for subsurface water and a radiation monitor — without interface data."
+    "notes": "Resolves the previously open MoonFall question on program reality and interfaces at the mission level, though no public payload interface document (ICD) exists. JPL manages the mission and NASA sources the launch vehicle. Project manager Ray Baker gave development milestones of captive-carry tests in late 2026, spacecraft integration and test in late summer 2027, and delivery to the launch site in 2028. Design leverages Ingenuity Mars Helicopter autonomy and Blue Ghost Mission 1 avionics, structures and Spectre engines. An RFP was issued the day of NASA's Ignition event. Interface documentation re-checked September 2026 and still absent: there is no public MoonFall payload interface document or drone-to-Elytra ICD. Firefly publishes payload user's guides for its launch vehicles that describe mission-specific ICDs as a service item, and JPL's mission page lists the instrument set — a retroreflector array for precise location, a sounder for subsurface water and a radiation monitor — without interface data.",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "luna-27a-2029",
@@ -1772,7 +2010,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Moved from 2028 to 2029 per Lev Zelyony, academic supervisor of IKI RAS and scientific director of the first stage of Russia's lunar program ('These launches are always moved. This time to 2029, that's the real date'). Pole assignment is no longer purely provisional: NPO Lavochkin director general Vasily Marfin said in February 2026 that Luna-27A goes to the south pole in 2029 and Luna-27B to the north pole in 2030, and that the first two vehicles are already in testing. Zelyony had said the order 'has yet to be determined', so treat the split as industry-stated rather than contractually fixed."
+    "notes": "Moved from 2028 to 2029 per Lev Zelyony, academic supervisor of IKI RAS and scientific director of the first stage of Russia's lunar program ('These launches are always moved. This time to 2029, that's the real date'). Pole assignment is no longer purely provisional: NPO Lavochkin director general Vasily Marfin said in February 2026 that Luna-27A goes to the south pole in 2029 and Luna-27B to the north pole in 2030, and that the first two vehicles are already in testing. Zelyony had said the order 'has yet to be determined', so treat the split as industry-stated rather than contractually fixed.",
+    "image": {
+      "file": "luna-27a-2029.jpg",
+      "alt": "Luna-Resurs Moon landing spacecraft in MAKS Airshow, 2013",
+      "credit": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MAKS_Airshow_2013_(Ramenskoye_Airport,_Russia)_(525-12).jpg"
+    }
   },
   {
     "id": "ispace-m4-magpie-2029",
@@ -1827,7 +2072,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "MAGPIE is the first mission under ESA's Moon Explore initiative and was developed under the Small Missions for Exploration line, whose nominal cost target was €50M; ESA attributes the €65M to the added cost and complexity of landing rather than orbiting. ispace's Mission 4 is separately supported by up to ¥20B (about €107M) over roughly five years from Japan's Space Strategy Fund for high-precision polar landing technology, and was numbered Mission 6 before the March 2026 restructure."
+    "notes": "MAGPIE is the first mission under ESA's Moon Explore initiative and was developed under the Small Missions for Exploration line, whose nominal cost target was €50M; ESA attributes the €65M to the added cost and complexity of landing rather than orbiting. ispace's Mission 4 is separately supported by up to ¥20B (about €107M) over roughly five years from Japan's Space Strategy Fund for high-precision polar landing technology, and was numbered Mission 6 before the March 2026 restructure.",
+    "image": {
+      "file": "ispace-hakuto-r-m2-2025.jpg",
+      "alt": "ispace HAKUTO-R RESILIENCEランダーのレプリカ。羽田空港ロビー展示品。スラスタ―部",
+      "credit": "テレストレラッソ",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RESILIENCE-lander-replica08_20250528atHanedaAirPort.jpg"
+    }
   },
   {
     "id": "artemis-vi-2029",
@@ -1854,7 +2106,14 @@
     ],
     "confidence": "rumored",
     "notes": "Year is inferred from 'annual thereafter' language — conceptual.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "artemis-vi-2029.jpg",
+      "alt": "Artist’s Concept Portrays SpaceX’s Starship HLS with Raptor Engines for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2004%2024%20hls%202%20raptors"
+    }
   },
   {
     "id": "luna-27b-2030",
@@ -1894,7 +2153,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Planned a year after Luna-27A. NPO Lavochkin director general Vasily Marfin stated in February 2026 that Luna-27B is the north-pole lander flying in 2030, which is the assignment used here; earlier Russian statements said one lander goes to each pole but that the order was undetermined."
+    "notes": "Planned a year after Luna-27A. NPO Lavochkin director general Vasily Marfin stated in February 2026 that Luna-27B is the north-pole lander flying in 2030, which is the assignment used here; earlier Russian statements said one lander goes to each pole but that the order was undetermined.",
+    "image": {
+      "file": "luna-27a-2029.jpg",
+      "alt": "Luna-Resurs Moon landing spacecraft in MAKS Airshow, 2013",
+      "credit": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MAKS_Airshow_2013_(Ramenskoye_Airport,_Russia)_(525-12).jpg"
+    }
   },
   {
     "id": "china-crewed-landing-2030",
@@ -1947,7 +2213,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "China's official wording is a crewed landing \"before 2030,\" not by or around 2030. Hardware gates cleared so far include the pad abort test, the August 2025 Lanyue integrated landing-and-ascent test, the February 2026 Long March 10 / Mengzhou abort and recovery test, and the July 10, 2026 first orbital flight of a Long March 10B with sea-net booster recovery. CMSA's February 27, 2026 annual plan keeps the before-2030 target and focuses 2026 work on Wenchang lunar ground infrastructure plus tracking, communications and landing-site systems. No landing site has been announced."
+    "notes": "China's official wording is a crewed landing \"before 2030,\" not by or around 2030. Hardware gates cleared so far include the pad abort test, the August 2025 Lanyue integrated landing-and-ascent test, the February 2026 Long March 10 / Mengzhou abort and recovery test, and the July 10, 2026 first orbital flight of a Long March 10B with sea-net booster recovery. CMSA's February 27, 2026 annual plan keeps the before-2030 target and focuses 2026 work on Wenchang lunar ground infrastructure plus tracking, communications and landing-site systems. No landing site has been announced.",
+    "image": {
+      "file": "china-crewed-landing-2030.jpg",
+      "alt": "Chinese crewed lunar lander mockup displayed at the National Museum of China.",
+      "credit": "Shujianyang",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_crewed_lunar_lander_mockup_01_-_NMC.jpg"
+    }
   },
   {
     "id": "moonlight-lcns-foc-2030",
@@ -1974,7 +2247,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": ""
+    "notes": "",
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "esa-argonaut-1-2030",
@@ -2033,7 +2313,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Payloads for Mission 1 were still to be selected but could include a surface robotic asset and the NovaMoon payload module. The 2030–2031 range is retained because ESA says \"by the end of 2030\" while industrial coverage has slipped toward 2031. ESA's December 2026 Rome ministerial may adjust the exploration roadmap around Argonaut."
+    "notes": "Payloads for Mission 1 were still to be selected but could include a surface robotic asset and the NovaMoon payload module. The 2030–2031 range is retained because ESA says \"by the end of 2030\" while industrial coverage has slipped toward 2031. ESA's December 2026 Rome ministerial may adjust the exploration roadmap around Argonaut.",
+    "image": {
+      "file": "argonaut-2-2033.jpg",
+      "alt": "European Space Agency (ESA): \"A CAD model of a full Argonaut lander for illustration purposes is available here. The passenger part of the model is generated by ESA, while the Luna",
+      "credit": "Animalculum",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Argonaut_lunar_lander_model.png"
+    }
   },
   {
     "id": "ilrs-construction-2031",
@@ -2069,7 +2356,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": ""
+    "notes": "",
+    "image": {
+      "file": "ilrs-basic-model-2035.jpg",
+      "alt": "International lunar research station countries map",
+      "credit": "Bourenane Chahine",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:International_lunar_research_station_countries_map_-_January_2024.png"
+    }
   },
   {
     "id": "luna-29-2032",
@@ -2108,7 +2402,14 @@
     ],
     "confidence": "planned",
     "notes": "Ordering of Luna-28/29/30 inconsistent across 2025–2026 Russian statements.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "ilrs-russia-segment-concept-2026.jpg",
+      "alt": "Atterrisseur lunaire russe Luna-Glob (Luna 25) Salon du Bourget 2015, Paris",
+      "credit": "Pline",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg"
+    }
   },
   {
     "id": "luna-30-roving-2034",
@@ -2147,7 +2448,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Lavochkin director general Vasily Marfin called Luna-30 the most complex part of the programme in February 2026 and tied it to the federal 'Space Atom' effort to place a small nuclear power plant on the Moon: an experimental spacecraft in 2033, an infrastructure mission in 2034, and delivery and installation of the energy module in 2035. He described it as work with 'a high degree of uncertainty and low levels of technological and technical readiness' that also needs a super-heavy launcher able to put 100 tonnes into low Earth orbit — which Roscosmos says it is not developing, pointing instead to China's vehicle. Range kept at 2034–2036."
+    "notes": "Lavochkin director general Vasily Marfin called Luna-30 the most complex part of the programme in February 2026 and tied it to the federal 'Space Atom' effort to place a small nuclear power plant on the Moon: an experimental spacecraft in 2033, an infrastructure mission in 2034, and delivery and installation of the energy module in 2035. He described it as work with 'a high degree of uncertainty and low levels of technological and technical readiness' that also needs a super-heavy launcher able to put 100 tonnes into low Earth orbit — which Roscosmos says it is not developing, pointing instead to China's vehicle. Range kept at 2034–2036.",
+    "image": {
+      "file": "ilrs-russia-segment-concept-2026.jpg",
+      "alt": "Atterrisseur lunaire russe Luna-Glob (Luna 25) Salon du Bourget 2015, Paris",
+      "credit": "Pline",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg"
+    }
   },
   {
     "id": "luna-28-sample-return",
@@ -2187,7 +2495,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Range kept wide. RAS President Krasnikov said in 2025 that the sample-return mission is scheduled \"three to four years\" after the 2030 Luna-27B flight, implying 2033–2034, while Russian schedule summaries as of February 2026 list 2034 and earlier TASS/RAS statements leaned toward 2036. Do not add month precision. Lavochkin's director general put Luna-28 at 2034 for collecting and returning lunar soil in February 2026, matching Russian schedule summaries; the 2036 preference in earlier TASS/RAS material is retained inside the range."
+    "notes": "Range kept wide. RAS President Krasnikov said in 2025 that the sample-return mission is scheduled \"three to four years\" after the 2030 Luna-27B flight, implying 2033–2034, while Russian schedule summaries as of February 2026 list 2034 and earlier TASS/RAS statements leaned toward 2036. Do not add month precision. Lavochkin's director general put Luna-28 at 2034 for collecting and returning lunar soil in February 2026, matching Russian schedule summaries; the 2036 preference in earlier TASS/RAS material is retained inside the range.",
+    "image": {
+      "file": "ilrs-russia-segment-concept-2026.jpg",
+      "alt": "Atterrisseur lunaire russe Luna-Glob (Luna 25) Salon du Bourget 2015, Paris",
+      "credit": "Pline",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg"
+    }
   },
   {
     "id": "ilrs-basic-model-2035",
@@ -2234,7 +2549,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Roscosmos describes ILRS completion by 2036 and is contributing a lunar power plant targeted for the same period (see ilrs-nuclear-power-plant-2036). The station is planned within about 100 km of the lunar south pole with long-term autonomous operation and short crewed visits."
+    "notes": "Roscosmos describes ILRS completion by 2036 and is contributing a lunar power plant targeted for the same period (see ilrs-nuclear-power-plant-2036). The station is planned within about 100 km of the lunar south pole with long-term autonomous operation and short crewed visits.",
+    "image": {
+      "file": "ilrs-basic-model-2035.jpg",
+      "alt": "International lunar research station countries map",
+      "credit": "Bourenane Chahine",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:International_lunar_research_station_countries_map_-_January_2024.png"
+    }
   },
   {
     "id": "artemis-accords-ongoing",
@@ -2292,7 +2614,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Growth rate is a useful contrast with the China/Russia-led ILRS, which counts roughly 13 sovereign members (CNSA cites 17 countries and organizations). Note that some states appear in both frameworks — Serbia and Thailand signed the Accords while also being ILRS participants — so the two are not strictly exclusive blocs. Count as of the access date: 71 signed, with Djibouti's ceremony scheduled for the following day. Türkiye's signing came shortly before it hosts the International Astronautical Congress in Antalya in October 2026, where NASA expects dozens of signatories to discuss Moon Base contributions."
+    "notes": "Growth rate is a useful contrast with the China/Russia-led ILRS, which counts roughly 13 sovereign members (CNSA cites 17 countries and organizations). Note that some states appear in both frameworks — Serbia and Thailand signed the Accords while also being ILRS participants — so the two are not strictly exclusive blocs. Count as of the access date: 71 signed, with Djibouti's ceremony scheduled for the following day. Türkiye's signing came shortly before it hosts the International Astronautical Congress in Antalya in October 2026, where NASA expects dozens of signatories to discuss Moon Base contributions.",
+    "image": {
+      "file": "artemis-accords-ongoing.jpg",
+      "alt": "India Artemis Accords Signing",
+      "credit": "NASA/Bill Ingalls",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/NHQ202306210059"
+    }
   },
   {
     "id": "sls-standardization-2028",
@@ -2333,7 +2662,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "The April 2026 decision to spacer-out Artemis III's ICPS was made specifically to protect the Artemis IV 2028 landing date. Contract value and the Centaur V lunar performance case have not been published."
+    "notes": "The April 2026 decision to spacer-out Artemis III's ICPS was made specifically to protect the Artemis IV 2028 landing date. Contract value and the Centaur V lunar performance case have not been published.",
+    "image": {
+      "file": "nasa-artemis-architecture-2026.jpg",
+      "alt": "Artemis II Rollout",
+      "credit": "NASA/Joel Kowsky",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/NHQ202601160005"
+    }
   },
   {
     "id": "blue-moon-mk2-crew-lander",
@@ -2385,7 +2721,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "NASA OIG (March 2026) anticipates the Mark 2 uncrewed demonstration mission in February 2029, after a CDR that moved from December 2024 to August 2025. A Mark 2-based test article with the planned crew cabin flies on Artemis III in 2027 and is the lander astronauts will physically enter during that mission. Blue Origin's architecture stages propellant via a low Earth orbit transporter refilled by a fleet of refuelers."
+    "notes": "NASA OIG (March 2026) anticipates the Mark 2 uncrewed demonstration mission in February 2029, after a CDR that moved from December 2024 to August 2025. A Mark 2-based test article with the planned crew cabin flies on Artemis III in 2027 and is the lander astronauts will physically enter during that mission. Blue Origin's architecture stages propellant via a low Earth orbit transporter refilled by a fleet of refuelers.",
+    "image": {
+      "file": "blue-moon-mk2-crew-lander.jpg",
+      "alt": "Artist’s Concept Depicts Blue Origin’s Blue Moon Mark 2 HLS Test Article for NASA’s Artemis III Mission",
+      "credit": "NASA / Blue Origin",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/MK2_EOR_ArtemisIII_Dock"
+    }
   },
   {
     "id": "starship-hls-crew-window",
@@ -2443,7 +2786,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Gated on the ship-to-ship propellant transfer demo, which still has no NASA public calendar date, and on the uncrewed lunar landing demo. NASA OIG estimates Starship needs at least 15 additional tanker launches to fill a lunar-capable HLS, making launch-pad turnaround a schedule driver in its own right. NASA has said it will fly whichever provider is ready for the 2028 landing. As of September 2026 Starship had flown 13 suborbital test flights and had not reached orbit; Flight 14 is the first orbital attempt, and the propellant-transfer campaign, tanker cadence and uncrewed lunar demo all queue behind it."
+    "notes": "Gated on the ship-to-ship propellant transfer demo, which still has no NASA public calendar date, and on the uncrewed lunar landing demo. NASA OIG estimates Starship needs at least 15 additional tanker launches to fill a lunar-capable HLS, making launch-pad turnaround a schedule driver in its own right. NASA has said it will fly whichever provider is ready for the 2028 landing. As of September 2026 Starship had flown 13 suborbital test flights and had not reached orbit; Flight 14 is the first orbital attempt, and the propellant-transfer campaign, tanker cadence and uncrewed lunar demo all queue behind it.",
+    "image": {
+      "file": "artemis-v-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2003%2024%20artemis%203%20on%20surface"
+    }
   },
   {
     "id": "india-crewed-moon-2040",
@@ -2476,7 +2826,14 @@
     ],
     "confidence": "planned",
     "date_end": null,
-    "notes": "Policy roadmap year, not a flight assignment. Distinct from robotic Chandrayaan-4/5."
+    "notes": "Policy roadmap year, not a flight assignment. Distinct from robotic Chandrayaan-4/5.",
+    "image": {
+      "file": "india-crewed-moon-2040.jpg",
+      "alt": "Info-graphic on ISRO's Gaganyaan orbital vehicle depicting Crew and Service Module in integrated configuration displayed at 6th Bangalore Space Expo 2018, 6-8 September 2018.",
+      "credit": "Dean Sumith",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gaganyaan_module_infographic_(cropped).jpg"
+    }
   },
   {
     "id": "change-6-2024",
@@ -2510,7 +2867,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Launch 2024-05-03; sample capsule return 2024-06-25 (widely reported). Day precision from primary/secondary consensus."
+    "notes": "Launch 2024-05-03; sample capsule return 2024-06-25 (widely reported). Day precision from primary/secondary consensus.",
+    "image": {
+      "file": "change-6-2024.jpg",
+      "alt": "Chang'e 6 mockup exhibited at the 2024 International Astronautical Congress celebrated in Milan, Italy.",
+      "credit": "BugWarp",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chang%27e_6_mockup_at_IAC_2024_02.jpg"
+    }
   },
   {
     "id": "jaxa-slim-2024",
@@ -2543,7 +2907,14 @@
     ],
     "confidence": "confirmed",
     "notes": "Completed soft landing with attitude anomaly; retain as completed demo of Japanese landing tech.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "jaxa-slim-2024.jpg",
+      "alt": "NASA’s Lunar Reconnaissance Orbiter captured this image of the JAXA (Japan Aerospace Exploration Agency) SLIM lander on the Moon’s surface on Jan. 24, 2024. SLIM landed at 13.3160 ",
+      "credit": "NASA/GSFC/Arizona State University",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:M1460739214L_JAXA_SLIM_landing_site_imaged_by_Lunar_Reconnaissance_Orbiter_Camera_(LROC).png"
+    }
   },
   {
     "id": "danuri-kplo-2022",
@@ -2579,7 +2950,14 @@
     ],
     "confidence": "confirmed",
     "notes": "Launch date widely published 2022-08-04 UTC; lunar orbit insertion Dec 2022.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "danuri-kplo-2022.jpg",
+      "alt": "rendered image of Danuri (Korea Pathfinder Lunar Orbiter), by Ministry of Science and ICT",
+      "credit": "Ministry of Science and ICT\n\n과학기술정보통신부",
+      "license": "KOGL Type 1",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kplo_rendered_image.png"
+    }
   },
   {
     "id": "rashid-2-blue-ghost",
@@ -2614,7 +2992,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Same launch campaign as blue-ghost-m2-2026; separate event for rover science/actor visibility. Window tied to Firefly NET 2027. Aligned to Firefly BG-2 NET 2027 (accessed 2026-09-13). Re-checked September 2026: Firefly still publishes NET 2027 for the carrier mission; tracker December 2026 dates are not adopted."
+    "notes": "Same launch campaign as blue-ghost-m2-2026; separate event for rover science/actor visibility. Window tied to Firefly NET 2027. Aligned to Firefly BG-2 NET 2027 (accessed 2026-09-13). Re-checked September 2026: Firefly still publishes NET 2027 for the carrier mission; tracker December 2026 dates are not adopted.",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "cz10b-first-flight-2026",
@@ -2648,7 +3033,14 @@
     ],
     "confidence": "confirmed",
     "notes": "Primary: Xinhua 2026-07-10. CASC aims to inspect/reflight booster later in 2026.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "cz10b-first-flight-2026.jpg",
+      "alt": "Mockup of the Chinese new generation crewed rocket displayed at 2022 Airshow China in Zhuhai.",
+      "credit": "Shujianyang",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_next-gen_crewed_rocket_mockup_2022.jpg"
+    }
   },
   {
     "id": "mengzhou-1-orbital",
@@ -2694,7 +3086,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Uncrewed orbital debut of both Mengzhou and the crew-rated single-stick Long March 10A, announced by CMSA on November 1, 2025 and targeted for late 2026 as of mid-2026; it had not flown at access time, hence the 2026–2027 range. Context, not a dataset date: NASA Administrator Isaacman said at ASCEND on May 19, 2026 that he expects Chinese taikonauts to fly around the Moon \"likely sometime in 2027\"; China has announced no such mission, and analysts note the full Long March 10 needed for a lunar Mengzhou flight is not expected to debut until 2027–2028."
+    "notes": "Uncrewed orbital debut of both Mengzhou and the crew-rated single-stick Long March 10A, announced by CMSA on November 1, 2025 and targeted for late 2026 as of mid-2026; it had not flown at access time, hence the 2026–2027 range. Context, not a dataset date: NASA Administrator Isaacman said at ASCEND on May 19, 2026 that he expects Chinese taikonauts to fly around the Moon \"likely sometime in 2027\"; China has announced no such mission, and analysts note the full Long March 10 needed for a lunar Mengzhou flight is not expected to debut until 2027–2028.",
+    "image": {
+      "file": "mengzhou-1-orbital.jpg",
+      "alt": "Chinese next-generation crewed spacecraft mockup displayed at the National Museum of China.",
+      "credit": "Shujianyang",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_next-generation_crewed_spacecraft_mockup_-_NMC.jpg"
+    }
   },
   {
     "id": "lunanet-interop-2029",
@@ -2731,7 +3130,14 @@
     ],
     "confidence": "planned",
     "notes": "",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "novamoon-argonaut-2031",
@@ -2770,7 +3176,14 @@
     ],
     "confidence": "planned",
     "notes": "Tied to Argonaut-1; not yet a firm flight assignment if Ministerial payload selection changes.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "argonaut-2-2033.jpg",
+      "alt": "European Space Agency (ESA): \"A CAD model of a full Argonaut lander for illustration purposes is available here. The passenger part of the model is generated by ESA, while the Luna",
+      "credit": "Animalculum",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Argonaut_lunar_lander_model.png"
+    }
   },
   {
     "id": "argonaut-2-2033",
@@ -2804,7 +3217,14 @@
     ],
     "confidence": "planned",
     "notes": "Year from ESA-linked press coverage of recurrent cadence; not a firm countdown NET.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "argonaut-2-2033.jpg",
+      "alt": "European Space Agency (ESA): \"A CAD model of a full Argonaut lander for illustration purposes is available here. The passenger part of the model is generated by ESA, while the Luna",
+      "credit": "Animalculum",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Argonaut_lunar_lander_model.png"
+    }
   },
   {
     "id": "korea-private-lander-2030",
@@ -2850,7 +3270,14 @@
     ],
     "confidence": "planned",
     "notes": "KASA's 2027 budget request creates a new ₩106.3B \"small lunar lander development\" program with the goal of a technology demonstration and landing in 2030, framed as the step between Earth-Moon communications infrastructure and an independent Korean landing. The request is a proposal to the National Assembly.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "danuri-kplo-2022.jpg",
+      "alt": "rendered image of Danuri (Korea Pathfinder Lunar Orbiter), by Ministry of Science and ICT",
+      "credit": "Ministry of Science and ICT\n\n과학기술정보통신부",
+      "license": "KOGL Type 1",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kplo_rendered_image.png"
+    }
   },
   {
     "id": "korea-kpll-2032",
@@ -2902,7 +3329,14 @@
     ],
     "confidence": "planned",
     "notes": "Funded as KASA's \"Lunar Exploration Phase 2 (lander development)\" project aimed at an independent Korean lunar landing, with a 2032 launch target. Budget rose 79.8% to ₩80.907B in 2026 once the next-generation launch vehicle plan was finalized, and KASA requested ₩93.7B for 2027.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "danuri-kplo-2022.jpg",
+      "alt": "rendered image of Danuri (Korea Pathfinder Lunar Orbiter), by Ministry of Science and ICT",
+      "credit": "Ministry of Science and ICT\n\n과학기술정보통신부",
+      "license": "KOGL Type 1",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kplo_rendered_image.png"
+    }
   },
   {
     "id": "korea-lvrad-clps-2030",
@@ -2932,7 +3366,14 @@
     ],
     "confidence": "planned",
     "notes": "Payload on US lander — listed to capture Korean contribution path.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "im-3-2026.jpg",
+      "alt": "Intuitive Machines’ Nova-C lunar lander",
+      "credit": "NASA / Intuitive Machines",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/IM_00309"
+    }
   },
   {
     "id": "korea-lunar-comms-orbiter-2029",
@@ -2977,7 +3418,14 @@
     ],
     "confidence": "planned",
     "notes": "KASA's 2027 budget request adds ₩13B of new funding for a lunar-orbit communications satellite linking the lunar surface and Earth, plus ₩5.6B for lunar surface science payloads and mobility technology. The request does not state a launch year, so the 2029 date here still rests on the earlier published roadmap.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "ilrs-partners-policy-2025",
@@ -3044,7 +3492,14 @@
     ],
     "confidence": "confirmed",
     "notes": "Partner counts differ by what is being counted. CNSA said in April 2025 that 17 countries and international organizations plus more than 50 international research institutions had joined. Roscosmos put the sovereign-state count at 13 when it signed the lunar power plant memorandum in May 2025, and Russian statements in 2026 list Belarus, Pakistan, Azerbaijan, Venezuela, South Africa, Egypt, Thailand, Serbia, Nicaragua, Senegal, Djibouti, Ethiopia and Bolivia. The most concrete public partner-hardware manifest is the Chang'e-8 cooperation list (see change-8-2028). The Russian Academy of Sciences approved the concept for Russia's national ILRS segment, announced April 1, 2026 by Roscosmos head Dmitry Bakanov (see ilrs-russia-segment-concept-2026). Chinese outreach is framed as a '555' plan — inviting 50 countries, 500 international research institutions and 5,000 overseas researchers.",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "ilrs-basic-model-2035.jpg",
+      "alt": "International lunar research station countries map",
+      "credit": "Bourenane Chahine",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:International_lunar_research_station_countries_map_-_January_2024.png"
+    }
   },
   {
     "id": "ilrs-extended-model-2040s",
@@ -3073,7 +3528,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Decade-scale conceptual; no flight IDs."
+    "notes": "Decade-scale conceptual; no flight IDs.",
+    "image": {
+      "file": "ilrs-basic-model-2035.jpg",
+      "alt": "International lunar research station countries map",
+      "credit": "Bourenane Chahine",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:International_lunar_research_station_countries_map_-_January_2024.png"
+    }
   },
   {
     "id": "pakistan-jinnah-1-rover",
@@ -3114,7 +3576,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "CNSA's April 2025 Chang'e-8 cooperation list describes the Pakistani contribution as a lunar rover developed by Pakistan with the International Society for Terrain-Vehicle Systems (ISTVS). Launch follows Chang'e-8, which CNSA now places around 2029."
+    "notes": "CNSA's April 2025 Chang'e-8 cooperation list describes the Pakistani contribution as a lunar rover developed by Pakistan with the International Society for Terrain-Vehicle Systems (ISTVS). Launch follows Chang'e-8, which CNSA now places around 2029.",
+    "image": {
+      "file": "change-6-2024.jpg",
+      "alt": "Chang'e 6 mockup exhibited at the 2024 International Astronautical Congress celebrated in Milan, Italy.",
+      "credit": "BugWarp",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chang%27e_6_mockup_at_IAC_2024_02.jpg"
+    }
   },
   {
     "id": "telespazio-moonlight-contract",
@@ -3144,7 +3613,14 @@
     ],
     "confidence": "confirmed",
     "notes": "",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "thales-argonaut-consortium-2025",
@@ -3174,7 +3650,14 @@
     ],
     "confidence": "confirmed",
     "notes": "",
-    "date_end": null
+    "date_end": null,
+    "image": {
+      "file": "argonaut-2-2033.jpg",
+      "alt": "European Space Agency (ESA): \"A CAD model of a full Argonaut lander for illustration purposes is available here. The passenger part of the model is generated by ESA, while the Luna",
+      "credit": "Animalculum",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Argonaut_lunar_lander_model.png"
+    }
   },
   {
     "id": "new-glenn-rtf-2026",
@@ -3243,7 +3726,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Company target is end-2026; the vehicle was still grounded in September 2026 and Ars Technica noted on September 4 that Blue Origin had offered no meaningful New Glenn update in about a month and that there is 'good reason for skepticism' about the year-end goal. One independent assessment expects the first return flight to slip into the first quarter of 2027, and Ars previously reported sources putting a realistic pad rebuild at 12–18 months. Date range widened to 2026–2027 and status set to slipped: the third New Glenn flight originally planned for mid-2026 did not happen and no new launch date has been published."
+    "notes": "Company target is end-2026; the vehicle was still grounded in September 2026 and Ars Technica noted on September 4 that Blue Origin had offered no meaningful New Glenn update in about a month and that there is 'good reason for skepticism' about the year-end goal. One independent assessment expects the first return flight to slip into the first quarter of 2027, and Ars previously reported sources putting a realistic pad rebuild at 12–18 months. Date range widened to 2026–2027 and status set to slipped: the third New Glenn flight originally planned for mid-2026 did not happen and no new launch date has been published.",
+    "image": {
+      "file": "new-glenn-rtf-2026.jpg",
+      "alt": "A New Glenn rocket launches from Space Launch Complex 36 at Cape Canaveral Space Force Station, Jan. 16, 2025. The New Glenn rocket marked the first launch from Space Launch Comple",
+      "credit": "U.S. Space Force 45SW by Senior Airman Samuel Becker",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:New_Glenn_launch_signals_new_era_for_Space_Launch_Complex_36_(8832113).jpg"
+    }
   },
   {
     "id": "axemu-oig-readiness-risk-2026",
@@ -3277,7 +3767,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Policy/risk milestone (report issuance), not a flight. Track against Artemis IV surface EVA readiness and axemu-flight-demo-2027 (Axiom Apr 2026: in-space test on ISS or Artemis III in 2027). Detail worth carrying: the original xEVAS schedule called for a lunar suit demonstration in 2025 and a microgravity demonstration on the ISS in 2026, both now targeted for late 2027 — roughly 18-month slips each — and OIG's historical-average delay scenario reaches 2031. NASA concurred with both recommendations and set December 31, 2027 completion targets, including one to develop interoperability standards between Artemis vehicles and spacesuits. NASA's answer to the margin problem so far is requirement relief rather than schedule relief (see axemu-sortie-suit-2026)."
+    "notes": "Policy/risk milestone (report issuance), not a flight. Track against Artemis IV surface EVA readiness and axemu-flight-demo-2027 (Axiom Apr 2026: in-space test on ISS or Artemis III in 2027). Detail worth carrying: the original xEVAS schedule called for a lunar suit demonstration in 2025 and a microgravity demonstration on the ISS in 2026, both now targeted for late 2027 — roughly 18-month slips each — and OIG's historical-average delay scenario reaches 2031. NASA concurred with both recommendations and set December 31, 2027 completion targets, including one to develop interoperability standards between Artemis vehicles and spacesuits. NASA's answer to the margin problem so far is requirement relief rather than schedule relief (see axemu-sortie-suit-2026).",
+    "image": {
+      "file": "axemu-flight-demo-2027.jpg",
+      "alt": "axemu-prada-spacesuit-mockup-20241007-085",
+      "credit": "NASA / Axiom Space",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/axemu-prada-spacesuit-mockup-20241007-085"
+    }
   },
   {
     "id": "canadarm3-moon-base-repurpose-2026",
@@ -3335,7 +3832,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Partially resolves the open Canadarm3 question: the contract value is the existing CDN $1B (about US $720M) CSA award to MDA, and no incremental value, revised scope or surface deployment year was disclosed on August 6. Canadarm3 delivery had previously been NET 2029; the Phase A contract with options through Phase D runs to December 31, 2029. A lunar-capable arm on a future CSA Lunar Utility Vehicle is one reported destination (see csa-lunar-utility-vehicle). Canadarm3 is a CSA program, not a NASA one. Re-checked September 2026 and still open: CSA's own August 6, 2026 release names no new funding, no contract amendment and no lunar deployment timeline, describing the shift only as an intention to 'adapt work underway'. CSA's Canadarm3 pages, updated April 24, 2026, still show delivery 'no earlier than 2029' against the Gateway baseline, and Canadian trade analysis places major Canadian surface infrastructure — including a Canadarm3-derived arm on a Lunar Utility Vehicle — in Moon Base Phase 3, 2033 and beyond."
+    "notes": "Partially resolves the open Canadarm3 question: the contract value is the existing CDN $1B (about US $720M) CSA award to MDA, and no incremental value, revised scope or surface deployment year was disclosed on August 6. Canadarm3 delivery had previously been NET 2029; the Phase A contract with options through Phase D runs to December 31, 2029. A lunar-capable arm on a future CSA Lunar Utility Vehicle is one reported destination (see csa-lunar-utility-vehicle). Canadarm3 is a CSA program, not a NASA one. Re-checked September 2026 and still open: CSA's own August 6, 2026 release names no new funding, no contract amendment and no lunar deployment timeline, describing the shift only as an intention to 'adapt work underway'. CSA's Canadarm3 pages, updated April 24, 2026, still show delivery 'no earlier than 2029' against the Gateway baseline, and Canadian trade analysis places major Canadian surface infrastructure — including a Canadarm3-derived arm on a Lunar Utility Vehicle — in Moon Base Phase 3, 2033 and beyond.",
+    "image": {
+      "file": "canadarm3-moon-base-repurpose-2026.jpg",
+      "alt": "Concept art of the Lunar Gateway space station as it is intended to appear in 2024, with the Power and Propulsion Element (left), Habitation and Logistics Outpost (center foregroun",
+      "credit": "National Aeronautics and Space Administration",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg"
+    }
   },
   {
     "id": "esa-gateway-modules-posture-2026",
@@ -3399,7 +3903,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Decided at the 347th ESA Council on June 17, 2026: I-Hab continues to critical design review before a repurposing assessment, Lunar View slows while retaining deep-space technologies, and Lunar Link is assessed for reuse as a dedicated lunar communications satellite. No flight assignments yet. The December 2026 Intermediate Ministerial in Rome is the expected decision point (see esa-rome-ministerial-2026). ESA's exploration director has since framed the December roadmap around two axes — Europe's end-to-end robotic capability and continued participation in Artemis including the NASA-led south-pole Moon Base — while reaffirming the European Service Modules for Orion. I-Hab and Lunar View still have no flight assignment."
+    "notes": "Decided at the 347th ESA Council on June 17, 2026: I-Hab continues to critical design review before a repurposing assessment, Lunar View slows while retaining deep-space technologies, and Lunar Link is assessed for reuse as a dedicated lunar communications satellite. No flight assignments yet. The December 2026 Intermediate Ministerial in Rome is the expected decision point (see esa-rome-ministerial-2026). ESA's exploration director has since framed the December roadmap around two axes — Europe's end-to-end robotic capability and continued participation in Artemis including the NASA-led south-pole Moon Base — while reaffirming the European Service Modules for Orion. I-Hab and Lunar View still have no flight assignment.",
+    "image": {
+      "file": "canadarm3-moon-base-repurpose-2026.jpg",
+      "alt": "Concept art of the Lunar Gateway space station as it is intended to appear in 2024, with the Power and Propulsion Element (left), Habitation and Logistics Outpost (center foregroun",
+      "credit": "National Aeronautics and Space Administration",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg"
+    }
   },
   {
     "id": "australia-roover-2030",
@@ -3435,7 +3946,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "ASA primary pages confirm 2030 + Intuitive Machines; year precision only."
+    "notes": "ASA primary pages confirm 2030 + Intuitive Machines; year precision only.",
+    "image": {
+      "file": "australia-roover-2030.jpg",
+      "alt": "Roo-ver at the Australian Space Discovery Centre on 22 April 2026.",
+      "credit": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roo-ver_at_the_Australian_Space_Discovery_Centre_(DSCF4713).jpg"
+    }
   },
   {
     "id": "axemu-flight-demo-2027",
@@ -3481,7 +3999,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Venue still undecided at access time. Axiom says NASA has made clear a suit will fly in 2027 but has not chosen between an ISS free-flyer EVA and Artemis III; the two options test different things — an ISS spacewalk exercises the suit in EVA, while Artemis III would expose it to launch loads and pressurized/unpressurized checks inside a lander. Axiom expects to know \"way before\" mid-2027 because of mission planning lead time. Qualification testing is an approximately one-year campaign targeted to finish around mid-2027. Still unresolved in September 2026, and now complicated by NASA's early-September decision to develop a simplified 'Sortie Suit' variant of AxEMU for the first surface missions (see axemu-sortie-suit-2026), together with shortened certification-duration requirements described publicly by the Aerospace Safety Advisory Panel. No venue announcement has been made."
+    "notes": "Venue still undecided at access time. Axiom says NASA has made clear a suit will fly in 2027 but has not chosen between an ISS free-flyer EVA and Artemis III; the two options test different things — an ISS spacewalk exercises the suit in EVA, while Artemis III would expose it to launch loads and pressurized/unpressurized checks inside a lander. Axiom expects to know \"way before\" mid-2027 because of mission planning lead time. Qualification testing is an approximately one-year campaign targeted to finish around mid-2027. Still unresolved in September 2026, and now complicated by NASA's early-September decision to develop a simplified 'Sortie Suit' variant of AxEMU for the first surface missions (see axemu-sortie-suit-2026), together with shortened certification-duration requirements described publicly by the Aerospace Safety Advisory Panel. No venue announcement has been made.",
+    "image": {
+      "file": "axemu-flight-demo-2027.jpg",
+      "alt": "axemu-prada-spacesuit-mockup-20241007-085",
+      "credit": "NASA / Axiom Space",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/axemu-prada-spacesuit-mockup-20241007-085"
+    }
   },
   {
     "id": "esa-lunar-link-repurpose-itt-2026",
@@ -3520,7 +4045,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Confirmed ITT issuance; Q4 2029 is a study schedule support target, not a funded flight. Flight assignment still open pending Dec 2026 ministerial / study results. Contract mechanics: Thales Alenia Space France, which developed Lunar Link, is a mandatory subcontractor with at least €750,000 of each study contract reserved for it. ESA's 2021 contract with TAS-FR covering both Lunar Link and Lunar View was worth €296M, and the agency has not published how that split between the two elements."
+    "notes": "Confirmed ITT issuance; Q4 2029 is a study schedule support target, not a funded flight. Flight assignment still open pending Dec 2026 ministerial / study results. Contract mechanics: Thales Alenia Space France, which developed Lunar Link, is a mandatory subcontractor with at least €750,000 of each study contract reserved for it. ESA's 2021 contract with TAS-FR covering both Lunar Link and Lunar View was worth €296M, and the agency has not published how that split between the two elements.",
+    "image": {
+      "file": "canadarm3-moon-base-repurpose-2026.jpg",
+      "alt": "Concept art of the Lunar Gateway space station as it is intended to appear in 2024, with the Power and Propulsion Element (left), Habitation and Logistics Outpost (center foregroun",
+      "credit": "National Aeronautics and Space Administration",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg"
+    }
   },
   {
     "id": "starship-orbital-refuel-demo",
@@ -3578,7 +4110,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Still no calendar date. NASA OIG (IG-26-004, March 2026) says the vehicle-to-vehicle cryogenic propellant transfer test originally planned for March 2025 had slipped to 2026 and will use Starship Version 3, with Starship HLS CDR pushed to August 2026 — under six months between the transfer test and CDR. SpaceX's own August 2026 update still described ship-to-ship transfer as a 2026 HLS flight test with timing dependent on the V3 campaign, and SpaceX told a June 2026 NASA event the demo would fly on an uncrewed mission later in 2026. Flight 13 on July 24, 2026 carried no second vehicle and made no transfer attempt. Wikipedia-class listings show NET late 2026; not adopted as a date. The nearest gate is now Flight 14 (see starship-flight-14-2026), the first Starship mission intended to reach orbit, with an FAA-listed airspace window on September 18, 2026. Starship had not reached orbit at access time, so the propellant-transfer campaign cannot begin; there is still no SpaceX- or NASA-published calendar date for the ship-to-ship demonstration."
+    "notes": "Still no calendar date. NASA OIG (IG-26-004, March 2026) says the vehicle-to-vehicle cryogenic propellant transfer test originally planned for March 2025 had slipped to 2026 and will use Starship Version 3, with Starship HLS CDR pushed to August 2026 — under six months between the transfer test and CDR. SpaceX's own August 2026 update still described ship-to-ship transfer as a 2026 HLS flight test with timing dependent on the V3 campaign, and SpaceX told a June 2026 NASA event the demo would fly on an uncrewed mission later in 2026. Flight 13 on July 24, 2026 carried no second vehicle and made no transfer attempt. Wikipedia-class listings show NET late 2026; not adopted as a date. The nearest gate is now Flight 14 (see starship-flight-14-2026), the first Starship mission intended to reach orbit, with an FAA-listed airspace window on September 18, 2026. Starship had not reached orbit at access time, so the propellant-transfer campaign cannot begin; there is still no SpaceX- or NASA-published calendar date for the ship-to-ship demonstration.",
+    "image": {
+      "file": "ispace-starship-mcs-2030.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS en route to the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2014%2024%20fuel%20depot"
+    }
   },
   {
     "id": "jaxa-pressurized-rover-2032",
@@ -3621,7 +4160,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "NET FY2032 is NASA cargo-assignment language (not a firm civil date). Artemis VII numbering may shift with architecture changes — retain as planning label."
+    "notes": "NET FY2032 is NASA cargo-assignment language (not a firm civil date). Artemis VII numbering may shift with architecture changes — retain as planning label.",
+    "image": {
+      "file": "jaxa-pressurized-rover-2032.jpg",
+      "alt": "The model of Toyota & JAXA LUNA CRUISER. Taken at Japan Mobility Show 2023.",
+      "credit": "SuFlyer",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_JAXA_LUNA_CRUISER_Model_at_Japan_Mobility_Show_2023.jpg"
+    }
   },
   {
     "id": "blue-origin-lunar-habitat-2033",
@@ -3649,7 +4195,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "NET FY2033 NASA assignment language only; habitat design details and exact mission number not fixed in the release."
+    "notes": "NET FY2033 NASA assignment language only; habitat design details and exact mission number not fixed in the release.",
+    "image": {
+      "file": "blue-moon-mk2-crew-lander.jpg",
+      "alt": "Artist’s Concept Depicts Blue Origin’s Blue Moon Mark 2 HLS Test Article for NASA’s Artemis III Mission",
+      "credit": "NASA / Blue Origin",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/MK2_EOR_ArtemisIII_Dock"
+    }
   },
   {
     "id": "im-altus-constellation-2028",
@@ -3683,7 +4236,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Original plan rode Altus-2 through Altus-5 two at a time on subsequent CLPS landers, which pushed full operational capability to mid-2029; after discussions tied to NASA's Ignition/Moon Base acceleration, Intuitive Machines negotiated a dedicated launch flying all four to trans-lunar injection together to reach FOC in 2028 in time to support Artemis IV. The five-satellite constellation provides K-, X- and S-band relay plus a planned always-on PNT broadcast service."
+    "notes": "Original plan rode Altus-2 through Altus-5 two at a time on subsequent CLPS landers, which pushed full operational capability to mid-2029; after discussions tied to NASA's Ignition/Moon Base acceleration, Intuitive Machines negotiated a dedicated launch flying all four to trans-lunar injection together to reach FOC in 2028 in time to support Artemis IV. The five-satellite constellation provides K-, X- and S-band relay plus a planned always-on PNT broadcast service.",
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "nasa-ignition-moon-base-2026",
@@ -3734,7 +4294,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Named near-term payloads at announcement: MoonFall hopper drones, CADRE rovers, VIPER and LuSEE-Night. Same event announced SR-1 Freedom (Gateway PPE repurposed as a nuclear electric propulsion demo). Follow-on solicitation status as of September 13, 2026: the surface-power line is real — NASA reissued NextSTEP-3 Appendix B as 'Moon Base Demonstrations' (80MSFC26R0003) on July 16, 2026 with Directed-Topic Call 1 for Initial Surface Power (see moon-base-demos-baa-2026). The previewed south pole optical imager, additional science manifest, power-and-avionics delivery and communications/navigation relay constellation had not been released."
+    "notes": "Named near-term payloads at announcement: MoonFall hopper drones, CADRE rovers, VIPER and LuSEE-Night. Same event announced SR-1 Freedom (Gateway PPE repurposed as a nuclear electric propulsion demo). Follow-on solicitation status as of September 13, 2026: the surface-power line is real — NASA reissued NextSTEP-3 Appendix B as 'Moon Base Demonstrations' (80MSFC26R0003) on July 16, 2026 with Directed-Topic Call 1 for Initial Surface Power (see moon-base-demos-baa-2026). The previewed south pole optical imager, additional science manifest, power-and-avionics delivery and communications/navigation relay constellation had not been released.",
+    "image": {
+      "file": "artemis-iv-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/09%2024%2024%20First%20steps%20Axiom%20suits"
+    }
   },
   {
     "id": "moon-base-phase-1-2029",
@@ -3785,7 +4352,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "NASA's public phase boundaries are inconsistent: the Moon Base reference page says \"Now–2029\" while March 2026 briefings framed Phase 1 as running to 2028. NASASpaceFlight reported at least $30B across all three phases, with Phase 1 around $10B; NASA has not published a phase-by-phase budget. Phase 1 surface power now has a procurement behind it: Directed-Topic Call 1 under the reissued NextSTEP-3 Appendix B 'Moon Base Demonstrations' announcement covers Initial Surface Power, with white papers due August 24, 2026 (see moon-base-demos-baa-2026)."
+    "notes": "NASA's public phase boundaries are inconsistent: the Moon Base reference page says \"Now–2029\" while March 2026 briefings framed Phase 1 as running to 2028. NASASpaceFlight reported at least $30B across all three phases, with Phase 1 around $10B; NASA has not published a phase-by-phase budget. Phase 1 surface power now has a procurement behind it: Directed-Topic Call 1 under the reissued NextSTEP-3 Appendix B 'Moon Base Demonstrations' announcement covers Initial Surface Power, with white papers due August 24, 2026 (see moon-base-demos-baa-2026).",
+    "image": {
+      "file": "artemis-v-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2003%2024%20artemis%203%20on%20surface"
+    }
   },
   {
     "id": "moon-base-phase-2-2032",
@@ -3832,7 +4406,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "JAXA's pressurized rover and NASA-assigned cargo landers fall in this window; see jaxa-pressurized-rover-2032 and blue-origin-lunar-habitat-2033."
+    "notes": "JAXA's pressurized rover and NASA-assigned cargo landers fall in this window; see jaxa-pressurized-rover-2032 and blue-origin-lunar-habitat-2033.",
+    "image": {
+      "file": "artemis-iv-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/09%2024%2024%20First%20steps%20Axiom%20suits"
+    }
   },
   {
     "id": "moon-base-phase-3-2036",
@@ -3881,7 +4462,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "NASA's reference page labels this \"Phase Three (2032 and Beyond)\"; March 2026 briefings gave 2033–2036 with a minimum $10B and explicitly framed the program as continuing past 2036. About eight tons of cargo is cited to support a crew of four for 28 days."
+    "notes": "NASA's reference page labels this \"Phase Three (2032 and Beyond)\"; March 2026 briefings gave 2033–2036 with a minimum $10B and explicitly framed the program as continuing past 2036. About eight tons of cargo is cited to support a crew of four for 28 days.",
+    "image": {
+      "file": "artemis-v-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2003%2024%20artemis%203%20on%20surface"
+    }
   },
   {
     "id": "clps-cs8-awards-2026",
@@ -3929,7 +4517,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "CS-8 includes a \"survive the night\" performance bonus for deploying a radioisotope device and transmitting after a full lunar night. At the same briefing NASA previewed further solicitations (a power-and-avionics technology demonstration lander, another science manifest, a south pole optical imager, an open Moon Base technology demonstration call, and a lunar communication/navigation relay constellation) and floated PROMISE, a repurposed Mars rover engineering model. Company language on timing varies: NASA says \"late 2028,\" Astrobotic \"by 2028,\" Firefly \"in 2028,\" Intuitive Machines \"no later than 2028.\" The individual deliveries are now separate entries: Intuitive Machines describes its award as its sixth CLPS task order, structured as a $68.6M base for mission execution plus a $79.7M incentive for demonstrating product-line qualification of Nova-C (see im-cs8-nova-c-2028), and Firefly's single delivery is firefly-cs8-blue-ghost-2028. Public trackers disagree on mission designations — English-language CLPS tables list Peregrine Mission Two and Three, IM-6 and Blue Ghost Mission 5, German-language tables list IM-5 and Blue Ghost Mission 4 — so the dataset titles these entries by task order."
+    "notes": "CS-8 includes a \"survive the night\" performance bonus for deploying a radioisotope device and transmitting after a full lunar night. At the same briefing NASA previewed further solicitations (a power-and-avionics technology demonstration lander, another science manifest, a south pole optical imager, an open Moon Base technology demonstration call, and a lunar communication/navigation relay constellation) and floated PROMISE, a repurposed Mars rover engineering model. Company language on timing varies: NASA says \"late 2028,\" Astrobotic \"by 2028,\" Firefly \"in 2028,\" Intuitive Machines \"no later than 2028.\" The individual deliveries are now separate entries: Intuitive Machines describes its award as its sixth CLPS task order, structured as a $68.6M base for mission execution plus a $79.7M incentive for demonstrating product-line qualification of Nova-C (see im-cs8-nova-c-2028), and Firefly's single delivery is firefly-cs8-blue-ghost-2028. Public trackers disagree on mission designations — English-language CLPS tables list Peregrine Mission Two and Three, IM-6 and Blue Ghost Mission 5, German-language tables list IM-5 and Blue Ghost Mission 4 — so the dataset titles these entries by task order.",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "voyager-astrobotic-acquisition-2026",
@@ -3970,7 +4565,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Dataset keeps the display actor \"Astrobotic\" on pre-2026 missions and adds \"Voyager Technologies\" where the post-acquisition entity is the contracting party."
+    "notes": "Dataset keeps the display actor \"Astrobotic\" on pre-2026 missions and adds \"Voyager Technologies\" where the post-acquisition entity is the contracting party.",
+    "image": {
+      "file": "griffin-1-moon-base-ii-2026.jpg",
+      "alt": "Griffin (посадочный модуль)",
+      "credit": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Griffin_(Astrobotic).jpg"
+    }
   },
   {
     "id": "peregrine-2-2028",
@@ -4011,7 +4613,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Distinct from Firefly's Blue Ghost Mission 3 (CP-21), which targets the same Gruithuisen Domes region in 2028 with six NASA experiments. Astrobotic's ~$298M CS-8 award covers two deliveries; only Peregrine-2 has been publicly detailed. CLPS trackers list the second Astrobotic CS-8 delivery as Peregrine Mission Three, but neither NASA nor Voyager has published its payloads, landing site or designation, so it is not entered as a separate event. The other two CS-8 deliveries are entered as im-cs8-nova-c-2028 and firefly-cs8-blue-ghost-2028."
+    "notes": "Distinct from Firefly's Blue Ghost Mission 3 (CP-21), which targets the same Gruithuisen Domes region in 2028 with six NASA experiments. Astrobotic's ~$298M CS-8 award covers two deliveries; only Peregrine-2 has been publicly detailed. CLPS trackers list the second Astrobotic CS-8 delivery as Peregrine Mission Three, but neither NASA nor Voyager has published its payloads, landing site or designation, so it is not entered as a separate event. The other two CS-8 deliveries are entered as im-cs8-nova-c-2028 and firefly-cs8-blue-ghost-2028.",
+    "image": {
+      "file": "peregrine-2-2028.jpg",
+      "alt": "On the first flight of NASA’s CLPS (Commercial Lunar Payload Services) initiative and Artemis program, a United Launch Alliance Vulcan rocket carrying Astrobotic’s Peregrine lunar ",
+      "credit": "NASA Kennedy Space Center / NASA/Isaac Watson",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CLPS_Peregrine_Mission_One_(PM-1)_Astrobotic-ULA_Liftoff_(KSC-20240108-PH-ILW01_0013).jpg"
+    }
   },
   {
     "id": "blue-ghost-m4-2029",
@@ -4063,7 +4672,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "NASA's task order period of performance runs to March 29, 2030. Firefly's fifth CLPS task order and fourth lunar mission. Secondary reporting says the Canadian Space Agency ended funding in March 2026 for a Canadensys rover once planned for this flight; no primary CSA confirmation found, so the rover manifest is left unspecified."
+    "notes": "NASA's task order period of performance runs to March 29, 2030. Firefly's fifth CLPS task order and fourth lunar mission. Secondary reporting says the Canadian Space Agency ended funding in March 2026 for a Canadensys rover once planned for this flight; no primary CSA confirmation found, so the rover manifest is left unspecified.",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "im-ct4-nova-d-2029",
@@ -4097,7 +4713,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "NASA's CLPS deliveries page lists the CT-4 assignment and payload count but no launch year; 2029 comes from company earnings-call guidance. Intuitive Machines is separately developing a heavier cargo Nova-C variant intended to carry larger LTVs in Moon Base Phase 2."
+    "notes": "NASA's CLPS deliveries page lists the CT-4 assignment and payload count but no launch year; 2029 comes from company earnings-call guidance. Intuitive Machines is separately developing a heavier cargo Nova-C variant intended to carry larger LTVs in Moon Base Phase 2.",
+    "image": {
+      "file": "im-3-2026.jpg",
+      "alt": "Intuitive Machines’ Nova-C lunar lander",
+      "credit": "NASA / Intuitive Machines",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/IM_00309"
+    }
   },
   {
     "id": "clps-2-0-procurement-2026",
@@ -4142,7 +4765,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "No award had been announced as of September 13, 2026, five days after the planned award date on NASA's own schedule, and the schedule's 'actual date' column stops at the June 30 proposal deadline. CX-2 and CS-8 were released as task orders against the existing CLPS 1.0 IDIQ, so only current CLPS 1.0 providers could bid them. ispace-U.S. said it would propose to CLPS 2.0 after CP-12 was terminated; Intuitive Machines said it expected to bid three to four additional CLPS opportunities in 2026 including CLPS 2.0."
+    "notes": "No award had been announced as of September 13, 2026, five days after the planned award date on NASA's own schedule, and the schedule's 'actual date' column stops at the June 30 proposal deadline. CX-2 and CS-8 were released as task orders against the existing CLPS 1.0 IDIQ, so only current CLPS 1.0 providers could bid them. ispace-U.S. said it would propose to CLPS 2.0 after CP-12 was terminated; Intuitive Machines said it expected to bid three to four additional CLPS opportunities in 2026 including CLPS 2.0.",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "promise-rover-study-2026",
@@ -4175,7 +4805,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "No lander assignment, launch date or budget announced; NASA's release was updated the same day to clarify that PROMISE would use an engineering development version rather than flight hardware."
+    "notes": "No lander assignment, launch date or budget announced; NASA's release was updated the same day to clarify that PROMISE would use an engineering development version rather than flight hardware.",
+    "image": {
+      "file": "ltv-surface-delivery-2028.jpg",
+      "alt": "Lunar Terrain Vehicle Testing",
+      "credit": "NASA/James Blair",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/jsc2024e069785"
+    }
   },
   {
     "id": "sr1-freedom-ppe-repurpose-2026",
@@ -4215,7 +4852,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Dates here are the March 2026 announcement, not a launch: NASA has not published an SR-1 Freedom launch year. This is the most concrete public repurposing of Gateway PPE hardware; HALO reuse is tracked under northrop-lid-missions and gateway-pause-2026. NASA's August 2026 lunar-reactor procurement material describes SR-1 Freedom as a HALEU-fuelled system with 20-kWe closed Brayton power conversion and explicitly casts it as the precursor to Lunar Reactor-1 (see lunar-reactor-1-2030): flying a reactor in deep space first is meant to reduce technical and regulatory risk, exercise the space-nuclear supply chain and build operating experience. Still no published launch year."
+    "notes": "Dates here are the March 2026 announcement, not a launch: NASA has not published an SR-1 Freedom launch year. This is the most concrete public repurposing of Gateway PPE hardware; HALO reuse is tracked under northrop-lid-missions and gateway-pause-2026. NASA's August 2026 lunar-reactor procurement material describes SR-1 Freedom as a HALEU-fuelled system with 20-kWe closed Brayton power conversion and explicitly casts it as the precursor to Lunar Reactor-1 (see lunar-reactor-1-2030): flying a reactor in deep space first is meant to reduce technical and regulatory risk, exercise the space-nuclear supply chain and build operating experience. Still no published launch year.",
+    "image": {
+      "file": "canadarm3-moon-base-repurpose-2026.jpg",
+      "alt": "Concept art of the Lunar Gateway space station as it is intended to appear in 2024, with the Power and Propulsion Element (left), Habitation and Logistics Outpost (center foregroun",
+      "credit": "National Aeronautics and Space Administration",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg"
+    }
   },
   {
     "id": "asi-mph-habitat-2033",
@@ -4264,7 +4908,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "ASI awarded Thales Alenia Space Italy the ~two-year preliminary design phase contract on July 25, 2025. Preparations for the 2027 PDR are expected to take about 12 months. MPH was explicitly named as a Moon Base element after NASA's March 2026 Gateway pause."
+    "notes": "ASI awarded Thales Alenia Space Italy the ~two-year preliminary design phase contract on July 25, 2025. Preparations for the 2027 PDR are expected to take about 12 months. MPH was explicitly named as a Moon Base element after NASA's March 2026 Gateway pause.",
+    "image": {
+      "file": "artemis-v-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2003%2024%20artemis%203%20on%20surface"
+    }
   },
   {
     "id": "italy-nasa-lunar-soi-2026",
@@ -4299,7 +4950,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Reported by European Spaceflight in its coverage of ASI's May 2026 MPH review milestone; the full text of the Statement of Intent has not been published. The Artemis seat is an intent, not a named mission assignment."
+    "notes": "Reported by European Spaceflight in its coverage of ASI's May 2026 MPH review milestone; the full text of the Statement of Intent has not been published. The Artemis seat is an intent, not a named mission assignment.",
+    "image": {
+      "file": "artemis-v-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2003%2024%20artemis%203%20on%20surface"
+    }
   },
   {
     "id": "darpa-lasso-2026",
@@ -4335,7 +4993,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Benchmark's architecture is called Sapphire and Quantum Space is offering its Ranger platform; Revolution Space has not publicly described its concept. Not all three are expected to advance, and no flight vehicle has been contracted."
+    "notes": "Benchmark's architecture is called Sapphire and Quantum Space is offering its Ranger platform; Revolution Space has not publicly described its concept. Not all three are expected to advance, and no flight vehicle has been contracted.",
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "ispace-ultra-restructure-2026",
@@ -4390,7 +5055,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "CP-12 was subsequently terminated by mutual agreement between NASA and Draper in July 2026 (see draper-apex-2026); ispace booked an impairment of roughly ¥3.7B in Q1 FY2027 relating to the consolidation of the U.S. lander line. The March 2026 numbering otherwise stands, but the Mission 5 date does not: ispace's Q1 FY2027 presentation (August 7, 2026) states that 'CP-12 has ended' and that the company 'continues M5 targeting lunar landing mission in 2029', superseding the March 2026 date of 2030 (see ispace-mission-5-2029)."
+    "notes": "CP-12 was subsequently terminated by mutual agreement between NASA and Draper in July 2026 (see draper-apex-2026); ispace booked an impairment of roughly ¥3.7B in Q1 FY2027 relating to the consolidation of the U.S. lander line. The March 2026 numbering otherwise stands, but the Mission 5 date does not: ispace's Q1 FY2027 presentation (August 7, 2026) states that 'CP-12 has ended' and that the company 'continues M5 targeting lunar landing mission in 2029', superseding the March 2026 date of 2030 (see ispace-mission-5-2029).",
+    "image": {
+      "file": "ispace-hakuto-r-m2-2025.jpg",
+      "alt": "ispace HAKUTO-R RESILIENCEランダーのレプリカ。羽田空港ロビー展示品。スラスタ―部",
+      "credit": "テレストレラッソ",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RESILIENCE-lander-replica08_20250528atHanedaAirPort.jpg"
+    }
   },
   {
     "id": "ispace-mission-2-5-2027",
@@ -4429,7 +5101,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Announced as part of the March 27, 2026 business strategy update and reaffirmed in the August 7, 2026 Q1 FY2027 results. No launch provider, orbit or satellite mass published. The March 30, 2026 statement names U.S.-based Argo Space Corp. in connection with placing the Lunar Connect satellites into lunar orbit, and ispace reaffirmed 'as early as 2027' in its August 7, 2026 Q1 FY2027 results. Launch vehicle, orbit and satellite mass are still unpublished."
+    "notes": "Announced as part of the March 27, 2026 business strategy update and reaffirmed in the August 7, 2026 Q1 FY2027 results. No launch provider, orbit or satellite mass published. The March 30, 2026 statement names U.S.-based Argo Space Corp. in connection with placing the Lunar Connect satellites into lunar orbit, and ispace reaffirmed 'as early as 2027' in its August 7, 2026 Q1 FY2027 results. Launch vehicle, orbit and satellite mass are still unpublished.",
+    "image": {
+      "file": "darpa-lasso-2026.jpg",
+      "alt": "CAPSTONE in orbit near the Moon (Illustration)",
+      "credit": "NASA / Daniel J. Rutter",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/ACD22-0003-003"
+    }
   },
   {
     "id": "lanyue-landing-ascent-test-2025",
@@ -4463,7 +5142,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Fills a historical gap in the Chinese crewed-lander test chain alongside the February 2026 Long March 10 / Mengzhou abort test and the July 2026 Long March 10B orbital flight. The propulsion module performs the bulk of descent before jettison a few kilometres above the surface."
+    "notes": "Fills a historical gap in the Chinese crewed-lander test chain alongside the February 2026 Long March 10 / Mengzhou abort test and the July 2026 Long March 10B orbital flight. The propulsion module performs the bulk of descent before jettison a few kilometres above the surface.",
+    "image": {
+      "file": "china-crewed-landing-2030.jpg",
+      "alt": "Chinese crewed lunar lander mockup displayed at the National Museum of China.",
+      "credit": "Shujianyang",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chinese_crewed_lunar_lander_mockup_01_-_NMC.jpg"
+    }
   },
   {
     "id": "clep-cmsa-reorganization-2026",
@@ -4503,7 +5189,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "It is not yet clear whether CNSA remains the international-cooperation interface for CLEP and ILRS, nor whether a new coordinating organization is created under CMSE. The specific Chang'e-8 changes were not detailed in publicly readable coverage at access time; the mission itself remains on the roadmap. China in Space adds that Queqiao-2 relay operations moved across with the Chang'e missions and that the ILRS robotic missions — five science cargo deliveries planned between 2031 and 2035 as of the 2021 roadmap — should have transferred too, although that has not been said publicly."
+    "notes": "It is not yet clear whether CNSA remains the international-cooperation interface for CLEP and ILRS, nor whether a new coordinating organization is created under CMSE. The specific Chang'e-8 changes were not detailed in publicly readable coverage at access time; the mission itself remains on the roadmap. China in Space adds that Queqiao-2 relay operations moved across with the Chang'e missions and that the ILRS robotic missions — five science cargo deliveries planned between 2031 and 2035 as of the 2021 roadmap — should have transferred too, although that has not been said publicly.",
+    "image": {
+      "file": "change-6-2024.jpg",
+      "alt": "Chang'e 6 mockup exhibited at the 2024 International Astronautical Congress celebrated in Milan, Italy.",
+      "credit": "BugWarp",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chang%27e_6_mockup_at_IAC_2024_02.jpg"
+    }
   },
   {
     "id": "ilrs-nuclear-power-plant-2036",
@@ -4558,7 +5251,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Roscosmos did not explicitly call the plant nuclear in its December 2025 statement, but named Rosatom and the Kurchatov Institute as participants. Roscosmos put ILRS completion at 2036 with 13 partner countries at the time of the memorandum. Treat the 2033–2035 mission sequence as a Russian industry plan, not a manifest. Reactor lineage: Russian coverage describes the space reactor (Selena) as derived from the Kurchatov Institute/Rosatom Elena-AM small modular reactor — about 68 kWe in its terrestrial cogeneration form — probably switching from water to a lead-bismuth coolant for vacuum operation. A Russian nuclear-trade summary lays out a four-phase roadmap in which joint teams assemble the reactor core autonomously in 2033–2035 and the ILRS 'basic model' comes online by 2036 on a grid combining the reactor with heavy solar arrays and surface cables."
+    "notes": "Roscosmos did not explicitly call the plant nuclear in its December 2025 statement, but named Rosatom and the Kurchatov Institute as participants. Roscosmos put ILRS completion at 2036 with 13 partner countries at the time of the memorandum. Treat the 2033–2035 mission sequence as a Russian industry plan, not a manifest. Reactor lineage: Russian coverage describes the space reactor (Selena) as derived from the Kurchatov Institute/Rosatom Elena-AM small modular reactor — about 68 kWe in its terrestrial cogeneration form — probably switching from water to a lead-bismuth coolant for vacuum operation. A Russian nuclear-trade summary lays out a four-phase roadmap in which joint teams assemble the reactor core autonomously in 2033–2035 and the ILRS 'basic model' comes online by 2036 on a grid combining the reactor with heavy solar arrays and surface cables.",
+    "image": {
+      "file": "ilrs-basic-model-2035.jpg",
+      "alt": "International lunar research station countries map",
+      "credit": "Bourenane Chahine",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:International_lunar_research_station_countries_map_-_January_2024.png"
+    }
   },
   {
     "id": "falcon9-stage-lunar-impact-2026",
@@ -4595,7 +5295,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Included because it drove the first concrete NASA/SpaceX work on end-of-life disposal for high-energy sun–Earth–Moon missions — a governance gap that matters once Moon Base hardware and crew are on the surface. NASA notes deliberate lunar disposal of upper stages is an accepted practice; the issue here is uncontrolled disposal."
+    "notes": "Included because it drove the first concrete NASA/SpaceX work on end-of-life disposal for high-energy sun–Earth–Moon missions — a governance gap that matters once Moon Base hardware and crew are on the surface. NASA notes deliberate lunar disposal of upper stages is an accepted practice; the issue here is uncontrolled disposal.",
+    "image": {
+      "file": "falcon9-stage-lunar-impact-2026.jpg",
+      "alt": "Bright Crater Rays and Boulders",
+      "credit": "NASA/GSFC/Arizona State University",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/PIA12893"
+    }
   },
   {
     "id": "esa-rome-ministerial-2026",
@@ -4658,7 +5365,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Media reports give December 15 as the date; ESA had not officially announced the exact date as of early September 2026, so this entry keeps month precision. This is the decision point most likely to resolve I-Hab, Lunar View and Lunar Link flight assignments. ESA's own release from the 347th Council says only 'December 2026 in Italy'; SpaceWatch.Global and Italian trade coverage give 15 December, with the venue expected to be ESRIN in Frascati under the Italian presidency of minister Adolfo Urso, and the next full Ministerial reported for Turin in March 2028. Aschbacher says ESA can start architecture studies with existing funds and redirect money earmarked for Gateway, against a three-year budget of €22.1B agreed in November. ESA's Director of Human and Robotic Exploration says the agency will bring an adjusted lunar roadmap built on two axes: European end-to-end robotic capability, and continued Artemis participation including the NASA-led Moon Base to secure ESA astronaut access to the surface."
+    "notes": "Media reports give December 15 as the date; ESA had not officially announced the exact date as of early September 2026, so this entry keeps month precision. This is the decision point most likely to resolve I-Hab, Lunar View and Lunar Link flight assignments. ESA's own release from the 347th Council says only 'December 2026 in Italy'; SpaceWatch.Global and Italian trade coverage give 15 December, with the venue expected to be ESRIN in Frascati under the Italian presidency of minister Adolfo Urso, and the next full Ministerial reported for Turin in March 2028. Aschbacher says ESA can start architecture studies with existing funds and redirect money earmarked for Gateway, against a three-year budget of €22.1B agreed in November. ESA's Director of Human and Robotic Exploration says the agency will bring an adjusted lunar roadmap built on two axes: European end-to-end robotic capability, and continued Artemis participation including the NASA-led Moon Base to secure ESA astronaut access to the surface.",
+    "image": {
+      "file": "../programs/default.jpg",
+      "alt": "Full Moon",
+      "credit": "NASA / GSFC",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001861"
+    }
   },
   {
     "id": "kasa-lunar-budget-2027-request",
@@ -4697,7 +5411,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Korea's Lunar Exploration Phase 2 lander budget was ₩80.907B in 2026 (up 79.8% year-on-year) with a 2032 launch target. The 2027 request is a proposal to the National Assembly, not an enacted budget."
+    "notes": "Korea's Lunar Exploration Phase 2 lander budget was ₩80.907B in 2026 (up 79.8% year-on-year) with a 2032 launch target. The 2027 request is a proposal to the National Assembly, not an enacted budget.",
+    "image": {
+      "file": "danuri-kplo-2022.jpg",
+      "alt": "rendered image of Danuri (Korea Pathfinder Lunar Orbiter), by Ministry of Science and ICT",
+      "credit": "Ministry of Science and ICT\n\n과학기술정보통신부",
+      "license": "KOGL Type 1",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kplo_rendered_image.png"
+    }
   },
   {
     "id": "hls-oig-report-2026",
@@ -4732,7 +5453,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "OIG places the Blue Origin Mark 2 uncrewed demo \"roughly one year before the planned Artemis V mission,\" implying an Artemis V no earlier than about 2030 — inconsistent with NASA's public late-2028 Artemis V target. The report also gives loss-of-crew thresholds of 1 in 40 for lunar operations and 1 in 30 per Artemis mission, with Artemis III and IV Starship estimates in compliance. Report text still references a June 2027 Artemis III date that has since moved to late 2027. Two contractual dates in the report anchor the current schedule debate: NASA announced it would push Artemis III to no later than June 2027, and in December 2024 moved Artemis V to no later than March 2030, giving Blue Origin an additional 15 months. Blue Origin's Artemis V lander had already slipped at least 8 months (April to December 2028) to accommodate CDR, an 11-month further CDR delay to July 2026 was considered likely, and nearly half of the requests for action from its 2024 PDR were still open in August 2025."
+    "notes": "OIG places the Blue Origin Mark 2 uncrewed demo \"roughly one year before the planned Artemis V mission,\" implying an Artemis V no earlier than about 2030 — inconsistent with NASA's public late-2028 Artemis V target. The report also gives loss-of-crew thresholds of 1 in 40 for lunar operations and 1 in 30 per Artemis mission, with Artemis III and IV Starship estimates in compliance. Report text still references a June 2027 Artemis III date that has since moved to late 2027. Two contractual dates in the report anchor the current schedule debate: NASA announced it would push Artemis III to no later than June 2027, and in December 2024 moved Artemis V to no later than March 2030, giving Blue Origin an additional 15 months. Blue Origin's Artemis V lander had already slipped at least 8 months (April to December 2028) to accommodate CDR, an 11-month further CDR delay to July 2026 was considered likely, and nearly half of the requests for action from its 2024 PDR were still open in August 2025.",
+    "image": {
+      "file": "artemis-vi-2029.jpg",
+      "alt": "Artist’s Concept Portrays SpaceX’s Starship HLS with Raptor Engines for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2004%2024%20hls%202%20raptors"
+    }
   },
   {
     "id": "csa-lunar-utility-vehicle",
@@ -4768,7 +5496,14 @@
       }
     ],
     "confidence": "rumored",
-    "notes": "Single trade-press source for the LUV concept work; CSA has published no flight year, contract value or down-select schedule. Entered as conceptual/rumored deliberately."
+    "notes": "Single trade-press source for the LUV concept work; CSA has published no flight year, contract value or down-select schedule. Entered as conceptual/rumored deliberately.",
+    "image": {
+      "file": "canadarm3-moon-base-repurpose-2026.jpg",
+      "alt": "Concept art of the Lunar Gateway space station as it is intended to appear in 2024, with the Power and Propulsion Element (left), Habitation and Logistics Outpost (center foregroun",
+      "credit": "National Aeronautics and Space Administration",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2024_Lunar_Gateway_concept_art,_March_2020.jpg"
+    }
   },
   {
     "id": "us-space-policy-eo-2025",
@@ -4809,7 +5544,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Dated to the signature date reported by World Nuclear News; the order text itself was not retrieved, and NASA procurement documents refer to it generically as a national space policy signed in December 2025. Entered because three separate 2026 program threads — Moon Base phasing, the Appendix B demonstrations announcement and the lunar reactor procurement — all trace their authority to it."
+    "notes": "Dated to the signature date reported by World Nuclear News; the order text itself was not retrieved, and NASA procurement documents refer to it generically as a national space policy signed in December 2025. Entered because three separate 2026 program threads — Moon Base phasing, the Appendix B demonstrations announcement and the lunar reactor procurement — all trace their authority to it.",
+    "image": {
+      "file": "artemis-iv-2028.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS on the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/09%2024%2024%20First%20steps%20Axiom%20suits"
+    }
   },
   {
     "id": "nasa-doe-fsp-mou-2026",
@@ -4861,7 +5603,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "The MOU was signed while the procurement approach was still moving. As of late January 2026 NASA had not issued the final Announcement for Partnership Proposals for Fission Surface Power, and a July 31, 2025 NASA memo had required at least 100 kW ready for launch by the end of 2029. The August 2026 SPARC draft request for proposals replaced that public-private path with a multiple-award IDIQ contract and a 20-kWe first reactor (see nasa-sparc-lr1-drfp-2026)."
+    "notes": "The MOU was signed while the procurement approach was still moving. As of late January 2026 NASA had not issued the final Announcement for Partnership Proposals for Fission Surface Power, and a July 31, 2025 NASA memo had required at least 100 kW ready for launch by the end of 2029. The August 2026 SPARC draft request for proposals replaced that public-private path with a multiple-award IDIQ contract and a 20-kWe first reactor (see nasa-sparc-lr1-drfp-2026).",
+    "image": {
+      "file": "lunar-reactor-1-2030.jpg",
+      "alt": "Fission Surface Power",
+      "credit": "NASA/GRC/Sara Lowthian-Hanna",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GRC-2023-C-10425"
+    }
   },
   {
     "id": "nasa-sparc-lr1-drfp-2026",
@@ -4900,7 +5649,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Draft, not an award: SPARC has produced no contractor pool and no LR-1 Phase 1 order has been placed. Phase 1 alone can run up to 18 months after award, which is the main reason to treat the 2030 lunar landing target as a policy and acquisition objective rather than a validated flight schedule."
+    "notes": "Draft, not an award: SPARC has produced no contractor pool and no LR-1 Phase 1 order has been placed. Phase 1 alone can run up to 18 months after award, which is the main reason to treat the 2030 lunar landing target as a policy and acquisition objective rather than a validated flight schedule.",
+    "image": {
+      "file": "lunar-reactor-1-2030.jpg",
+      "alt": "Fission Surface Power",
+      "credit": "NASA/GRC/Sara Lowthian-Hanna",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GRC-2023-C-10425"
+    }
   },
   {
     "id": "lunar-reactor-1-2030",
@@ -4946,7 +5702,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Nothing has been built, qualified or launched, and no delivery lander has been assigned. Public power levels have moved: earlier NASA pages describe 10-kW and 40-kW-class fission surface power concepts and a July 2025 NASA memo required at least 100 kW by the end of 2029, while the August 2026 LR-1 documents specify 20 kWe with extensibility to 100 kWe as a separate design requirement. NASA identifies SR-1 Freedom as LR-1's deep-space precursor (see sr1-freedom-ppe-repurpose-2026)."
+    "notes": "Nothing has been built, qualified or launched, and no delivery lander has been assigned. Public power levels have moved: earlier NASA pages describe 10-kW and 40-kW-class fission surface power concepts and a July 2025 NASA memo required at least 100 kW by the end of 2029, while the August 2026 LR-1 documents specify 20 kWe with extensibility to 100 kWe as a separate design requirement. NASA identifies SR-1 Freedom as LR-1's deep-space precursor (see sr1-freedom-ppe-repurpose-2026).",
+    "image": {
+      "file": "lunar-reactor-1-2030.jpg",
+      "alt": "Fission Surface Power",
+      "credit": "NASA/GRC/Sara Lowthian-Hanna",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GRC-2023-C-10425"
+    }
   },
   {
     "id": "moon-base-demos-baa-2026",
@@ -4985,7 +5748,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "This is the first of the follow-on Moon Base solicitations previewed on June 30, 2026 to actually appear; the power-and-avionics delivery, additional science manifest, south pole optical imager and communications/navigation relay constellation had not been released as of September 13, 2026. No awards had been announced. NASA cites the December 2025 national space policy as the reason for the reframing."
+    "notes": "This is the first of the follow-on Moon Base solicitations previewed on June 30, 2026 to actually appear; the power-and-avionics delivery, additional science manifest, south pole optical imager and communications/navigation relay constellation had not been released as of September 13, 2026. No awards had been announced. NASA cites the December 2025 national space policy as the reason for the reframing.",
+    "image": {
+      "file": "lunar-reactor-1-2030.jpg",
+      "alt": "Fission Surface Power",
+      "credit": "NASA/GRC/Sara Lowthian-Hanna",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GRC-2023-C-10425"
+    }
   },
   {
     "id": "im-cs8-nova-c-2028",
@@ -5025,7 +5795,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "No landing site was announced, and the timing language differs: NASA says \"late 2028\" while the company says \"no later than 2028\". English-language CLPS trackers call this mission IM-6 and German-language ones IM-5, so the dataset titles it by task order. Counting from the company's own releases, CT-4 (Nova-D) is its fifth CLPS award and this is the sixth."
+    "notes": "No landing site was announced, and the timing language differs: NASA says \"late 2028\" while the company says \"no later than 2028\". English-language CLPS trackers call this mission IM-6 and German-language ones IM-5, so the dataset titles it by task order. Counting from the company's own releases, CT-4 (Nova-D) is its fifth CLPS award and this is the sixth.",
+    "image": {
+      "file": "im-3-2026.jpg",
+      "alt": "Intuitive Machines’ Nova-C lunar lander",
+      "credit": "NASA / Intuitive Machines",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/IM_00309"
+    }
   },
   {
     "id": "firefly-cs8-blue-ghost-2028",
@@ -5065,7 +5842,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Firefly has not published a mission number, landing site or payload manifest beyond the three NASA payloads common to all CS-8 deliveries, and public CLPS trackers disagree about the designation (English-language tables call it Blue Ghost Mission 5, German-language tables Blue Ghost Mission 4), so this entry is titled by task order. Distinct from blue-ghost-m3-2028 (CP-21, Gruithuisen Domes) and blue-ghost-m4-2029 (CS-6, Haworth crater rim)."
+    "notes": "Firefly has not published a mission number, landing site or payload manifest beyond the three NASA payloads common to all CS-8 deliveries, and public CLPS trackers disagree about the designation (English-language tables call it Blue Ghost Mission 5, German-language tables Blue Ghost Mission 4), so this entry is titled by task order. Distinct from blue-ghost-m3-2028 (CP-21, Gruithuisen Domes) and blue-ghost-m4-2029 (CS-6, Haworth crater rim).",
+    "image": {
+      "file": "blue-ghost-m2-2026.jpg",
+      "alt": "CLPS Firefly Blue Ghost Mission 1 Encapsulation",
+      "credit": "NASA / SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/KSC-20250112-PH-SPX01_0001"
+    }
   },
   {
     "id": "starship-flight-14-2026",
@@ -5098,7 +5882,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "The date is an FAA airspace planning window, not a SpaceX-confirmed launch time: SpaceX's public mission feed still ended with Flight 13 (July 24, 2026) at access time, and reporting notes the launch licence for an orbital profile had not been publicly confirmed. Status is planned rather than scheduled for that reason. Entered because Starship reaching orbit is the precondition for the ship-to-ship propellant transfer campaign that gates Artemis landings (see starship-orbital-refuel-demo)."
+    "notes": "The date is an FAA airspace planning window, not a SpaceX-confirmed launch time: SpaceX's public mission feed still ended with Flight 13 (July 24, 2026) at access time, and reporting notes the launch licence for an orbital profile had not been publicly confirmed. Status is planned rather than scheduled for that reason. Entered because Starship reaching orbit is the precondition for the ship-to-ship propellant transfer campaign that gates Artemis landings (see starship-orbital-refuel-demo).",
+    "image": {
+      "file": "starship-flight-14-2026.jpg",
+      "alt": "Starship SN9 sitting on the launch pad with the build site in the background ahead of its test flight.",
+      "credit": "Jared Krahn",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Starship_SN9_Launch_Pad_and_Build_Site.jpg"
+    }
   },
   {
     "id": "ispace-mission-5-2029",
@@ -5138,7 +5929,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "This supersedes the 2030 date given for Mission 5 in the March 2026 restructure and is a target without an announced anchor customer, which is why it stays at year precision with planned confidence. The rest of the March 2026 numbering still holds: Mission 3 in 2028 and Mission 4 in 2029 with ESA's MAGPIE rover."
+    "notes": "This supersedes the 2030 date given for Mission 5 in the March 2026 restructure and is a target without an announced anchor customer, which is why it stays at year precision with planned confidence. The rest of the March 2026 numbering still holds: Mission 3 in 2028 and Mission 4 in 2029 with ESA's MAGPIE rover.",
+    "image": {
+      "file": "ispace-hakuto-r-m2-2025.jpg",
+      "alt": "ispace HAKUTO-R RESILIENCEランダーのレプリカ。羽田空港ロビー展示品。スラスタ―部",
+      "credit": "テレストレラッソ",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RESILIENCE-lander-replica08_20250528atHanedaAirPort.jpg"
+    }
   },
   {
     "id": "ispace-starship-mcs-2030",
@@ -5173,7 +5971,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "The 2030 Starship lunar landing date is ispace's characterisation in investor materials; SpaceX has not published a commercial Starship lunar cargo landing date, and Starship had not yet reached orbit at access time. Interface coordination with Starship and development of the Mobile Cargo System are both listed by ispace as work still to be done, so treat this as a commercial manifest position rather than a scheduled flight."
+    "notes": "The 2030 Starship lunar landing date is ispace's characterisation in investor materials; SpaceX has not published a commercial Starship lunar cargo landing date, and Starship had not yet reached orbit at access time. Interface coordination with Starship and development of the Mobile Cargo System are both listed by ispace as work still to be done, so treat this as a commercial manifest position rather than a scheduled flight.",
+    "image": {
+      "file": "ispace-starship-mcs-2030.jpg",
+      "alt": "Artist’s Concepts Depict SpaceX’s Starship HLS en route to the Moon for NASA Artemis",
+      "credit": "NASA / Photo courtesy SpaceX",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/11%2014%2024%20fuel%20depot"
+    }
   },
   {
     "id": "axemu-sortie-suit-2026",
@@ -5213,7 +6018,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Reported through trade press sources plus on-record ASAP remarks rather than a NASA release, so confidence stays planned and status is in_progress (a development directive, not a delivered suit). Background on why: NASA's original AxEMU requirements — six spacewalks over a 6.5-day mission, 210 days of dormant standby and at least two hours of nominal operation in a permanently shadowed region — drove mass and complexity that NASA's own inspector general later called over-burdensome. This does not resolve where the 2027 in-space suit demonstration flies (see axemu-flight-demo-2027)."
+    "notes": "Reported through trade press sources plus on-record ASAP remarks rather than a NASA release, so confidence stays planned and status is in_progress (a development directive, not a delivered suit). Background on why: NASA's original AxEMU requirements — six spacewalks over a 6.5-day mission, 210 days of dormant standby and at least two hours of nominal operation in a permanently shadowed region — drove mass and complexity that NASA's own inspector general later called over-burdensome. This does not resolve where the 2027 in-space suit demonstration flies (see axemu-flight-demo-2027).",
+    "image": {
+      "file": "axemu-flight-demo-2027.jpg",
+      "alt": "axemu-prada-spacesuit-mockup-20241007-085",
+      "credit": "NASA / Axiom Space",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/axemu-prada-spacesuit-mockup-20241007-085"
+    }
   },
   {
     "id": "esa-small-lunar-missions-2025",
@@ -5258,7 +6070,14 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "ESA had not published the full list of proposals advancing when the Danish and Polish partners announced Máni's selection, and the €50M figure is a target rather than a ceiling — ESA attributes MAGPIE's higher €65M value to the added complexity of landing rather than orbiting. This is the procurement layer behind both ispace-m4-magpie-2029 and esa-mani-lunar-mapper-2029, and it is how Europe is buying lunar missions while I-Hab, Lunar View and Lunar Link wait for the December 2026 ministerial."
+    "notes": "ESA had not published the full list of proposals advancing when the Danish and Polish partners announced Máni's selection, and the €50M figure is a target rather than a ceiling — ESA attributes MAGPIE's higher €65M value to the added complexity of landing rather than orbiting. This is the procurement layer behind both ispace-m4-magpie-2029 and esa-mani-lunar-mapper-2029, and it is how Europe is buying lunar missions while I-Hab, Lunar View and Lunar Link wait for the December 2026 ministerial.",
+    "image": {
+      "file": "../programs/default.jpg",
+      "alt": "Full Moon",
+      "credit": "NASA / GSFC",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001861"
+    }
   },
   {
     "id": "esa-mani-lunar-mapper-2029",
@@ -5309,7 +6128,14 @@
       }
     ],
     "confidence": "planned",
-    "notes": "Denmark's first lunar mission and the first ESA mission led from Denmark. The 2029 date is a target for a mission still in Phase A/B1, with selection for full implementation pending, so year precision and planned confidence only. Danish reporting puts national funding at about DKK 130M (roughly €17M) and the Polish supplier Scanway's share at about €8.6M over four years. Academic partners include Aalborg, Aarhus and Southern Denmark universities, the Danish Meteorological Institute and the Polish Academy of Sciences."
+    "notes": "Denmark's first lunar mission and the first ESA mission led from Denmark. The 2029 date is a target for a mission still in Phase A/B1, with selection for full implementation pending, so year precision and planned confidence only. Danish reporting puts national funding at about DKK 130M (roughly €17M) and the Polish supplier Scanway's share at about €8.6M over four years. Academic partners include Aalborg, Aarhus and Southern Denmark universities, the Danish Meteorological Institute and the Polish Academy of Sciences.",
+    "image": {
+      "file": "../programs/default.jpg",
+      "alt": "Full Moon",
+      "credit": "NASA / GSFC",
+      "license": "Public domain (NASA)",
+      "source_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001861"
+    }
   },
   {
     "id": "ilrs-russia-segment-concept-2026",
@@ -5351,6 +6177,13 @@
       }
     ],
     "confidence": "confirmed",
-    "notes": "Concept approval, not a funded manifest: no dates, mission architecture or funding were disclosed, and independent analysis calls the Russian role one of the more uncertain parts of ILRS after the Luna-25 failure. It matters as evidence that Russia's ILRS participation is still formally alive despite repeated Luna slips, and it sits alongside the four-phase reactor roadmap Russian industry describes for 2033–2036 (see ilrs-nuclear-power-plant-2036)."
+    "notes": "Concept approval, not a funded manifest: no dates, mission architecture or funding were disclosed, and independent analysis calls the Russian role one of the more uncertain parts of ILRS after the Luna-25 failure. It matters as evidence that Russia's ILRS participation is still formally alive despite repeated Luna slips, and it sits alongside the four-phase reactor roadmap Russian industry describes for 2033–2036 (see ilrs-nuclear-power-plant-2036).",
+    "image": {
+      "file": "ilrs-russia-segment-concept-2026.jpg",
+      "alt": "Atterrisseur lunaire russe Luna-Glob (Luna 25) Salon du Bourget 2015, Paris",
+      "credit": "Pline",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg"
+    }
   }
 ]

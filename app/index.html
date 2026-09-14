@@ -1,27 +1,101 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark" />
-  <title>Moon Landing Timeline</title>
-  <meta name="description" content="Browsable timeline of international lunar exploration events — Artemis, CLPS, ILRS, Luna, Moonlight and more." />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#080d1c" />
+  <title>Moon Landing Timeline — what's happening on the Moon, 2024–2035</title>
+  <meta name="description" content="Every significant Moon mission in one sourced, interactive timeline: NASA Artemis and US commercial landers, China and ILRS, Russia's Luna, ESA, India, Japan, Korea and partners — with dates at their real precision." />
+  <link rel="canonical" href="https://earltheduke.github.io/moon-landing-timeline/app/" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Moon Landing Timeline" />
+  <meta property="og:title" content="Moon Landing Timeline — what's happening on the Moon" />
+  <meta property="og:description" content="119 sourced events, 28 countries, 2024–2035. Who is going to the Moon, when, and how sure we are." />
+  <meta property="og:url" content="https://earltheduke.github.io/moon-landing-timeline/app/" />
+  <meta property="og:image" content="https://earltheduke.github.io/moon-landing-timeline/app/assets/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Earth rising over the lunar horizon, photographed from Orion on Artemis II, with the words What's happening on the Moon." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@TheLimitingFctr" />
+  <meta name="twitter:creator" content="@TheLimitingFctr" />
+  <meta name="twitter:title" content="Moon Landing Timeline — what's happening on the Moon" />
+  <meta name="twitter:description" content="119 sourced events, 28 countries, 2024–2035. Who is going to the Moon, when, and how sure we are." />
+  <meta name="twitter:image" content="https://earltheduke.github.io/moon-landing-timeline/app/assets/og.png" />
+
+  <link rel="preload" as="image" href="./assets/img/hero.jpg" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <a class="skip-link" href="#timeline">Skip to the timeline</a>
 
-  <header class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Data-first draft</p>
-      <h1>Moon Landing Timeline</h1>
+  <header class="hero hero-photo">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <nav class="topbar" aria-label="Site">
+        <a class="brand" href="./">
+          <img src="./assets/favicon.svg" alt="" width="26" height="26" />
+          <span>Moon Landing Timeline</span>
+        </a>
+        <div class="topbar-actions">
+          <a class="btn-ghost btn-follow" href="https://x.com/TheLimitingFctr" target="_blank" rel="noopener">Follow @TheLimitingFctr</a>
+          <button type="button" class="btn-icon" data-theme-toggle aria-pressed="false" title="Switch to light mode" aria-label="Toggle light and dark mode">
+            <span class="icon-sun" aria-hidden="true">☀</span><span class="icon-moon" aria-hidden="true">☾</span>
+          </button>
+        </div>
+      </nav>
+
+      <p class="eyebrow" id="hero-eyebrow">Sourced · updated Sep 2026</p>
+      <h1>What's happening<br />on the Moon</h1>
       <p class="tagline">
-        International lunar activity in one place — NASA/Artemis and US commercial, China, Russia,
-        ESA, India, Japan, Korea, UAE and partners. Every event is sourced.
+        Who is going, when, and how sure we are. NASA Artemis and US commercial landers, China's
+        crewed program and ILRS, Russia's Luna, ESA, India, Japan, Korea and partners — every date
+        cited, every slip tracked.
       </p>
       <dl class="headline-stats" id="headline-stats"></dl>
+      <p class="glossary" id="glossary"></p>
+      <p class="hero-credit" id="hero-credit">Photo: NASA — Earthrise from Orion, Artemis II, April 2026</p>
     </div>
   </header>
+
+  <section class="now-next wrap" id="now-next" aria-labelledby="now-heading">
+    <div class="section-head">
+      <h2 class="section-heading big" id="now-heading">Now &amp; next</h2>
+      <div class="section-tools">
+        <button type="button" class="btn-ghost" id="this-month">This month</button>
+        <button type="button" class="btn-ghost" id="upcoming">All upcoming</button>
+      </div>
+    </div>
+    <div class="now-strip" id="now-strip"></div>
+  </section>
+
+  <section class="overview wrap" id="overview" aria-labelledby="overview-heading">
+    <div class="section-head">
+      <h2 class="section-heading big" id="overview-heading">The big picture</h2>
+      <p class="section-lede">
+        Every event on one axis. Picture cards are the milestones; dots are everything else, in
+        lanes by who's flying. Scroll sideways, click anything.
+      </p>
+    </div>
+    <div class="ov-legend" id="ov-legend"></div>
+    <div class="ov" id="ov"></div>
+  </section>
+
+  <section class="race-wrap wrap" aria-labelledby="race-heading">
+    <div class="race-grid">
+      <div class="race" id="race">
+        <h2 class="section-heading big" id="race-heading">Race to the Moon</h2>
+        <div class="race-cols" id="race-cols"></div>
+      </div>
+      <div class="slips" id="slips" aria-labelledby="slips-heading">
+        <h2 class="section-heading big" id="slips-heading">Schedule changes</h2>
+        <ul class="slip-list" id="slip-list"></ul>
+      </div>
+    </div>
+  </section>
 
   <div class="toolbar" id="toolbar">
     <div class="wrap">
@@ -39,12 +113,14 @@
               id="search"
               name="q"
               type="search"
-              placeholder="Search titles, summaries, actors, programs…"
+              placeholder="Search missions, agencies, programs…"
               enterkeyhint="search"
             />
             <kbd class="search-hint" aria-hidden="true">/</kbd>
           </div>
         </div>
+
+        <div class="quick-chips" id="quick-chips" role="group" aria-label="Quick filters"></div>
 
         <div class="filter-row">
           <details class="filter-drawer" id="filter-drawer">
@@ -153,25 +229,54 @@
     <div class="timeline" id="timeline" tabindex="-1"></div>
   </main>
 
+  <dialog class="event-dialog" id="event-dialog" aria-labelledby="dialog-title">
+    <form method="dialog" class="dialog-close-form">
+      <button type="submit" class="dialog-close" aria-label="Close">×</button>
+    </form>
+    <div class="dialog-body" id="dialog-body"></div>
+  </dialog>
+
   <p class="visually-hidden" id="copy-live" role="status" aria-live="polite"></p>
 
-  <footer class="wrap">
-    <p>
-      Serve the repo root so <code>../data/events/events.json</code> loads:
-      <code>python3 -m http.server 8765</code>, then open <code>http://127.0.0.1:8765/app/</code>.
-    </p>
-    <p>
-      Dates use the precision recorded in the data — <em>year-level</em> and <em>month-level</em> targets are
-      labelled as such, so a bare year never pretends to be a launch date.
-    </p>
-    <p>
-      Need a single event to screenshot? Open <a href="./share.html">share.html</a> for a one-event card
-      you can deep-link, e.g. <code>share.html?event=artemis-iv-2028</code>.
+  <footer class="wrap site-footer">
+    <div class="footer-grid">
+      <div>
+        <h2 class="section-heading">About</h2>
+        <p>
+          A source-cited timeline of lunar exploration for the next decade, built for
+          <a href="https://x.com/TheLimitingFctr" target="_blank" rel="noopener">@TheLimitingFctr</a>
+          and anyone who wants to know what's actually happening on the Moon. Dates carry the precision
+          agencies published — a bare year never pretends to be a launch date.
+        </p>
+      </div>
+      <div>
+        <h2 class="section-heading">Help improve it</h2>
+        <p>
+          Spotted a slip, a cancellation or a missing mission?
+          <a href="https://github.com/EarlTheDuke/moon-landing-timeline/issues/new?title=Correction%3A%20&body=Event%20id%20or%20title%3A%0ASource%20URL%3A%0AWhat%20should%20change%3A" target="_blank" rel="noopener">Suggest a correction</a>
+          with a link to the source, or browse the data on
+          <a href="https://github.com/EarlTheDuke/moon-landing-timeline" target="_blank" rel="noopener">GitHub</a>.
+        </p>
+      </div>
+      <div>
+        <h2 class="section-heading">Images</h2>
+        <p>
+          Photos and renders are NASA (public domain) and Wikimedia Commons contributors under their
+          stated licences; each event shows its credit. Some future missions use a related program
+          image where no mission artwork exists yet.
+        </p>
+      </div>
+    </div>
+    <p class="footer-fine">
+      <a href="./share.html">Share cards</a> ·
+      <a href="./?mode=highlights">Highlights for X</a> ·
+      <span id="footer-count"></span>
     </p>
   </footer>
 
   <script src="./data.js"></script>
   <script src="./highlights.js"></script>
+  <script src="./overview.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>
